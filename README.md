@@ -8,7 +8,7 @@ All deliverables are original work. Fenn Agritech Ltd. is not based on any real 
 
 ## Deliverables
 
-- [`00-company-brief.md`](00-company-brief.md) — Company overview and context for all other deliverables
+- [`00-company-brief.md`](00-company-brief.md) - Company overview and context for all other deliverables
 
 *Additional deliverables in progress.*
 
