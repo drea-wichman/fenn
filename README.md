@@ -4,7 +4,7 @@ Fenn Agritech is a fictional UK-based B2B agritech SaaS company built as an inde
 
 This folder contains a complete set of GRC artifacts modeled on what a real Series B SaaS company would maintain: company brief, risk register, information security policy, access control policy, incident response plan, vendor risk assessment, and supporting documentation.
 
-All deliverables are original work. Fenn Agritech Ltd. is not based on any real organization. Third-party vendor names referenced are real companies, but no affiliations, partnerships, or endorsements exist or are implied.
+All deliverables are original work. Fenn Agritech is not based on any real organization. Third-party vendor names referenced are real companies, but no affiliations, partnerships, or endorsements exist or are implied.
 
 ## Deliverables
 
