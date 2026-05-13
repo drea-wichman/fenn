@@ -1,6 +1,6 @@
-# Fenn Agritech Ltd. Fictional Company GRC Portfolio
+# Fenn Agritech Fictional Company GRC Portfolio
 
-Fenn Agritech Ltd. is a fictional UK-based B2B agritech SaaS company built as an independent portfolio project to demonstrate end-to-end Governance, Risk, and Compliance capability.
+Fenn Agritech is a fictional UK-based B2B agritech SaaS company built as an independent portfolio project to demonstrate end-to-end Governance, Risk, and Compliance capability.
 
 This folder contains a complete set of GRC artifacts modeled on what a real Series B SaaS company would maintain: company brief, risk register, information security policy, access control policy, incident response plan, vendor risk assessment, and supporting documentation.
 
