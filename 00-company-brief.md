@@ -6,7 +6,7 @@
 
 ## Overview
 
-Fenn Agritech Ltd. is a UK-based B2B agritech SaaS company headquartered in Bristol. The platform provides crop and field management software to independent commercial farms across England and Wales with a customer base of approximately 1,000 farms. Fenn is Series B funded, certified as a B Corporation, and employs around 100 people.
+Fenn Agritech Ltd. is a UK-based B2B agritech SaaS company headquartered in Bristol. The platform provides crop and field management software to independent commercial farms across England and Wales with a customer base of approximately 1,000 farms. Fenn is Series B funded and employs around 100 people.
 
 ## Founding Context
 
