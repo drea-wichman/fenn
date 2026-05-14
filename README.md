@@ -8,7 +8,7 @@ All deliverables are original work. Fenn Agritech is not based on any real organ
 
 ## Deliverables
 
-- [`00-company-brief.md`](00-company-brief.md) - Company overview and context for all other deliverables
+- [`company-brief.md`](00-company-brief.md) - Company overview and context for all other deliverables
 
 *Additional deliverables in progress.*
 
