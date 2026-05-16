@@ -1,7 +1,5 @@
 ## 2026-05-12 - Initial Setup
 
-### What I did today
-
 **Decided to build a fictional company instead of another case study.**
 
 Context: Had finished two ransomware case studies (NHS WannaCry, AGCO) and was looking for the next one. Considered another NIST, another ISO, a breach, or postmortem but felt the single document format was sort of limited.
