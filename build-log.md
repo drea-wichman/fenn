@@ -1,3 +1,89 @@
+## 2026-05-16: Site Build Push
+
+**Built every page that wasn't the landing page.**
+
+Context: After two weeks of design and a working landing page, the rest of the site was placeholder. /trust-center, /trust-center/sub-processor-list, /behind-fenn, /privacy, /terms, /building-fenn, and /404 all needed to be built.
+
+Decision: Built all of them in one push. Cream legal pages, dark green editorial pages, consistent design tokens throughout.
+
+Consequences: Site is structurally complete. The six internal policies and the DPA still say "In development" on the Trust Center page. Templates are wired up so when I write the content the pages exist to drop it into.
+
+---
+
+**Renamed /policies to /trust-center.**
+
+Context: While building the page, realized "Policies" wasn't standard B2B SaaS terminology for what this page is.
+
+Decision: Renamed the page, file, URL, footer link, header link, and landing page button. Section label on the landing page still reads "Policies" as a descriptor, but the destination is named correctly.
+
+Rationale: Trust Center is the actual industry convention.
+
+---
+
+**Decided the sub-processor list lives as a polished page on Fenn, not a GitHub link.**
+
+Context: The sub-processor list already exists as markdown in the fenn repo. Question was whether to surface it on the site as a real styled page or link out to GitHub from the Trust Center.
+
+Decision: Built a styled page at /trust-center/sub-processor-list. GitHub link to the source markdown is in the page metadata.
+
+Rationale: Customer-facing legal documents need to look like real company documents. A real Series B SaaS wouldn't link out to a raw markdown file from their Trust Center.
+
+---
+
+**Decided the build log stays on GitHub.**
+
+Context: Same question as the sub-processor list but for the build log.
+
+Decision: Build log stays as a GitHub link from /building-fenn, not a styled page on the site.
+
+Rationale: Different audience expectations. Legal documents belong on the polished site. Engineering decision logs belong on GitHub. Also, porting to Astro would be real work for small benefit.
+
+---
+
+**Verified legal compliance against ICO sources, not template generators.**
+
+Context: Before locking in the privacy policy and terms, wanted to confirm what was actually required for this specific site versus what template generators include because every site has it.
+
+Decision: Researched ICO guidance, UK GDPR Article 13 requirements, PECR cookie rules, and the 2026 DUA Act updates. Confirmed for this site: privacy notice required (any site processing personal data including IPs needs one), terms not required (only required for sites selling goods or services), cookie banner not required (no cookies set), separate cookies page not required (one line in the privacy policy is enough).
+
+Rationale: Copy and pasting from generic templates leads to sections that don't apply (Children's, separate Cookies, AI/automated decision-making) making the document longer and harder to read without adding value.
+
+Consequences: Privacy policy covers Article 13 items 1-9 and skips item 10 because it doesn't apply. Terms page kept despite not being legally required because it's where copyright over original portfolio work is asserted.
+
+---
+
+**Banner CTA now points to /building-fenn instead of being dead.**
+
+Context: The banner at the top of every page had a dead "Learn more" button that opened a modal that didn't exist.
+
+Decision: Replaced the button with an anchor link to /building-fenn.
+
+Consequences: Visitors can actually read the project context now.
+
+---
+
+**Added two photos to the landing page.**
+
+Context: Landing page was text heavy and felt like a PowerPoint slide.
+
+Decision: Added two full width agricultural photos acting as section breaks rather than illustrations inside sections.
+
+Rationale: Two photos at symmetric points gives the eye somewhere to rest twice. Both photos are from Unsplash, no attribution required. Aerial image is rotated in CSS and dimmed because its saturation was jarring with current palette.
+
+Consequences: Landing page reads as a designed product page now instead of a deck. Learned how to adjust photos in VS.
+
+---
+
+**Pushed everything to GitHub.**
+
+Context: Long session, lots of changes.
+
+Decision: Staged all changes, committed, pushed to main.
+
+Consequences: GitHub Pages will pick it up within a few minutes. Got noticeably more comfortable in VS Code and Terminal this session: Cmd+F for in-file search, Ctrl+G to jump to a specific line, running grep and sed in one Terminal window while npm run dev keeps the site running in the other, navigating between line numbers instead of scrolling. Nice.
+
+---
+
 ## 2026-05-15: Starting the build log
 
 **Started the build log and picked an ADR-influenced format for it.**
