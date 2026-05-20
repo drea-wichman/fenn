@@ -1,8 +1,68 @@
+ ## 2026-05-19: Finish Design and Start New Doc
+
+**Wrote the Access Control Policy as first policy doc.**
+
+Context: Six policies pending on the Trust Center. Needed to pick one.
+
+Decision: Wrote the Access Control Policy, targeted 2 to 3 pages.
+
+Rationale: Appears on most standard sites I saw (Remote, Commvault, Drata, Vanta, Secureframe). Short and self contained, good first policy to ship.
+
+Consequences: First internal policy complete. Format from 5/17 applied for the first time.
+
+---
+
+**Live site is up to date.**
+
+Context: Contact modal still didn't feel right after yesterday. Spent time on the layout.
+
+Decision: Stacked the three contact links vertically instead of a horizontal row. Kept modal width and font sizes fixed so proportions read closer to square. Pushed all local changes.
+
+Rationale: Horizontal row read too wide. Live was far behind local.
+
+Consequences: Modal locked. Live site is caught up to local.
+
+---
+
+## 2026-05-18: Design Change Day
+
+**Locked design, tokens, and structure.**
+
+Context: The site has existed structurally but today I sorted out the cosmetics.
+
+Decision:
+- **Welcome modal**: acknowledgment required. No X, localStorage gated, "I understand" required to enter. Body text now names Fenn as a fictional GRC portfolio project.
+- **How It Works**: changed to vertical stack with three columns and integrations under each step.
+- **Design tokens locked**: New color palette confirmed. Buttons and modal designs confirmed.
+
+Rationale: The welcome modal is the disclaimer for every visitor so it being dismissible is not what we want. The localStorage flag prevents the modal from reappearing on every page. Three column How It Works shows the auto capture pitch at a glance versus old vertical layout.
+
+Consequences: Tokens documented. Smaller polish (padding, font sizes, saturation, section colors) not itemized here.
+
+---
+
+## 2026-05-17: GRC doc format standards
+
+**Locked the format for policies vs. case studies vs. public disclosure docs.**
+
+Context: Started planning the internal policies for the Trust Center. Realized I didn't have a consistent format and was about to wing it across essentially all docs.
+
+Decision: Three patterns by doc type:
+- **Policies**: YAML front matter with `title`, `document_id`, `version`, `effective_date`, `last_reviewed`, `next_review`, `owner`, `approver`, `scope`, `framework_mapping`.
+- **Case studies**: existing header pattern (NHS WannaCry and AGCO already use it). No YAML.
+- **Public disclosure docs**: varies. Verify against real-world examples before assuming YAML applies.
+
+Rationale: YAML front matter is the auditor recognizable convention for internal policy docs. Makes version, ownership, and framework mapping scannable. Case studies and public docs don't need it because their audiences don't care.
+
+Consequences: When the next six policies get written the format is already known.
+
+---
+
 ## 2026-05-16: Site Build Push
 
 **Built every page that wasn't the landing page.**
 
-Context: After two weeks of design and a working landing page, the rest of the site was placeholder. /trust-center, /trust-center/sub-processor-list, /behind-fenn, /privacy, /terms, /building-fenn, and /404 all needed to be built.
+Context: After the week of design and a working landing page, the rest of the site was placeholder. /trust-center, /trust-center/sub-processor-list, /behind-fenn, /privacy, /terms, /building-fenn, and /404 all needed to be built.
 
 Decision: Built all of them in one push. Cream legal pages, dark green editorial pages, consistent design tokens throughout.
 
@@ -84,7 +144,7 @@ Consequences: GitHub Pages will pick it up within a few minutes. Got noticeably 
 
 ---
 
-## 2026-05-15: Starting the build log
+## 2026-05-15: Starting the Build Log
 
 **Started the build log and picked an ADR-influenced format for it.**
 
