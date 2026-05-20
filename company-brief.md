@@ -30,4 +30,4 @@ Fenn's primary regulator is the Information Commissioner's Office (ICO) for UK G
 
 ## Current State
 
-Fenn achieved Cyber Essentials Plus certification in March 2025, renewed annually, and is currently undergoing ISO 27001:2022 certification audit, targeting September 2026. The Series B closed in October 2025, with the security and compliance team scaling following the round. Jack Lowe joined as Head of Security in January 2026 to lead the ISO 27001 certification. Fenn experienced a sub-processor credential leak in November 2024.
+Fenn's GRC documentation is built to demonstrate readiness for Cyber Essentials Plus and ISO 27001:2022 certification. The Series B closed in October 2025, with the security and compliance team scaling following the round. Jack Lowe joined as Head of Security in January 2026 to lead ISO 27001 readiness work. Fenn experienced a sub-processor credential leak in November 2024.
