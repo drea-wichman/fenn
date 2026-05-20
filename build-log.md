@@ -1,4 +1,16 @@
- ## 2026-05-19: Finish Design and Start New Doc
+ ## 2026-05-19: Finish Design, Security Check, and Start New Doc
+
+**Set up site security + ran first performance audit.**
+
+Context: Wanted both sites clean and secure before adding more pages.
+
+Decision: Researched best ways to check site security. Found and enabled GitHub's built-in security options on both repos. Ran npm audit on Fenn. Ran PageSpeed on both.
+
+Rationale: Static sites don't have as many ways to get attacked but I'm using open source packages so there's always a risk. Wanted something watching automatically versus me doing them manually.
+
+Consequences: Dependabot watches Fenn and Secret Protection blocks credential commits on both. Resized Fenn hero from 4.2MB to 898KB to improve score. Apparently Lighthouse fails on a fade-in animation for wichman.io, ignoring. Made checklist for core git terminal commands/workflow.
+
+---
 
 **Wrote the Access Control Policy as first policy doc.**
 
