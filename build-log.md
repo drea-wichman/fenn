@@ -1,4 +1,4 @@
- ## 2026-05-19: Finish Design, Security Check, and Start New Doc
+## 2026-05-19: Finish Design, Security Check, and Start New Doc
 
 **Set up site security + ran first performance audit.**
 
@@ -12,15 +12,27 @@ Consequences: Dependabot watches Fenn and Secret Protection blocks credential co
 
 ---
 
-**Wrote the Access Control Policy as first policy doc.**
+**Migrated trust center to Astro Content Collections.**
 
-Context: Six policies pending on the Trust Center. Needed to pick one.
+Context: The sub-processor list was built by copying its text directly into the website code. Adding the Access Control Policy the same way would mean keeping two copies of every future policy in sync.
 
-Decision: Wrote the Access Control Policy, targeted 2 to 3 pages.
+Decision: Set up Content Collections in the site repo. Now every policy lives as a single markdown file and the site builds the page from it. The sub-processor list stayed as it was since it's a different kind of doc.
 
-Rationale: Appears on most standard sites I saw (Remote, Commvault, Drata, Vanta, Secureframe). Short and self contained, good first policy to ship.
+Rationale: One time setup cost paid back from second policy onward.
 
-Consequences: First internal policy complete. Format from 5/17 applied for the first time.
+Consequences: New streamlined workflow for adding policies. Single source of truth for the readable docs stays in Fenn repo.
+
+---
+
+**Wrote and published Access Control Policy v1.0.**
+
+Context: First formal policy doc. Sub-processor list was already done but it's a disclosure, not a policy.
+
+Decision: Wrote FENN-POL-001. Covers identity management (JumpCloud), authentication (hardware keys mandatory for all employees, no SMS or software MFA), least privilege, privileged access (small standing PAWG plus JIT for everyone else), JML, quarterly access reviews, remote access. Maps to 13 ISO 27001:2022 controls and UK GDPR Art. 32.
+
+Rationale: Access Control was the right starting point because it's foundational and maps cleanly to ISO 27001. Picked hardware keys for everyone because Fenn's privacy-focused positioning needs phishing-resistant MFA. Picked the standing PAWG plus JIT model instead of pretending Fenn runs on zero standing privilege. A company with 100 employees needs a few people with always-on admin access. Tacking on language about working toward zero standing privilege felt like theater.
+
+Consequences: First formal policy shipped. Sets the YAML and section structure for future policies.
 
 ---
 
