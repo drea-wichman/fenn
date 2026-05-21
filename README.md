@@ -2,15 +2,24 @@
 
 Fenn Agritech is a fictional UK-based B2B agritech SaaS company built as an independent portfolio project to demonstrate end-to-end Governance, Risk, and Compliance capability.
 
-This folder contains a complete set of GRC artifacts modeled on what a real Series B SaaS company would maintain: company brief, risk register, information security policy, access control policy, incident response plan, vendor risk assessment, and supporting documentation.
+This folder contains a set of GRC artifacts modeled on what a real Series B SaaS company would maintain.
 
 All deliverables are original work. Fenn Agritech is not based on any real organization. Third-party vendor names referenced are real companies, but no affiliations, partnerships, or endorsements exist or are implied.
 
+**Live site:** [fenn.wichman.io](https://fenn.wichman.io)
+
 ## Deliverables
 
-- [`company-brief.md`](00-company-brief.md) - Company overview and context for all other deliverables
+- [`company-brief.md`](company-brief.md) - Company overview and context for all other deliverables
+- [`sub-processor-list.md`](sub-processor-list.md) - Public sub-processor disclosure required under UK GDPR Article 28
+- [`access-control-policy.md`](access-control-policy.md) - How access to Fenn systems and data is granted, managed, and revoked
+- [`information-security-policy.md`](information-security-policy.md) - Top-level policy establishing Fenn's information security management system
 
-*Additional deliverables in progress.*
+New documents are published here as they are completed. The live site lists all documents, including those in development.
+
+## Build log
+
+[`build-log.md`](build-log.md) records the decisions behind each artifact.
 
 ## About this project
 
