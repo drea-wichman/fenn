@@ -34,4 +34,4 @@ Customers may object in writing to a new sub-processor within 30 days of notific
 
 ## Contact
 
-privacy@wichman.io
+privacy@fenn.io
