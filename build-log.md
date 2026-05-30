@@ -1,3 +1,45 @@
+## 2026-05-30: Two More Policies and Some Cleanup
+
+**Wrote Incident Response Plan v1.0.**
+
+Context: My next priority after access control and information security policies.
+
+Decision: Six response phases, three severity tiers (P1/P2/P3), separate notification section with controller vs. processor split. Tied the encryption exemption back to Fenn's customer-managed-key architecture.
+
+Rationale: Controller vs. processor was the biggest gap in the first draft. Didn't know the difference going in.
+
+Consequences: Third policy shipped.
+
+---
+
+**Wrote Vendor Risk Management Policy v1.0.**
+
+Context: Sub-processor list existed but nothing explained how vendors get on it or how they're managed.
+
+Decision: Three vendor risk tiers (Critical/Standard/Low), contract requirements, cross-border transfer assessment, cloud services and software supply chain sections.
+
+Rationale: Had to separate Critical (operational risk to Fenn) from sub-processor (processes customer personal data). JumpCloud is one but not the other.
+
+Consequences: Fourth policy shipped.
+
+---
+
+**Fixed sub-processor list contact email.**
+
+Decision: Changed privacy@wichman.io to privacy@fenn.io. No legal requirement for a real working contact email on this document.
+
+Consequences: Fiction stays clean. Real contacts stay on the real website.
+
+---
+
+**Added Jack Lowe to Behind Fenn page.**
+
+Decision: Added Jack below founders, simpler layout, no quote. Security consultancy background. Not financial services since Cian covers that and not government since that wouldn't be the best fit for this privacy-first company.
+
+Consequences: Three named people on the site plus the other employees.
+
+---
+
 ## 2026-05-19: Finish Design, Security Check, and Start New Doc
 
 **Set up site security + ran first performance audit.**
