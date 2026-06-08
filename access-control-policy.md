@@ -130,4 +130,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 
 | Version | Date | Author | Description |
 |---|---|---|---|
-| 1.0 | 2026-05-20 | Jack Lowe, Head of Security | Initial formal policy. Codifies existing practices for ISO 27001:2022 certification. |
+| 1.0 | 2026-05-20 | Jack Lowe, Head of Security | Initial formal policy. Codifies existing practices aligned with ISO 27001:2022. |

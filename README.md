@@ -14,6 +14,9 @@ All deliverables are original work. Fenn Agritech is not based on any real organ
 - [`sub-processor-list.md`](sub-processor-list.md) - Public sub-processor disclosure required under UK GDPR Article 28
 - [`access-control-policy.md`](access-control-policy.md) - How access to Fenn systems and data is granted, managed, and revoked
 - [`information-security-policy.md`](information-security-policy.md) - Top-level policy establishing Fenn's information security management system
+- [`incident-response-plan.md`](incident-response-plan.md) - How Fenn identifies, responds to, and recovers from security incidents
+- [`vendor-risk-management-policy.md`](vendor-risk-management-policy.md) - How Fenn assesses, approves, and monitors third-party vendors
+- [`data-retention-policy.md`](data-retention-policy.md) - How long Fenn keeps data, when it is deleted, and who enforces those limits
 
 New documents are published here as they are completed. The live site lists all documents, including those in development.
 
