@@ -1,3 +1,17 @@
+## 2026-06-08: Published Data Retention Policy
+
+**Wrote and published Data Retention Policy v1.0.**
+
+Context: Next policy in the queue. Started it on a flight, finished it after.
+
+Decision: Wrote FENN-POL-005. Retention periods by data category, a 60-day export window before deletion, automatic deletion confirmations to every customer, a legal holds section, and deletion events logged as evidence.
+
+Rationale: Went 60 days on the export window instead of 30 because a farmer who hypothetically cancels mid-season needs real time to pull their data out. Client-side encryption means holding the ciphertext an extra month isn't a privacy risk, so customer friendly won. Added legal holds so automated deletion can't wipe data that's under dispute.
+
+Consequences: Fifth policy live. Ready for next doc.
+
+---
+
 ## 2026-05-30: Two More Policies and Some Cleanup
 
 **Wrote Incident Response Plan v1.0.**
