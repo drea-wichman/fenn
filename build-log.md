@@ -1,3 +1,17 @@
+## 2026-06-10: Published Business Continuity Plan
+
+**Wrote and published Business Continuity Plan v1.0.**
+
+Context: Next doc in the queue after retention.
+
+Decision: Wrote FENN-POL-006. It covers what counts as critical, how fast each part needs to come back, how Fenn recovers, who runs the response, and how it's tested. Kept everything in the UK even in a disaster, and added a second backup copy held in the UK with a different provider.
+
+Rationale: AWS only has one UK location, so the usual disaster plan of switching to another region would move customer data out of the country. Kept it in the UK instead, and accepted that recovery from a total London outage takes longer (up to three days), since it's an extremely rare event. Also made an outage during a busy farming window like spraying or harvest count as more serious than one in the quiet season, because it is.
+
+Consequences: Sixth policy live.
+
+---
+
 ## 2026-06-08: Published Data Retention Policy
 
 **Wrote and published Data Retention Policy v1.0.**
