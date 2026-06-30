@@ -1,3 +1,37 @@
+## 2026-06-30: DPA Shipped, Payroll Direction
+
+**Shipped the DPA.**
+
+Context: Customers need a Data Processing Agreement. Fenn is the processor, the customer farm is the controller.
+
+Decision: Wrote and published the DPA. No YAML since it's a contract not a policy. Checked against real DPAs (Conduktor, HubSpot, Akeyless) and none carry policy style metadata.
+
+The no-YAML choice broke the build at first because the policies collection requires it. Fixed it by setting up a separate schema-less `legal` collection just for contract type docs.
+
+On content, the special category data section states the honest position: farm data is encrypted with customer keys, so Fenn structurally can't see it or categorize it. Fenn can't even confirm whether special category data is present. That's the controller's responsibility.
+
+Consequences: DPA is live. The `legal` collection means any future no-YAML doc just drops in, no template work.
+
+---
+
+**Inception/Brainstorm Fenn Payroll Software.**
+
+Context: Writing the DPA's special-category-data section is what sparked this. Core Fenn deliberately avoids special category data, it's encrypted, Fenn can't read it. That got me thinking about the processing Fenn doesn't touch. Payroll is the obvious one, and it's full of special category data (health, through sick pay). So the idea came out of the gap, not from nowhere. Felt like a natural next thing for an evolving project.
+
+Decision: A few early calls.
+
+Add on, not a separate product. Considered making payroll its own standalone thing with its own site and login. Rejected. It's an opt-in module inside Fenn. A separate product would break the integration and stop being Fenn.
+
+Can't be zero-access, and I'm not pretending otherwise. Payroll math needs plaintext, and HMRC RTI submissions legally require sending plaintext every payday (verified how RTI actually works). So the pitch isn't "zero-access payroll," that's impossible. It's that a privacy-first company is a better custodian of data that legally has to exist than the cheap tools that handle it carelessly. Because it processes the special category data core Fenn avoids, it needs its own DPIA and its own DPA, separate from the core ones.
+
+Farm-only. Considered whether it could serve non-farm businesses, bigger market. Rejected. A general payroll tool throws away the whole reason Fenn exists (privacy-first agritech) and competes on generic features where Fenn has no edge. Staying farm-focused is in character. Fenn doesn't chase market size over mission.
+
+Scroll-down page, not a demo or video although considered both. A video traps the reader on its own timing. A skimmable scroll-down page (part of the Fenn site, not separate) lets GRC readers control their own pace, which is how they actually read.
+
+Consequences: Direction is set, nothing's built. Documents come before the page.
+
+---
+
 ## 2026-06-10: Published Business Continuity Plan
 
 **Wrote and published Business Continuity Plan v1.0.**
