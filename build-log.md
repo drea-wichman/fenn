@@ -6,11 +6,11 @@ Context: Customers need a Data Processing Agreement. Fenn is the processor, the 
 
 Decision: Wrote and published the DPA. No YAML since it's a contract not a policy. Checked against real DPAs (Conduktor, HubSpot, Akeyless) and none carry policy style metadata.
 
-The no-YAML choice broke the build at first because the policies collection requires it. Fixed it by setting up a separate schema-less `legal` collection just for contract type docs.
+The no-YAML choice broke the build at first because the policies collection requires it. Fixed it by setting up a separate schema-less "legal" collection just for contract type docs.
 
 On content, the special category data section states the honest position: farm data is encrypted with customer keys, so Fenn structurally can't see it or categorize it. Fenn can't even confirm whether special category data is present. That's the controller's responsibility.
 
-Consequences: DPA is live. The `legal` collection means any future no-YAML doc just drops in, no template work.
+Consequences: DPA is live. The "legal" collection means any future no-YAML doc just drops in, no template work.
 
 ---
 
