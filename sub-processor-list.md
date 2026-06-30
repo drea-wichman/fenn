@@ -1,15 +1,3 @@
-# Sub-processor List
-
-## About this artifact
-
-A sub-processor list is a public disclosure document required under UK GDPR Article 28. It tells customers which third-party vendors process their personal data and gives them the right to object to new ones. Any UK B2B SaaS company handling customer data needs one, and procurement teams pull it during vendor due diligence.
-
-This artifact demonstrates GDPR Article 28 fluency, the controller/processor/sub-processor distinction, the scope judgment between customer-facing and internal vendor disclosures, and standard notification and objection mechanisms.
-
-**Controls mapped:** ISO 27001:2022 A.5.19, A.5.20 | UK GDPR Art. 28 | Cyber Essentials: Supplier Security
-
----
-
 # Sub-processors
 
 Fenn engages the following sub-processors to process customer personal data. Before engaging any sub-processor, Fenn performs a vendor security assessment and enters into a written agreement that imposes data protection obligations no less protective than those in the Fenn Data Processing Agreement.
