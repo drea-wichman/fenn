@@ -28,7 +28,7 @@ Risks are scored using the methodology defined in FENN-POL-007. Likelihood and i
 
 ## 3. Risk Register
 
-| ID | Risk | Asset | CIA | Inherent L | Inherent I | Inherent Score | Rating | Controls | Annex A | Treatment | Residual L | Residual I | Residual Score | Owner |
+| ID | Risk | Asset | CIA | Inh. L | Inh. I | Inh. Score | Rating | Controls | Annex A | Treatment | Res. L | Res. I | Res. Score | Owner |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | RR-001 | Ransomware or destructive malware encrypts or destroys Fenn infrastructure | Platform infrastructure, customer data | C, I, A | 3 | 5 | 15 | High | Endpoint detection and response on all devices; immutable, encrypted backups; incident response plan (FENN-POL-003); security awareness training; patch management | A.8.7, A.8.13, A.8.16, A.5.26, A.6.3 | Mitigate | 2 | 5 | 10 | Head of Security |
 | RR-002 | Phishing or social engineering leads to credential compromise | Employee accounts, Fenn systems | C, I | 4 | 3 | 12 | Medium | Hardware security keys (Nitrokey 3) required for all staff; JumpCloud SSO; phishing awareness training; privileged access controls (FENN-POL-001) | A.8.5, A.5.16, A.5.17, A.6.3, A.5.15 | Mitigate | 2 | 3 | 6 | Head of Security |
