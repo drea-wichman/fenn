@@ -1,3 +1,27 @@
+## 2026-07-01: Trust Center Restructure + Risk Assessment and Treatment Methodology
+
+**Rebuilt trust center into three sections.**
+
+Context: Trust center used a hardcoded list. Every new document required a manual update to show up.
+
+Decision: Replaced it with three content folders: security, privacy, compliance. Drop a file in the right folder and it appears automatically. Sections match how real B2B SaaS companies structure trust centers. Compliance docs have a small inline note explaining they're ISMS documentation published for transparency and I know they're typically internal.
+
+Rationale: Hardcoded list was going to be a problem every time a new document was added.
+
+Consequences: All document links updated. DPA stays in its own folder. Privacy folder is empty until RoPA and DSAR are written.
+
+---
+
+**Wrote and published Risk Assessment and Treatment Methodology (FENN-POL-007).**
+
+Context: Needed before writing the Risk Register or DPIA.
+
+Decision: Wrote FENN-POL-007. Asset-based risk identification, 5x5 likelihood and impact scoring, three risk bands, four treatment options. Maps to ISO 27001:2022 Clause 6.1.2 and 6.1.3 and UK GDPR Art. 32. GRC review and factcheck passed.
+
+Consequences: Methodology published under Compliance on the Trust Center.
+
+---
+
 ## 2026-06-30: DPA Shipped, Payroll Direction
 
 **Shipped the DPA.**
