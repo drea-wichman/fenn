@@ -1,3 +1,27 @@
+## 2026-07-01: Risk Register + Trust Center Layout Fix
+
+**Wrote and published the Risk Register (FENN-POL-008).**
+
+Context: Next doc after the methodology.
+
+Decision: 14 risks. Started with 12 (ransomware, phishing, insider threat, cloud misconfiguration, sub-processor breach, supply chain, API auth bypass, insecure code, accidental exposure, GDPR non-compliance, customer key loss, region outage), then cross-checked against what real SaaS registers carry and added two: lost/stolen device and DDoS. Each risk scored inherent and residual on the 5x5 from POL-007, mapped to Annex A controls, assigned an owner. Jack owns security and people risks and Cian owns infrastructure and engineering risks.
+
+Rationale: Key loss and region outage stay accepted risks, both already sit with the customer or the architecture by design. Dropped A.8.30 (outsourced dev) since Fenn builds in-house. Changed sub-processor treatment from Transfer to Mitigate, a DPA doesn't transfer risk when Fenn stays responsible as processor.
+
+Consequences: Register live under Compliance. GRC review and factcheck passed after fixing a misapplied control and reframing a couple of control descriptions.
+
+---
+
+**Fixed the trust center doc layout for wide tables.**
+
+Context: The register is 15 columns. It got crushed in the narrow content column next to the sidebar.
+
+Decision: Replaced the left sidebar with an "All documents" dropdown, top-right and quiet. Prose stays capped at a readable width, tables can now use the full page width. Shortened the six score-column headers (Inherent/Residual L/I/Score to Inh./Res.) so the last column fits without a horizontal scroll.
+
+Consequences: Applies to every doc page, not just the register. Any future wide table (Payroll DPIA, RoPA) gets the full width automatically.
+
+---
+
 ## 2026-07-01: Trust Center Restructure + Risk Assessment and Treatment Methodology
 
 **Rebuilt trust center into three sections.**
