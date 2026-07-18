@@ -1,3 +1,15 @@
+## 2026-07-18: Self-Hosted Fonts, Removed Google Fonts
+
+**Stopped loading the site's fonts from Google and now serve them from the site itself.**
+
+Context: Checked the site for GDPR problems after seeing a claim that some sites often collect visitor data before the cookie choice. Mine has no cookies or trackers, so no banner needed. But my check showed the two site fonts loaded from Google's servers which hands the visitor's IP to Google on every page load. That broke the privacy policy (no third parties besides GitHub and Proton) and the privacy-first pitch.
+
+Decision: Put the font files in the site's own repo and load them from there. Same fonts, same look, nothing goes to Google. Chose this over just adding Google to the policy, which would keep the IP leak.
+
+Consequences: Confirmed live, zero requests to Google. Privacy policy now true as written.
+
+---
+
 ## 2026-07-02: Risk Register + Trust Center Layout Fix
 
 **Wrote and published the Risk Register (FENN-POL-008).**
