@@ -1,3 +1,55 @@
+## 2026-08-18: Metadata Corrections
+
+**Changed Fenn's contact email to privacy@fennagritech.io.**
+
+Context: The sub-processor list published privacy@fenn.io.
+
+Decision: Changed to privacy@fennagritech.io in both repos.
+
+Rationale: fenn.io is not live but registered, verified 18 Aug 2026. Publishing a data subject rights contact on a domain someone else owns is a routing problem regardless of whether Fenn has any obligation to provide a working address. fennagritech.io verified unregistered the same day.
+
+Also found the label and the link were different addresses. The text read privacy@fenn.io while the mailto still pointed at privacy@wichman.io, my real inbox. Anyone clicking the fake address would have emailed me. Leftover from the May edit, which changed the visible text and missed the href.
+
+Supersedes: 2026-05-30 "Fixed sub-processor list contact email," which set privacy@fenn.io on the basis that no working address was required. That reasoning still holds. What changed is the domain ownership check.
+
+Consequences: Fenn runs on two layers and the addresses now reflect it. The website is real and carries real obligations, so the privacy policy and terms use a working address. The company is fictional and its artifacts carry none, so the sub-processor list and DPA use an in-fiction address. Audited both repos for strays. Clean.
+
+---
+
+**Fixed framework mapping: clauses are not controls.**
+
+Context: The Trust Center metadata block rendered every document as "ISO 27001:2022 (X controls)". Three documents map clauses, not Annex A controls.
+
+Decision: Rewrote frameworkSummary in [slug].astro to split ISO entries by type. Clause entries render as clauses. Annex A entries render as "Annex A (X controls)".
+
+Rationale: Clauses 4-10 are mandatory management system requirements. Annex A is a catalog of 93 selectable controls evidenced through a Statement of Applicability. Calling clauses controls undersells the document and misuses the vocabulary. Worst on the Risk Register, where 6.1.2 and 6.1.3 are the entire point of the document.
+
+Consequences: Information Security Policy, Risk Assessment Methodology, and Risk Register now read clauses. The other five read Annex A. The fix is in the template, so future documents label themselves.
+
+---
+
+**Document owner and approver are roles, not named people.**
+
+Context: Seven documents named individuals while the Risk Assessment Methodology used bare titles. Inconsistent either way.
+
+Decision: All eight now read owner: Head of Security, with approver: CTO or CEO.
+
+Rationale: Checked five real published policies (NHS England x2, Nottingham ICB, Oxford University Hospitals, University of Liverpool). Owner is a role in every one. Names appear in author fields, and even their role first. Approvers are governance bodies, not individuals. Fenn is fictional but the point is what's used in reality, not what I can get away with.
+
+Consequences: Named people stay on Behind Fenn where they belong. For later: real approvers are committees, which would need a governance body defined in the Information Security Policy first.
+
+---
+
+**RR-011 was tagged C, A. Should have been A only.**
+
+Decision: Changed to A.
+
+Rationale: Customer key loss destroys availability. It does not compromise confidentiality since nobody gains access to anything.
+
+Consequences: Fixed in both repos. Everything else about that risk holds up, including the acceptance rationale, which is why the wrong tag stood out.
+
+---
+
 ## 2026-07-18: Self-Hosted Fonts, Removed Google Fonts
 
 **Stopped loading the site's fonts from Google and now serve them from the site itself.**
