@@ -82,7 +82,7 @@ Net effect: customer data is removed from all Fenn systems within approximately 
 
 ## 6. Erasure Requests
 
-Data subjects may request erasure of their personal data under UK GDPR Article 17. Erasure requests are handled within one month of receipt. Where Fenn is legally required to retain a record (for example, billing records under Section 4.1), that data is retained for the remainder of its statutory period and erased at the end of it; Fenn explains this to the requester. When erasure completes, Fenn automatically sends a deletion confirmation as described in Section 5. Erasure requests are routed to privacy@fenn.io.
+Data subjects may request erasure of their personal data under UK GDPR Article 17. Erasure requests are handled within one month of receipt. Where Fenn is legally required to retain a record (for example, billing records under Section 4.1), that data is retained for the remainder of its statutory period and erased at the end of it; Fenn explains this to the requester. When erasure completes, Fenn automatically sends a deletion confirmation as described in Section 5. Erasure requests are routed to privacy@fennagritech.io.
 
 ## 7. Legal Holds
 
