@@ -5,8 +5,8 @@ version: 1.0
 effective_date: 2026-05-20
 last_reviewed: 2026-05-20
 next_review: 2027-05-20
-owner: Jack Lowe, Head of Security
-approver: Cian Kelly, CTO
+owner: Head of Security
+approver: CTO
 scope: All Fenn employees, contractors, and third parties accessing Fenn systems
 framework_mapping:
   - ISO 27001:2022 A.5.11

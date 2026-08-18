@@ -5,8 +5,8 @@ version: "1.0"
 effective_date: 2026-06-07
 last_reviewed: 2026-06-07
 next_review: 2027-06-07
-owner: Jack Lowe, Head of Security
-approver: Cian Kelly, CTO
+owner: Head of Security
+approver: CTO
 scope: All data Fenn processes, across all systems, storage locations, and sub-processors
 framework_mapping:
   - ISO 27001:2022 A.5.33

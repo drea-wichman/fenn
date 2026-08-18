@@ -5,8 +5,8 @@ version: "1.0"
 effective_date: 2026-05-20
 last_reviewed: 2026-05-20
 next_review: 2027-05-20
-owner: Jack Lowe, Head of Security
-approver: Zoe Cooper-Hartley, CEO
+owner: Head of Security
+approver: CEO
 scope: All Fenn employees, contractors, and third parties with access to Fenn systems, information, and facilities
 framework_mapping:
   - ISO 27001:2022 Clause 5.1

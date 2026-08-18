@@ -5,8 +5,8 @@ version: "1.0"
 effective_date: 2026-06-10
 last_reviewed: 2026-06-10
 next_review: 2027-06-10
-owner: Jack Lowe, Head of Security
-approver: Cian Kelly, CTO
+owner: Head of Security
+approver: CTO
 scope: Fenn's critical business functions and the systems, data, sub-processors, and personnel required to recover them during a disruption
 framework_mapping:
   - ISO 27001:2022 A.5.29
