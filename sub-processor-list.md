@@ -22,4 +22,4 @@ Customers may object in writing to a new sub-processor within 30 days of notific
 
 ## Contact
 
-privacy@fenn.io
+privacy@fennagritech.io
