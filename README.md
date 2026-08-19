@@ -17,6 +17,10 @@ All deliverables are original work. Fenn Agritech is not based on any real organ
 - [`incident-response-plan.md`](incident-response-plan.md) - How Fenn identifies, responds to, and recovers from security incidents
 - [`vendor-risk-management-policy.md`](vendor-risk-management-policy.md) - How Fenn assesses, approves, and monitors third-party vendors
 - [`data-retention-policy.md`](data-retention-policy.md) - How long Fenn keeps data, when it is deleted, and who enforces those limits
+- [`business-continuity-plan.md`](business-continuity-plan.md) - How Fenn keeps operating and recovers when systems or suppliers fail
+- [`data-processing-agreement.md`](data-processing-agreement.md) - Contract terms governing Fenn's processing of customer personal data as a processor
+- [`risk-assessment-and-treatment-methodology.md`](risk-assessment-and-treatment-methodology.md) - How Fenn scores, treats, and accepts information security risk
+- [`risk-register.md`](risk-register.md) - The identified risks, their scoring, treatment decisions, and owners
 
 New documents are published here as they are completed. The live site lists all documents, including those in development.
 
