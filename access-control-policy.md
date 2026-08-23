@@ -1,7 +1,7 @@
 ---
 title: Access Control Policy
 document_id: FENN-POL-001
-version: 1.0
+version: "1.0"
 effective_date: 2026-05-20
 last_reviewed: 2026-05-20
 next_review: 2027-05-20
