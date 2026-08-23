@@ -1,6 +1,6 @@
 ---
 title: Vendor Risk Management Policy
-document_id: FENN-POL-004
+document_id: FENN-POL-003
 version: "1.0"
 effective_date: 2026-05-30
 last_reviewed: 2026-05-30

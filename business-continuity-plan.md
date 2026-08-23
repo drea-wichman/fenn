@@ -1,6 +1,6 @@
 ---
 title: Business Continuity Plan
-document_id: FENN-POL-006
+document_id: FENN-PLN-002
 version: "1.0"
 effective_date: 2026-06-10
 last_reviewed: 2026-06-10
@@ -64,7 +64,7 @@ The Business Impact Analysis identifies Fenn's critical business functions, sets
 | Customer support and incident communication | Plain, the independently hosted status page, AWS SES |
 | Billing | Stripe |
 
-Several critical functions depend on third parties, including AWS, JumpCloud, the equipment manufacturer platforms, Plain, and Stripe. Fenn's recovery time for those functions is therefore bound in part by the recovery of the provider, not by Fenn alone. Vendor obligations and service levels are governed by the Vendor Risk Management Policy (FENN-POL-004).
+Several critical functions depend on third parties, including AWS, JumpCloud, the equipment manufacturer platforms, Plain, and Stripe. Fenn's recovery time for those functions is therefore bound in part by the recovery of the provider, not by Fenn alone. Vendor obligations and service levels are governed by the Vendor Risk Management Policy (FENN-POL-003).
 
 One dependency lies outside Fenn's recovery entirely: the customer's encryption key. Because Fenn holds only ciphertext, a customer who loses their key cannot have their data restored by Fenn. This is a direct consequence of the customer-managed-key architecture and sets a boundary on what Fenn can recover.
 
@@ -114,7 +114,7 @@ Activation does not depend on the cause. A continuity event may be a security in
 
 **Relationship to the Incident Response Plan**
 
-Where a disruption is also a security incident, this plan and the Incident Response Plan (FENN-POL-003) run in parallel. The Incident Response Plan governs the security response; this plan governs the continuity and recovery of critical functions. A single Incident Commander directs both, so the plans coordinate rather than compete.
+Where a disruption is also a security incident, this plan and the Incident Response Plan (FENN-PLN-001) run in parallel. The Incident Response Plan governs the security response; this plan governs the continuity and recovery of critical functions. A single Incident Commander directs both, so the plans coordinate rather than compete.
 
 **Roles**
 
@@ -138,7 +138,7 @@ Fenn communicates with customers through its independently hosted status page. D
 
 **Scope of this section**
 
-This section covers operational communication only: service status and expected recovery. Where a disruption also involves a personal data breach, legal and contractual notification is governed by the Incident Response Plan (FENN-POL-003).
+This section covers operational communication only: service status and expected recovery. Where a disruption also involves a personal data breach, legal and contractual notification is governed by the Incident Response Plan (FENN-PLN-001).
 
 ## 8. Training and Testing
 

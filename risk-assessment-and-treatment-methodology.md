@@ -1,6 +1,6 @@
 ---
 title: Risk Assessment and Treatment Methodology
-document_id: FENN-POL-007
+document_id: FENN-RSK-001
 version: "1.0"
 effective_date: 2026-07-01
 last_reviewed: 2026-07-01
@@ -28,7 +28,7 @@ This methodology applies to all Fenn information assets, including systems, data
 
 Fenn uses an asset-based approach to risk identification. Risks are identified by inventorying information assets and assessing the threats and vulnerabilities that apply to each. All assessments consider risks to confidentiality, integrity, and availability. Each identified risk is tagged with the CIA dimension or dimensions it affects.
 
-Risk identification is conducted during scheduled assessments and triggered by significant changes to Fenn's systems, operations, or threat environment. Climate change has been assessed as a relevant external issue under ISO 27001:2022 Clause 4.1. The primary exposure for Fenn's ISMS is physical infrastructure resilience to extreme weather events, which is addressed under RR-012 and mitigated by AWS infrastructure controls and the Business Continuity Plan (FENN-POL-006).
+Risk identification is conducted during scheduled assessments and triggered by significant changes to Fenn's systems, operations, or threat environment. Climate change has been assessed as a relevant external issue under ISO 27001:2022 Clause 4.1. The primary exposure for Fenn's ISMS is physical infrastructure resilience to extreme weather events, which is addressed under RR-012 and mitigated by AWS infrastructure controls and the Business Continuity Plan (FENN-PLN-002).
 
 ## 4. Risk Analysis
 

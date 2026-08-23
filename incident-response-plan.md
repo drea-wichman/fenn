@@ -1,6 +1,6 @@
 ---
 title: Incident Response Plan
-document_id: FENN-POL-003
+document_id: FENN-PLN-001
 version: "1.0"
 effective_date: 2026-05-30
 last_reviewed: 2026-05-30
