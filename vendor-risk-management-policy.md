@@ -14,7 +14,7 @@ framework_mapping:
   - ISO 27001:2022 A.5.21
   - ISO 27001:2022 A.5.22
   - ISO 27001:2022 A.5.23
-  - UK GDPR Art. 28
+  - UK GDPR Article 28
 ---
 
 # Vendor Risk Management Policy
@@ -57,20 +57,20 @@ Critical vendors require approval from the Head of Security and the CTO. Standar
 
 All Critical and Standard vendors must have a written agreement in place that includes appropriate security obligations.
 
-Where a vendor processes personal data on behalf of Fenn or Fenn's customers, a Data Processing Agreement is required in accordance with UK GDPR Art. 28. The DPA must include the following terms as required by Art. 28(3):
+Where a vendor processes personal data on behalf of Fenn or Fenn's customers, a Data Processing Agreement is required in accordance with UK GDPR Article 28. The DPA must include the following terms as required by Article 28(3):
 
 - Processing only on Fenn's documented instructions
 - Confidentiality obligations for all personnel authorized to process the data
-- Appropriate technical and organizational security measures in accordance with Art. 32
+- Appropriate technical and organizational security measures in accordance with Article 32
 - Conditions for engaging sub-processors, including prior written authorization from Fenn
 - Assistance with data subject rights requests
-- Assistance with Fenn's obligations under Art. 32 to 36, including breach notification
+- Assistance with Fenn's obligations under Articles 32 to 36, including breach notification
 - At the controller's choice, deletion or return of all personal data at the end of the processing relationship
 - Making available all information necessary to demonstrate compliance and contributing to audits
 
 Sub-processors are listed on the Fenn Sub-processor List and subject to the notification and objection process described in that document.
 
-Where a vendor is located outside the United Kingdom, the assessment must confirm that an appropriate transfer mechanism is in place under UK GDPR Art. 44 to 49. Fenn's current EU-based sub-processors (Sentry, Plain) are covered by the UK's adequacy decision for the European Economic Area. Transfer adequacy is reassessed if a vendor changes its processing location or if the relevant adequacy decision is revoked or amended.
+Where a vendor is located outside the United Kingdom, the assessment must confirm that an appropriate transfer mechanism is in place under UK GDPR Articles 44 to 49. Fenn's current EU-based sub-processors (Sentry, Plain) are covered by the UK's adequacy decision for the European Economic Area. Transfer adequacy is reassessed if a vendor changes its processing location or if the relevant adequacy decision is revoked or amended.
 
 ### 4.3 Ongoing Monitoring
 

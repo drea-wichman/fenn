@@ -13,14 +13,14 @@ framework_mapping:
   - ISO 27001:2022 Clause 6.1.3
   - ISO 27001:2022 Clause 8.2
   - ISO 27001:2022 Clause 8.3
-  - UK GDPR Art. 32
+  - UK GDPR Article 32
 ---
 
 # Risk Register
 
 ## 1. Purpose
 
-This register records the information security risks identified through Fenn's risk assessment process. It documents each risk's scoring, treatment decision, and assigned owner. It is the primary evidence that Fenn has assessed and is managing its information security risks in accordance with ISO 27001:2022 and UK GDPR Art. 32.
+This register records the information security risks identified through Fenn's risk assessment process. It documents each risk's scoring, treatment decision, and assigned owner. It is the primary evidence that Fenn has assessed and is managing its information security risks in accordance with ISO 27001:2022 and UK GDPR Article 32.
 
 ## 2. How to Read This Register
 

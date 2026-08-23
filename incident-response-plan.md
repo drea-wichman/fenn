@@ -15,8 +15,8 @@ framework_mapping:
   - ISO 27001:2022 A.5.27
   - ISO 27001:2022 A.5.28
   - ISO 27001:2022 A.6.8
-  - UK GDPR Art. 33
-  - UK GDPR Art. 34
+  - UK GDPR Article 33
+  - UK GDPR Article 34
 ---
 
 # Incident Response Plan
@@ -157,7 +157,7 @@ Incident records are retained in accordance with the Data Retention Policy.
 
 Fenn's notification obligations depend on its role in relation to the data affected.
 
-Fenn is not required to appoint a Data Protection Officer under UK GDPR Art. 37. Fenn is not a public authority, its core activities do not involve large-scale regular and systematic monitoring of individuals, and it does not process special category or criminal offense data at scale. The Head of Security serves as Fenn's designated data protection contact point for regulatory correspondence and data subject inquiries.
+Fenn is not required to appoint a Data Protection Officer under UK GDPR Article 37. Fenn is not a public authority, its core activities do not involve large-scale regular and systematic monitoring of individuals, and it does not process special category or criminal offense data at scale. The Head of Security serves as Fenn's designated data protection contact point for regulatory correspondence and data subject inquiries.
 
 **Where Fenn is a processor** (customer data processed on behalf of Fenn's customers): Fenn notifies the affected customer without undue delay. The customer, as controller, determines whether to notify the ICO and affected data subjects. Fenn supports the customer's notification obligations by providing all relevant details of the breach.
 
@@ -165,7 +165,7 @@ Fenn is not required to appoint a Data Protection Officer under UK GDPR Art. 37.
 
 Not all personal data breaches require ICO notification. Notification is required where the breach is likely to result in a risk to the rights and freedoms of the affected individuals. External legal counsel supports this assessment.
 
-ICO notifications must include, as required by Art. 33(3):
+ICO notifications must include, as required by Article 33(3):
 
 - The nature of the breach, including the categories and approximate number of data subjects and records affected
 - The name and contact details of the data protection contact point
@@ -174,7 +174,7 @@ ICO notifications must include, as required by Art. 33(3):
 
 Where information is not yet available at the time of notification, it is provided in phases as the investigation develops.
 
-**Data subject notification.** Where Fenn is the controller and a breach is likely to result in a high risk to the rights and freedoms of affected individuals, Fenn notifies those individuals directly and without undue delay. The notification describes the nature of the breach, the likely consequences, the measures Fenn has taken in response, and a contact point for further information. Where customer data encrypted with customer-managed keys is involved, the Art. 34(3)(a) exemption may apply if the encryption renders the data unintelligible to any unauthorized party. External legal counsel advises on this assessment.
+**Data subject notification.** Where Fenn is the controller and a breach is likely to result in a high risk to the rights and freedoms of affected individuals, Fenn notifies those individuals directly and without undue delay. The notification describes the nature of the breach, the likely consequences, the measures Fenn has taken in response, and a contact point for further information. Where customer data encrypted with customer-managed keys is involved, the Article 34(3)(a) exemption may apply if the encryption renders the data unintelligible to any unauthorized party. External legal counsel advises on this assessment.
 
 **External communications.** External communications beyond regulatory and data subject notification are authorized by the CEO.
 

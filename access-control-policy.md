@@ -22,7 +22,7 @@ framework_mapping:
   - ISO 27001:2022 A.8.5
   - ISO 27001:2022 A.8.15
   - ISO 27001:2022 A.8.16
-  - UK GDPR Art. 32
+  - UK GDPR Article 32
 ---
 
 # Access Control Policy

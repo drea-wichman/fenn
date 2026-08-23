@@ -11,7 +11,7 @@ scope: All Fenn information assets, including systems, data, people, and third-p
 framework_mapping:
   - ISO 27001:2022 Clause 6.1.2
   - ISO 27001:2022 Clause 6.1.3
-  - UK GDPR Art. 32
+  - UK GDPR Article 32
 ---
 
 # Risk Assessment and Treatment Methodology
