@@ -111,7 +111,6 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 - Vendor Risk Management Policy
 - Data Retention Policy
 - Business Continuity Plan
-- Cryptography Policy
 - Risk Register
 
 ## 8. Revision History

@@ -120,7 +120,6 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 ## 7. Related Documents
 
 - Information Security Policy
-- Mobile Device Policy
 - Sub-processor List
 - Incident Response Plan
 - Data Retention Policy

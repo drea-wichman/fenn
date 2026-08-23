@@ -113,7 +113,6 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 - Incident Response Plan
 - Vendor Risk Management Policy
 - Sub-processor List
-- Record of Processing Activities
 
 ## 13. Revision History
 
