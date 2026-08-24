@@ -16,8 +16,9 @@ framework_mapping:
   - ISO 27001:2022 Clause 7.2
   - ISO 27001:2022 Clause 7.3
   - ISO 27001:2022 Clause 10
-  - UK GDPR
-  - Data Protection Act 2018
+  - UK GDPR Article 5(1)(f)
+  - UK GDPR Article 24
+  - UK GDPR Article 32
 ---
 
 # Information Security Policy
