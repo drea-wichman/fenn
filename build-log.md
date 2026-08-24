@@ -1,3 +1,37 @@
+## 2026-08-24: ID Scheme Overhaul and Metadata Cleanup
+
+**Recoded document IDs by type.**
+
+Context: All eight documents were FENN-POL-xxx. A plan isn't a policy, and a register isn't either.
+
+Decision: Created type-coded prefixes: POL policy, PLN plan, RSK risk documentation. Locked a full set for later: SOA, ASM (assessment), REG (register), PRO (procedure), STD, RPT, GUD.
+
+Rationale: Realized companies use different labels for different document types. Checked what real orgs do. Type prefixes are a recognized convention (ISO 9001 doc control, CISSP hierarchy: policy, standard, procedure, guideline). Numbers restart within each type so POL-001 and PLN-001 coexist. Also had to renumber the surviving policies to close the gaps left when the plans and risk docs moved out. Real controlled registers usually leave retired IDs permanent and don't reuse them, but these were never released so nothing depends on the old numbers. I interpret this as editing a draft/correcting an error vs. creating a new version.
+
+Consequences: Clean sequential set and no gaps. Every cross-reference between documents updated to the new IDs. Triple checked nothing points at a dead ID.
+
+---
+
+**Standardized every Related Documents section.**
+
+Context: Only the Risk Register listed IDs while the other seven used titles or had no section at all. Also accidentally referenced documents that don't exist yet: Mobile Device Policy, Cryptography Policy, RoPA, which needed to be removed.
+
+Decision: Removed the three phantom references, then set the format everywhere: ID and title for ISMS documents, title only for the DPA and sub-processor list. Grouped by type, numerical, title only entries at the bottom. Added the missing section to the methodology.
+
+Rationale: Checked online. Organizations that assign IDs cite them in the references. The DPA and sub-processor list don't get IDs because they aren't managerial documents to cite. The mixed look is okay. Going forward, add a step to my post-deliverable process: when a new document is finished, check where it needs to be added in other docs' Related Documents.
+
+Consequences: All eight consistent and phantom references are gone.
+
+---
+
+**Smaller fixes.**
+
+Decision: UK GDPR "Art." to "Article" everywhere (ICO and legislation.gov.uk spell it out). Quoted the version field on Access Control Policy to match the rest. Changed BCP approver CTO to CEO. Info Sec Policy framework mapping: replaced bare "UK GDPR" with specific articles and dropped "Data Protection Act 2018" since no specific section applies.
+
+Rationale: All verified against primary sources. The CEO approves the BCP like the other strategic docs.
+
+Consequences: Consistent across both repos. Ran GRC review and factcheck (again). Both flagged the DUAA 2025 and missing Clause 9 work, saved for later. The docs are accurate for their date.
+
 ## 2026-08-18: Metadata Corrections
 
 **Changed Fenn's contact email to privacy@fennagritech.io.**
