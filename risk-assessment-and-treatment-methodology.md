@@ -71,3 +71,13 @@ All treatment decisions are recorded in the Risk Register. Selected controls are
 ## 8. Review
 
 This methodology is reviewed annually. An out-of-cycle review is triggered by significant changes to Fenn's systems, operations, or threat environment.
+
+## 9. Related Documents
+
+- FENN-POL-001: Access Control Policy
+- FENN-POL-002: Information Security Policy
+- FENN-POL-003: Vendor Risk Management Policy
+- FENN-POL-004: Data Retention Policy
+- FENN-PLN-001: Incident Response Plan
+- FENN-PLN-002: Business Continuity Plan
+- FENN-RSK-002: Risk Register
