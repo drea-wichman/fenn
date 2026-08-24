@@ -104,14 +104,14 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 
 ## 7. Related Documents
 
-- Access Control Policy
+- FENN-POL-001: Access Control Policy
+- FENN-POL-003: Vendor Risk Management Policy
+- FENN-POL-004: Data Retention Policy
+- FENN-PLN-001: Incident Response Plan
+- FENN-PLN-002: Business Continuity Plan
+- FENN-RSK-002: Risk Register
 - Sub-processor List
 - Data Processing Agreement
-- Incident Response Plan
-- Vendor Risk Management Policy
-- Data Retention Policy
-- Business Continuity Plan
-- Risk Register
 
 ## 8. Revision History
 

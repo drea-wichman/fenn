@@ -164,10 +164,10 @@ Fenn also reviews the plan after any activation, after a significant change to i
 
 ## 10. Related Documents
 
-- Information Security Policy
-- Incident Response Plan
-- Vendor Risk Management Policy
-- Data Retention Policy
+- FENN-POL-002: Information Security Policy
+- FENN-POL-003: Vendor Risk Management Policy
+- FENN-POL-004: Data Retention Policy
+- FENN-PLN-001: Incident Response Plan
 
 ## 11. Revision History
 

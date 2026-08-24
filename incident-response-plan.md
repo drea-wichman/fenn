@@ -198,11 +198,11 @@ Exceptions to this plan may be granted in writing by the Head of Security. Each 
 
 ## 8. Related Documents
 
-- Information Security Policy
-- Access Control Policy
+- FENN-POL-001: Access Control Policy
+- FENN-POL-002: Information Security Policy
+- FENN-POL-003: Vendor Risk Management Policy
+- FENN-POL-004: Data Retention Policy
 - Sub-processor List
-- Data Retention Policy
-- Vendor Risk Management Policy
 
 ## 9. Revision History
 

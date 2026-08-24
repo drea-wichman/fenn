@@ -119,11 +119,11 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 
 ## 7. Related Documents
 
-- Information Security Policy
+- FENN-POL-002: Information Security Policy
+- FENN-POL-003: Vendor Risk Management Policy
+- FENN-POL-004: Data Retention Policy
+- FENN-PLN-001: Incident Response Plan
 - Sub-processor List
-- Incident Response Plan
-- Data Retention Policy
-- Vendor Risk Management Policy
 
 ## 8. Revision History
 

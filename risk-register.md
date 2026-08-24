@@ -51,9 +51,9 @@ This register is reviewed annually by the Head of Security. An out-of-cycle revi
 
 ## 5. Related Documents
 
-- FENN-RSK-001: Risk Assessment and Treatment Methodology
 - FENN-POL-001: Access Control Policy
-- FENN-PLN-001: Incident Response Plan
 - FENN-POL-003: Vendor Risk Management Policy
 - FENN-POL-004: Data Retention Policy
+- FENN-PLN-001: Incident Response Plan
 - FENN-PLN-002: Business Continuity Plan
+- FENN-RSK-001: Risk Assessment and Treatment Methodology

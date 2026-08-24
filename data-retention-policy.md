@@ -108,10 +108,10 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 
 ## 12. Related Documents
 
-- Information Security Policy
-- Access Control Policy
-- Incident Response Plan
-- Vendor Risk Management Policy
+- FENN-POL-001: Access Control Policy
+- FENN-POL-002: Information Security Policy
+- FENN-POL-003: Vendor Risk Management Policy
+- FENN-PLN-001: Incident Response Plan
 - Sub-processor List
 
 ## 13. Revision History
