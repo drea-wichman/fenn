@@ -70,7 +70,7 @@ Where a vendor processes personal data on behalf of Fenn or Fenn's customers, a 
 
 Sub-processors are listed on the Fenn Sub-processor List and subject to the notification and objection process described in that document.
 
-Where a vendor is located outside the United Kingdom, the assessment must confirm that an appropriate transfer mechanism is in place under UK GDPR Articles 44 to 49. Fenn's current EU-based sub-processors (Sentry, Plain) are covered by the UK's adequacy decision for the European Economic Area. Transfer adequacy is reassessed if a vendor changes its processing location or if the relevant adequacy decision is revoked or amended.
+Where a vendor is located outside the United Kingdom, the assessment must confirm that an appropriate transfer mechanism is in place under UK GDPR Articles 44 to 49. Fenn's current EU-based sub-processor (Sentry) is covered by the UK's adequacy regulations for the European Economic Area. Transfer adequacy is reassessed if a vendor changes its processing location or if the relevant adequacy regulations are revoked or amended.
 
 ### 4.3 Ongoing Monitoring
 

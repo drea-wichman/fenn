@@ -12,7 +12,7 @@ This list is incorporated by reference into the Fenn Data Processing Agreement.
 | Amazon Web Services EMEA SARL (SES) | Transactional email | United Kingdom (London) |
 | Stripe Payments UK Ltd | Payment processing | United Kingdom |
 | Functional Software, Inc. (Sentry) | Application error monitoring | European Union (Frankfurt) |
-| Plain Systems Ltd | Customer support | European Union |
+| Not Just Tickets Ltd (Plain) | Customer support | United Kingdom |
 
 ## Notification of changes
 
