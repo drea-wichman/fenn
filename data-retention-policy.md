@@ -59,6 +59,7 @@ Fenn retains each category of data for no longer than the period below. Periods 
 | Error monitoring data (Sentry) | 90 days | Capture | Standard: vendor default |
 | Transactional email metadata (AWS SES) | 90 days | Send | Standard |
 | Security incident records | 6 years | Incident close | Standard: aligned to Limitation Act 1980 six-year claim window |
+| Data protection complaint records | 6 years | Complaint closure | Standard: aligned to Limitation Act 1980 six-year claim window |
 
 ### 4.3 Employee Data
 
