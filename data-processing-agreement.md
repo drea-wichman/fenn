@@ -1,6 +1,6 @@
 # Data Processing Agreement
 
-This Data Processing Agreement ("DPA") is entered into between Fenn Agritech ("Processor"), a company registered in England and Wales, and the customer entering into the Agreement ("Controller"), together "the parties."
+This Data Processing Agreement ("DPA") is entered into between Fenn Agritech ("Processor"), a company operating in England and Wales, and the customer entering into the Agreement ("Controller"), together "the parties."
 
 This DPA forms part of the subscription agreement between the parties ("the Agreement") and governs Processor's processing of personal data on behalf of Controller in connection with the Fenn platform and related services ("the Services"). Where this DPA conflicts with the Agreement, this DPA prevails with respect to the processing of personal data.
 
