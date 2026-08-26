@@ -81,3 +81,4 @@ This methodology is reviewed annually. An out-of-cycle review is triggered by si
 - FENN-PLN-001: Incident Response Plan
 - FENN-PLN-002: Business Continuity Plan
 - FENN-RSK-002: Risk Register
+- FENN-SCP-001: Scope and Context

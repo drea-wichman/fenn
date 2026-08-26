@@ -202,7 +202,10 @@ Exceptions to this plan may be granted in writing by the Head of Security. Each 
 - FENN-POL-002: Information Security Policy
 - FENN-POL-003: Vendor Risk Management Policy
 - FENN-POL-004: Data Retention Policy
+- FENN-PRO-001: Data Protection Complaints Procedure
+- FENN-RSK-002: Risk Register
 - Sub-processor List
+- Data Processing Agreement
 
 ## 9. Revision History
 

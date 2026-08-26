@@ -57,3 +57,4 @@ This register is reviewed annually by the Head of Security. An out-of-cycle revi
 - FENN-PLN-001: Incident Response Plan
 - FENN-PLN-002: Business Continuity Plan
 - FENN-RSK-001: Risk Assessment and Treatment Methodology
+- Sub-processor List

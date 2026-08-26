@@ -113,6 +113,7 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 - FENN-POL-002: Information Security Policy
 - FENN-POL-003: Vendor Risk Management Policy
 - FENN-PLN-001: Incident Response Plan
+- FENN-PRO-001: Data Protection Complaints Procedure
 - Sub-processor List
 
 ## 13. Revision History

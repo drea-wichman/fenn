@@ -110,7 +110,9 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 - FENN-POL-004: Data Retention Policy
 - FENN-PLN-001: Incident Response Plan
 - FENN-PLN-002: Business Continuity Plan
+- FENN-PRO-001: Data Protection Complaints Procedure
 - FENN-RSK-002: Risk Register
+- FENN-SCP-001: Scope and Context
 - Sub-processor List
 - Data Processing Agreement
 

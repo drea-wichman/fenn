@@ -114,9 +114,9 @@ This document is reviewed annually, and after any significant change to Fenn's s
 - FENN-POL-002: Information Security Policy
 - FENN-POL-003: Vendor Risk Management Policy
 - FENN-POL-004: Data Retention Policy
-- FENN-PRO-001: Data Protection Complaints Procedure
 - FENN-PLN-001: Incident Response Plan
 - FENN-PLN-002: Business Continuity Plan
+- FENN-PRO-001: Data Protection Complaints Procedure
 - FENN-RSK-001: Risk Assessment and Treatment Methodology
 - FENN-RSK-002: Risk Register
 - Data Processing Agreement
