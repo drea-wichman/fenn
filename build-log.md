@@ -1,3 +1,43 @@
+## 2026-08-25: Scope and Context, Complaints Procedure, and Cleanup
+
+**Wrote and published FENN-SCP-001: Scope and Context.**
+
+Context: No document defined the boundary of the ISMS or described what shapes it. That information was scattered across other docs.
+
+Decision: Standalone document covering what the ISMS is, what's in it, what's out, and who cares about it. New SCP prefix. Named the DUAA 2025 in the legal row because this doc is dated after the law changed and the whole point is describing the current environment. Older docs stay accurate for their dates. Also addressed the ISO climate amendment here since this is the document it belongs in.
+
+Consequences: Three rounds of GRC review and fact check to get it right. Final review called it audit-ready.
+
+---
+
+**Wrote and published FENN-PRO-001: Data Protection Complaints Procedure.**
+
+Context: New law DUAA 2025 requires a complaints process since June 2026. I didn't have one so I wrote it now so the scope doc could reference it directly instead of saying "planned" and having to come back later to retrofit again.
+
+Decision: First PRO-type document. How complaints come in, how we acknowledge and respond, what happens if a complaint turns into a breach, and who handles it if the complaint is about the Head of Security. Then I added a complaint records row to the retention policy.
+
+Consequences: Legal gap closed. PRO prefix is active.
+
+---
+
+**Fixed Plain's location across three documents.**
+
+Context: Fact check found Plain is actually a UK company, not EU. Entity name is Not Just Tickets Ltd.
+
+Decision: Updated the sub-processor list, vendor policy, and scope doc. Also fixed "adequacy decision" to "adequacy regulations" in the vendor policy, which is the correct UK term for outbound transfers.
+
+Consequences: Only Sentry is in the EU now. Verified against Companies House and the ICO.
+
+---
+
+**Smaller fixes.**
+
+Decision: DPA changed "Fenn Agritech Ltd" to "Fenn Agritech" and "registered" to "operating." Patched 9 of 12 npm vulnerabilities. Updated Related Documents across six docs for the new deliverables and some gaps that were already there. Updated README.
+
+Consequences: Three remaining vulnerabilities need the Astro 7 upgrade. Saved for later.
+
+---
+
 ## 2026-08-24: ID Scheme Overhaul and Metadata Cleanup
 
 **Recoded document IDs by type.**
@@ -31,6 +71,8 @@ Decision: UK GDPR "Art." to "Article" everywhere (ICO and legislation.gov.uk spe
 Rationale: All verified against primary sources. The CEO approves the BCP like the other strategic docs.
 
 Consequences: Consistent across both repos. Ran GRC review and factcheck (again). Both flagged the DUAA 2025 and missing Clause 9 work, saved for later. The docs are accurate for their date.
+
+---
 
 ## 2026-08-18: Metadata Corrections
 
