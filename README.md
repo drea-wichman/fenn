@@ -21,6 +21,8 @@ All deliverables are original work. Fenn Agritech is not based on any real organ
 - [`data-processing-agreement.md`](data-processing-agreement.md) - Contract terms governing Fenn's processing of customer personal data as a processor
 - [`risk-assessment-and-treatment-methodology.md`](risk-assessment-and-treatment-methodology.md) - How Fenn scores, treats, and accepts information security risk
 - [`risk-register.md`](risk-register.md) - The identified risks, their scoring, treatment decisions, and owners
+- [`scope-and-context.md`](scope-and-context.md) - The boundary, context, and interested parties of Fenn's ISMS
+- [`data-protection-complaints-procedure.md`](data-protection-complaints-procedure.md) - How Fenn receives and responds to data protection complaints
 
 New documents are published here as they are completed. The live site lists all documents, including those in development.
 
