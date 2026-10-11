@@ -1,3 +1,29 @@
+## 2026-10-01: Security Headers
+
+**Ran a security header check on both sites and fixed what it found.**
+
+Context: Checked wichman.io and fenn.wichman.io on securityheaders.com. Both scored F. HTTP didn't redirect to HTTPS and no security headers were set.
+
+Decision: Fixed it in Cloudflare. Turned on Always Use HTTPS and HSTS then added one rule that sets the remaining headers on every request. Fenn was skipping Cloudflare entirely so switched its DNS record to Proxied.
+
+Rationale: I guess GitHub Pages doesn't send these headers on custom domains so Cloudflare was the only place to add them without code changes. Left HSTS subdomains and preload off because I read HSTS is hard to undo once browsers cache it.
+
+Consequences: Both sites went from F to A. Clicked through every page after and nothing broke.
+
+---
+
+**Accepted 'unsafe-inline' in the Content Security Policy.**
+
+Context: The scanner caps both sites at A because the CSP allows inline scripts. Fixing it means moving the inline scripts into separate files.
+
+Decision: Accepted the risk.
+
+Rationale: Inline scripts are a risk when an attacker can inject code mainly through XSS. My site doesn't have any forms, inputs, or scripts that read the URL so there's no way in. Maintainability over a cosmetic A+.
+
+Consequences: Revisit if either site ever takes user input.
+
+---
+
 ## 2026-08-25: Scope and Context, Complaints Procedure, and Cleanup
 
 **Wrote and published FENN-SCP-001: Scope and Context.**
