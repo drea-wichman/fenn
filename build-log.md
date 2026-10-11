@@ -1,3 +1,17 @@
+## 2026-10-11: Law Changes
+
+**Updated the docs after two UK law changes.**
+
+Context: A fact check against live sources turned up two changes since I wrote the docs. The Information Commissioner's Office became the Information Commission on 30 September, and the discrimination claim limit went from 3 to 6 months on 1 October.
+
+Decision: Updated the regulator's name across the docs and the privacy page, and changed the retention policy row to the new 6-month limit.
+
+Rationale: Both docs were right when I wrote them. The law moved, so the docs had to catch up.
+
+Consequences: Everything matches current law. Kept "ICO" since the acronym is still in use.
+
+---
+
 ## 2026-10-01: Security Headers
 
 **Ran a security header check on both sites and fixed what it found.**
