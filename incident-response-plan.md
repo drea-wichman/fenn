@@ -15,6 +15,7 @@ framework_mapping:
   - ISO 27001:2022 A.5.27
   - ISO 27001:2022 A.5.28
   - ISO 27001:2022 A.6.8
+  - ISO 27001:2022 A.8.16
   - UK GDPR Article 33
   - UK GDPR Article 34
 ---

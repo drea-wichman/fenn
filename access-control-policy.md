@@ -21,7 +21,6 @@ framework_mapping:
   - ISO 27001:2022 A.8.3
   - ISO 27001:2022 A.8.5
   - ISO 27001:2022 A.8.15
-  - ISO 27001:2022 A.8.16
   - UK GDPR Article 32
 ---
 
@@ -57,7 +56,7 @@ All access to Fenn systems is granted through this central identity. Application
 
 ### 4.2 Authentication
 
-All access to Fenn systems requires multi-factor authentication. Software authenticator apps and SMS codes are not accepted. Fenn issues hardware security keys (Nitrokey 3) to every employee and contractor as the required second factor. Each individual receives two keys: one for daily use and one stored as a backup.
+All access to Fenn systems requires multi-factor authentication. Software authenticator apps and SMS codes are not accepted. Fenn issues hardware security keys (Nitrokey 3) to every employee and contractor as the required second factor. Each individual receives two keys: one for daily use and one stored as a backup. Credential handling is covered in the security training required at onboarding under the Information Security Policy.
 
 Lost or damaged keys must be reported to IT immediately. Replacement keys are issued through the standard hardware request process, with temporary access granted only through a documented break-glass procedure.
 
@@ -77,7 +76,7 @@ Standing privileged access is limited to a defined Privileged Access Working Gro
 
 All other privileged access is granted just-in-time. Individuals request elevation when needed, access is granted for a limited window, and is automatically revoked when the window expires.
 
-All privileged sessions are logged.
+All privileged sessions are logged. Logs are retained for 13 months under the Data Retention Policy.
 
 ### 4.5 Joiner, Mover, Leaver
 
@@ -87,7 +86,7 @@ Access is provisioned, modified, and revoked in coordination with HR throughout 
 
 **Movers.** When an individual changes role, their access is updated to match.
 
-**Leavers.** Accounts are disabled on the individual's last working day. SSO-connected access is revoked automatically. Standalone credentials and any remaining access are revoked through a documented offboarding checklist.
+**Leavers.** Accounts are disabled on the individual's last working day. SSO-connected access is revoked automatically. Standalone credentials and any remaining access are revoked through a documented offboarding checklist. Fenn-issued laptops and hardware security keys are returned on or before the individual's last working day. Confidentiality obligations in the individual's contract continue after they leave and are confirmed to them at offboarding.
 
 ### 4.6 Access Reviews
 

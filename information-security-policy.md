@@ -27,7 +27,7 @@ framework_mapping:
 
 This policy establishes Fenn Agritech's commitment to protecting the confidentiality, integrity, and availability of the information it holds, and defines the Information Security Management System (ISMS) through which that commitment is delivered. As a provider of crop and field management software to UK farms, Fenn processes operational and personal data on behalf of its customers. Protecting that data is fundamental to Fenn's obligations to its customers and under UK data protection law.
 
-This policy sits at the top of Fenn's information security policy hierarchy; all other security policies and procedures derive from it. It commits Fenn to meeting applicable legal, regulatory, and contractual requirements and to the continual improvement of its ISMS, which is aligned with ISO 27001:2022. Annex A controls are mapped in Fenn's subordinate policies and Statement of Applicability. This policy is communicated to all Fenn employees and contractors and is made available to interested parties as appropriate.
+This policy sits at the top of Fenn's information security policy hierarchy; all other security policies and procedures derive from it. It commits Fenn to meeting applicable legal, regulatory, and contractual requirements and to the continual improvement of its ISMS, which is aligned with ISO 27001:2022. Annex A controls are mapped in Fenn's subordinate policies. This policy is communicated to all Fenn employees and contractors and is made available to interested parties as appropriate.
 
 ## 2. Scope
 

@@ -104,6 +104,10 @@ Authentication depends on JumpCloud, an external identity provider. Fenn monitor
 
 Fenn hosts its status page independently of its production infrastructure, so it stays available to give customers incident updates during an outage that affects Fenn's own systems.
 
+**Security during recovery**
+
+Security controls stay in force during recovery. Backups remain encrypted under customer-managed keys, and the break-glass administrative account is used only when JumpCloud is unavailable. Where the disruption is also a security incident, the Incident Response Plan governs, and systems return to production only after the Incident Commander confirms eradication is complete (FENN-PLN-001).
+
 ## 6. Activation and Roles
 
 **Activation**

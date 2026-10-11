@@ -93,6 +93,8 @@ When data is subject to a legal dispute, regulatory investigation, or formal pre
 
 Retention periods are enforced through automated deletion wherever the system supports it. Fenn logs each deletion event, including the account, date, and categories of data removed, and retains the log as audit evidence. Where automated deletion is not available, the Head of Security maintains a scheduled manual review to identify and dispose of data that has reached the end of its retention period. Where Fenn holds data on physical media, disposal follows secure destruction by a certified provider.
 
+Deletion logs and legal hold records are kept as audit evidence. Access to them is limited to the Head of Security and the CTO, and they are not edited after they are created.
+
 Sub-processors are contractually required to delete or return Fenn data at the end of their engagement and to honor the retention periods in this schedule for data they hold on Fenn's behalf.
 
 ## 9. Roles and Responsibilities

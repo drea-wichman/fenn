@@ -58,7 +58,7 @@ Each risk rated Medium or High must be assigned a treatment option:
 - **Transfer:** Shift risk to a third party through contract or insurance.
 - **Avoid:** Discontinue the activity that creates the risk.
 
-All treatment decisions are recorded in the Risk Register. Selected controls are compared against ISO 27001:2022 Annex A to confirm no applicable controls are omitted. Treatment decisions feed into the Statement of Applicability.
+All treatment decisions are recorded in the Risk Register. Selected controls are compared against ISO 27001:2022 Annex A to confirm no applicable controls are omitted.
 
 ## 7. Roles and Responsibilities
 
