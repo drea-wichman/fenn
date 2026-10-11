@@ -55,11 +55,11 @@ Fenn keeps the individual informed of the progress of their complaint where the 
 
 ### 5.3 Outcome
 
-Fenn communicates the outcome of the complaint to the individual without undue delay. The outcome explains what steps were taken to investigate the complaint, any actions taken or to be taken as a result, and the individual's right to complain to the Information Commissioner's Office if they are not satisfied with the outcome.
+Fenn communicates the outcome of the complaint to the individual without undue delay. The outcome explains what steps were taken to investigate the complaint, any actions taken or to be taken as a result, and the individual's right to complain to the Information Commission if they are not satisfied with the outcome.
 
 ### 5.4 Escalation to the ICO
 
-If the individual is not satisfied with Fenn's response, they may lodge a complaint with the Information Commissioner's Office under Section 165 of the Data Protection Act 2018. Fenn provides the ICO's contact details in every outcome communication.
+If the individual is not satisfied with Fenn's response, they may lodge a complaint with the Information Commission under Section 165 of the Data Protection Act 2018. Fenn provides the ICO's contact details in every outcome communication.
 
 ### 5.5 Conflicts of Interest
 

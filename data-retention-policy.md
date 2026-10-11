@@ -66,9 +66,9 @@ Fenn retains each category of data for no longer than the period below. Periods 
 | Data category | Retention period | Trigger | Basis |
 |---|---|---|---|
 | Employee records | Employment + 6 years | Employment end | Standard: aligned to Limitation Act 1980 six-year claim window |
-| Payroll & tax records | 6 years | End of relevant tax year | Legal: HMRC (6 years; NMW, auto-enrolment, and holiday pay records all require 6 years) |
+| Payroll & tax records | 6 years | End of relevant tax year | Legal: HMRC (National Minimum Wage), pensions auto-enrolment, and Employment Rights Act 2025 (holiday records), all 6 years |
 | Right-to-work checks | Employment + 2 years | Employment end | Legal: Home Office |
-| Unsuccessful applicant data | 12 months | Application decision | Standard: conservative buffer beyond the discrimination claim limit (3 months, extending to 6 months from October 2026) |
+| Unsuccessful applicant data | 12 months | Application decision | Standard: conservative buffer beyond the 6-month discrimination claim limit (in force from 1 October 2026) |
 
 ## 5. Deletion on Cancellation
 

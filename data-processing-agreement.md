@@ -62,7 +62,7 @@ Account data is held in plaintext and Processor can directly support access, cor
 
 Processor shall notify Controller without undue delay after becoming aware of a security incident affecting personal data processed under this DPA. Processor's notification shall include, to the extent known at the time, the nature of the incident, the categories and approximate number of data subjects and records affected, the likely consequences, and the measures taken or proposed to address it. Processor shall provide further information as it becomes available.
 
-Controller is solely responsible for assessing whether a security incident is notifiable to the Information Commissioner's Office or to affected data subjects, and for making any such notification within the timescales required under UK GDPR.
+Controller is solely responsible for assessing whether a security incident is notifiable to the Information Commission or to affected data subjects, and for making any such notification within the timescales required under UK GDPR.
 
 Processor shall cooperate with Controller and provide reasonable assistance as necessary for Controller to comply with its breach notification obligations.
 

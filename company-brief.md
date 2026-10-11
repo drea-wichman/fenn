@@ -10,7 +10,7 @@ Fenn Agritech is a UK-based B2B agritech SaaS company headquartered in Bristol. 
 
 ## Founding Context
 
-Fenn was founded in 2019 by Zoe Cooper-Hartley (CEO) and Cian Kelly (CTO). Zoe brings a background in organic farming policy from her years in the UK organic certification sector, having grown up on a US Midwest farm before moving to the UK. Cian was previously a tech lead at a UK challenger bank, where he led work on cryptographic key management and customer-controlled data access. The platform was built in response to two converging pressures on UK farming: the Agriculture Act 2020, which introduced digital record-keeping requirements for new agricultural support schemes, and the accelerating push from the Department for Environment, Food and Rural Affairs (Defra) toward digitizing farm operational data. Fenn operates under the tagline "Your land. Your data. Your decision," a commitment to building tools that prioritize the operational autonomy and data sovereignty of working farmers, free from surveillance-default infrastructure.
+Fenn was founded in 2019 by Zoe Cooper-Hartley (CEO) and Cian Kelly (CTO). Zoe brings a background in organic farming policy from her years in the UK organic certification sector, having grown up on a US Midwest farm before moving to the UK. Cian was previously a tech lead at a UK challenger bank, where he led work on cryptographic key management and customer-controlled data access. The platform was built in response to two converging pressures on UK farming: the Agriculture Act 2020, which replaced EU farm payments with new support schemes and gave government powers to collect agri-food supply chain data, and the accelerating push from the Department for Environment, Food and Rural Affairs (Defra) toward digitizing farm operational data. Fenn operates under the tagline "Your land. Your data. Your decision," a commitment to building tools that prioritize the operational autonomy and data sovereignty of working farmers, free from surveillance-default infrastructure.
 
 ## Product
 
@@ -26,7 +26,7 @@ Fenn's production infrastructure runs on Amazon Web Services in the London regio
 
 ## Regulatory Posture
 
-Fenn's primary regulator is the Information Commissioner's Office (ICO) for UK GDPR and Data Protection Act 2018 compliance. The Health and Safety Executive (HSE) governs workplace safety. Fenn's product features intersect with Defra agricultural schemes and National Cyber Security Centre (NCSC) cyber security guidance, though Fenn itself is not directly regulated by either body.
+Fenn's primary regulator is the Information Commission (ICO) for UK GDPR and Data Protection Act 2018 compliance. The Health and Safety Executive (HSE) governs workplace safety. Fenn's product features intersect with Defra agricultural schemes and National Cyber Security Centre (NCSC) cyber security guidance, though Fenn itself is not directly regulated by either body.
 
 ## Current State
 

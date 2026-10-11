@@ -71,7 +71,7 @@ Fenn assesses the security of suppliers and third parties before granting them a
 
 ### 4.6 Incident Management
 
-Fenn maintains the capability to detect, report, and respond to information security incidents. Incidents are recorded, assessed for severity, and managed through to resolution. Where an incident involves personal data, Fenn meets its breach notification obligations under UK data protection law, including notification to the Information Commissioner's Office where required. Where Fenn acts as a processor for customer data, Fenn notifies the relevant controller without undue delay.
+Fenn maintains the capability to detect, report, and respond to information security incidents. Incidents are recorded, assessed for severity, and managed through to resolution. Where an incident involves personal data, Fenn meets its breach notification obligations under UK data protection law, including notification to the Information Commission where required. Where Fenn acts as a processor for customer data, Fenn notifies the relevant controller without undue delay.
 
 ### 4.7 Business Continuity
 
@@ -87,7 +87,7 @@ All Fenn employees and contractors receive information security training appropr
 
 ### 4.10 Compliance
 
-Fenn complies with applicable legal, regulatory, and contractual requirements relating to information security and data protection. Its primary regulator is the Information Commissioner's Office. Compliance obligations are reviewed as the legal and regulatory environment changes. Breach of this policy may result in disciplinary action up to and including termination of employment, and termination of contract for contractors.
+Fenn complies with applicable legal, regulatory, and contractual requirements relating to information security and data protection. Its primary regulator is the Information Commission. Compliance obligations are reviewed as the legal and regulatory environment changes. Breach of this policy may result in disciplinary action up to and including termination of employment, and termination of contract for contractors.
 
 ## 5. Roles and Responsibilities
 
