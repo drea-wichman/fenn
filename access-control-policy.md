@@ -1,9 +1,9 @@
 ---
 title: Access Control Policy
 document_id: FENN-POL-001
-version: "1.0"
+version: "1.1"
 effective_date: 2026-05-20
-last_reviewed: 2026-05-20
+last_reviewed: 2026-10-22
 next_review: 2027-05-20
 owner: Head of Security
 approver: CTO
@@ -78,6 +78,8 @@ All other privileged access is granted just-in-time. Individuals request elevati
 
 All privileged sessions are logged. Logs are retained for 13 months under the Data Retention Policy.
 
+Privileged access does not extend to customer data that Fenn's servers process for opt-in features such as yield forecasting. Staff are not permitted to access that data.
+
 ### 4.5 Joiner, Mover, Leaver
 
 Access is provisioned, modified, and revoked in coordination with HR throughout the employment lifecycle.
@@ -129,3 +131,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-05-20 | Jack Lowe, Head of Security | Initial formal policy. Codifies existing practices aligned with ISO 27001:2022. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added the restriction on staff access to data processed for opt-in features. |
