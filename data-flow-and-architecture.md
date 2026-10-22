@@ -32,6 +32,7 @@ Fenn does not send reports to Defra, HMRC, or anyone else.
 | Team member list (names and emails) | You add them | Readable by Fenn's staff | Fenn's staff |
 | Roles and key access | You set them | Encrypted on your device | Only you and the team members you choose |
 | Login, billing, and support details | You enter them | Readable by Fenn's staff | Fenn's staff, Stripe (payments), and Plain (support) |
+| Account access log (sign-ins, devices, IP addresses) | Fenn records it | Readable by Fenn's staff | Fenn's staff, and you |
 | Account emails (invitations, password resets) | Fenn sends them | Readable by Fenn's staff | Fenn's staff and Amazon's email service (SES) |
 | Error reports | Fenn's apps and servers, when something goes wrong | Readable by Fenn's staff | Fenn's staff and Sentry (EU). Never includes farm data |
 

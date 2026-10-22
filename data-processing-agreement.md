@@ -36,7 +36,7 @@ Processor implements appropriate technical and organizational measures to protec
 
 Farm operational data is encrypted on the customer's device with customer-held keys before it reaches Processor's systems. Processor stores only ciphertext and has no technical means to decrypt or access this data without the customer's explicit authorization.
 
-Where Controller connects a third-party service, that service sends data to Processor's systems, which encrypt it with Controller's keys on arrival and retain only the encrypted copy. Where Controller enables yield forecasting, Processor's servers process the data the feature requires in readable form while it runs and delete it when the forecast completes. Processor's staff are not permitted to access that data. Processor does not use Controller's data to train models. Error reports sent to Processor's error-monitoring sub-processor exclude farm operational data.
+Where Controller connects a third-party service, that service sends data to Processor's systems, which encrypt it on arrival so that only Controller's keys can decrypt it, and retain only the encrypted copy. Where Controller enables yield forecasting, Processor's servers process the data the feature requires in readable form while it runs and delete it when the forecast completes. Processor's staff are not permitted to access that data. Processor does not use Controller's data to train models. Error reports sent to Processor's error-monitoring sub-processor exclude farm operational data.
 
 Account data, including names, login credentials, and contact details, is processed in plaintext as required to operate the Services, including authentication, account recovery, billing, and support.
 
