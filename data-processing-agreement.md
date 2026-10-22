@@ -107,7 +107,7 @@ This DPA is governed by the laws of England and Wales. The parties submit to the
 
 - Account data: names, email addresses, login credentials, and contact details
 - Billing data: invoicing and payment contact details
-- Farm operational data: any personal data Controller includes in field, crop, or compliance records, encrypted with customer-held keys and inaccessible to Processor
+- Farm operational data: any personal data Controller includes in field, crop, or compliance records, encrypted with customer-held keys and inaccessible to Processor outside the opt-in features described in Security Measures
 
 **Special category data:** Personal data within farm operational data is encrypted on Controller's device with Controller-held keys before it reaches Processor. Outside the opt-in features described in Security Measures, Processor has no technical means to access, view, or categorize this data, including any special category data Controller may choose to include. Controller is responsible for ensuring its own use of the Services complies with the additional requirements that apply to special category data under UK GDPR.
 
