@@ -115,6 +115,7 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 - FENN-SCP-001: Scope and Context
 - Sub-processor List
 - Data Processing Agreement
+- Data Flow and Architecture
 
 ## 8. Revision History
 
