@@ -1,3 +1,65 @@
+## 2026-10-22: Data Flow, Risk Register v1.1, and Catching Up
+
+**Wrote and published the Data Flow and Architecture document.**
+
+Context: An external review found the encryption claim was broader than the product. The site said only the customer's keys could open their data. Connected services and yield forecasting both need Fenn's servers to handle data. Nothing showed where data goes or who can read it.
+
+Decision: Only found two published examples and one was behind a paywall, so I DIY'd it. Wrote a customer-facing document and diagram showing every data flow and who can read it at each step. Added a limits section on what Fenn can always see and what happens if keys are lost. Picked the Met Office for weather after comparing a few providers and added it and Wasabi as sub-processors. Payroll will get its own data flow document.
+
+Rationale: Zero access is still the default, but the exceptions had to be written down. Staff "aren't permitted" to access forecast data instead of "can't" because nothing technically stops them. The BCP mentioned a second backup provider but never named it.
+
+Consequences: Updated the ISP, Scope and Context, BCP, DPA, Access Control, Retention, IRP, and the company brief to match.
+
+---
+
+**Changed "customer-managed keys" to "customer-held keys."**
+
+Context: I used "customer-managed keys" everywhere. Checked how the industry uses it. At AWS and Google it means the customer controls the key but the provider's systems can still decrypt the data.
+
+Decision: Switched to "customer-held keys" across every document and the site. Dropped "client-side" too.
+
+Rationale: The old term promised less than Fenn does. Anyone who knows the industry meaning would read Fenn's claim as weaker than it is.
+
+Consequences: Added a definition of customer-held keys to the ISP and DPA.
+
+---
+
+**Published Risk Register v1.1.**
+
+Context: The external review found three problems. RR-011, customers losing their keys, was rated likelihood 1. Some residual impact scores dropped even though the controls only made the risks less likely. And nothing showed owners accepting the risk left after treatment.
+
+Decision: Re-rated RR-011 to High and added the recovery key and optional co-owner as controls. Kept impact the same before and after controls. Added a risk acceptance section using the methodology's rules. Found three more risks while writing the data flow document: connected services, forecast data, and a substituted key. Removed two RR-010 controls for documents I haven't written yet.
+
+Rationale: Someone losing their keys across 1,000 farms is close to certain. The controls only lower the odds, so impact shouldn't drop. ISO 27001 Clause 6.1.3 requires owners to accept residual risk.
+
+Consequences: RR-011 is still High after controls, so the CEO accepts it. Checked every Annex A mapping against the ISO text.
+
+---
+
+**Recorded earlier changes in revision histories.**
+
+Context: The external review also flagged that the register's ID changed in August with no new version. I'd logged my August and October changes here but didn't think they were big enough for a revision row in any of the documents.
+
+Decision: Added one line to each document's 1.1 row covering the earlier changes. Gave the sub-processor list a revision history and moved the complaints procedure to 1.1. Formatting changes don't get a row.
+
+Rationale: Once a document is published any change to what it says gets a revision row. Didn't backdate rows to August because the record should show when I logged it.
+
+Consequences: Every revision history now matches this build log.
+
+---
+
+**Updated the landing page to match the documents.**
+
+Context: After writing the data flow document, some landing page claims didn't hold up. A stat counted down to "0 records kept on our servers" but Fenn stores encrypted records. Step one said "opt out" but every extra feature is opt-in, and that's not the same thing. And the access log commitment wasn't something a farmer would care about.
+
+Decision: Changed the stat to "0 farm records sold" and "opt out" to "opt in." Replaced the access log commitment with "Made for generations," about sharing keys with someone you trust. Swapped Access Control for Data Flow and Architecture on the landing page.
+
+Rationale: In my experience farming has very low turnover. It's not retail. Many farms are inherited and run in close-knit communities. I'd think losing access matters more to a farmer than who signed in. Put Data Flow on the landing page because "where does my data go?" is the first thing a customer would ask.
+
+Consequences: Every claim on the landing page is now something I think farmers would actually care about.
+
+---
+
 ## 2026-10-11: Law Changes
 
 **Updated the docs after two UK law changes.**
