@@ -23,6 +23,7 @@ All deliverables are original work. Fenn Agritech is not based on any real organ
 - [`risk-register.md`](risk-register.md) - The identified risks, their scoring, treatment decisions, and owners
 - [`scope-and-context.md`](scope-and-context.md) - The boundary, context, and interested parties of Fenn's ISMS
 - [`data-protection-complaints-procedure.md`](data-protection-complaints-procedure.md) - How Fenn receives and responds to data protection complaints
+- [`data-flow-and-architecture.md`](data-flow-and-architecture.md) - Where customer data goes and who can read it at each step
 
 New documents are published here as they are completed. The live site lists all documents, including those in development.
 
