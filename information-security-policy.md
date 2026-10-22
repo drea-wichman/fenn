@@ -1,9 +1,9 @@
 ---
 title: Information Security Policy
 document_id: FENN-POL-002
-version: "1.0"
+version: "1.1"
 effective_date: 2026-05-20
-last_reviewed: 2026-05-20
+last_reviewed: 2026-10-22
 next_review: 2027-05-20
 owner: Head of Security
 approver: CEO
@@ -33,7 +33,7 @@ This policy sits at the top of Fenn's information security policy hierarchy; all
 
 This policy applies to all Fenn employees, contractors, and third parties with access to Fenn systems, information, and facilities. It covers all information Fenn holds or processes, the systems and applications used to deliver the Fenn platform, internal tools and corporate systems, and the people and processes that support them.
 
-Customer data processed through the Fenn platform is encrypted with customer-managed keys. Fenn has no technical ability to access customer data in plaintext. The security of customer-side controls, including customer account management and customer key management, is the responsibility of the customer and falls outside the boundary of Fenn's ISMS. This policy governs Fenn's own systems, people, and handling of information; it does not govern actions taken by customers within their own accounts.
+Farm operational data is encrypted with customer-managed keys, and Fenn cannot access it in plaintext, with limited exceptions set out in the Data Flow and Architecture document. The security of customer-side controls, including customer account management and customer key management, is the responsibility of the customer and falls outside the boundary of Fenn's ISMS. This policy governs Fenn's own systems, people, and handling of information; it does not govern actions taken by customers within their own accounts.
 
 ## 3. Definitions
 
@@ -41,7 +41,7 @@ Customer data processed through the Fenn platform is encrypted with customer-man
 
 **Information asset:** Any information or system that has value to Fenn and requires protection, including customer data, business data, source code, credentials, and the systems that store or process them.
 
-**Customer data:** Data uploaded to or generated within the Fenn platform by a customer. Customer data is encrypted with customer-managed keys and cannot be accessed by Fenn in plaintext.
+**Customer data:** Data uploaded to or generated within the Fenn platform by a customer.
 
 ## 4. Policy Statements
 
@@ -63,7 +63,7 @@ Access to Fenn systems, applications, and data is granted on the principle of le
 
 ### 4.4 Cryptography
 
-Fenn protects information using strong, industry-standard cryptography. Customer data is encrypted with customer-managed keys, and Fenn does not hold the means to decrypt it. Cryptographic controls are reviewed as standards and threats evolve.
+Fenn protects information using strong, industry-standard cryptography. Farm operational data is encrypted with customer-managed keys, and Fenn does not hold the keys. Cryptographic controls are reviewed as standards and threats evolve.
 
 ### 4.5 Supplier and Third-Party Security
 
@@ -121,3 +121,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-05-20 | Jack Lowe, Head of Security | Initial version. Establishes Fenn's top-level information security policy and ISMS commitment. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Narrowed the encryption statements to farm operational data and referenced the exceptions in the Data Flow and Architecture document. |

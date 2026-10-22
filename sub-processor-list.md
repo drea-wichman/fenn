@@ -4,7 +4,7 @@ Fenn engages the following sub-processors to process customer personal data. Bef
 
 This list is incorporated by reference into the Fenn Data Processing Agreement.
 
-**Last updated:** 14 May 2026
+**Last updated:** 22 October 2026
 
 | Sub-processor | Purpose | Location |
 |---|---|---|
@@ -13,6 +13,8 @@ This list is incorporated by reference into the Fenn Data Processing Agreement.
 | Stripe Payments UK Ltd | Payment processing | United Kingdom |
 | Functional Software, Inc. (Sentry) | Application error monitoring | European Union (Frankfurt) |
 | Not Just Tickets Ltd (Plain) | Customer support | United Kingdom |
+| Met Office | Weather data for yield forecasting | United Kingdom |
+| Wasabi Technologies, Inc. | Independent immutable backup copy | United Kingdom (London) |
 
 ## Notification of changes
 

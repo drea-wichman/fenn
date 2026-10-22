@@ -34,6 +34,8 @@ Processor implements appropriate technical and organizational measures to protec
 
 Farm operational data is encrypted on the customer's device with customer-managed keys before it reaches Processor's systems. Processor stores only ciphertext and has no technical means to decrypt or access this data without the customer's explicit authorization.
 
+Where Controller connects a third-party service, that service sends data to Processor's systems, which encrypt it with Controller's keys on arrival and retain only the encrypted copy. Where Controller enables yield forecasting, Processor's servers process the data the feature requires in readable form while it runs and delete it when the forecast completes. Processor's staff are not permitted to access that data. Processor does not use Controller's data to train models. Error reports sent to Processor's error-monitoring sub-processor exclude farm operational data.
+
 Account data, including names, login credentials, and contact details, is processed in plaintext as required to operate the Services, including authentication, account recovery, billing, and support.
 
 Processor's broader security measures are documented in its Information Security Policy and Access Control Policy, and include risk-based access control, multi-factor authentication, encryption, supplier security assessment, and incident management. These measures are reviewed and updated as standards and threats evolve.
@@ -92,7 +94,7 @@ This DPA is governed by the laws of England and Wales. The parties submit to the
 
 **Duration:** For the term of the customer's contract, plus the retention periods set out in the Return and Deletion of Data on Termination section above.
 
-**Nature and purpose of processing:** Account management, authentication, billing, support, and operation of field management, compliance record-keeping, and sustainability reporting features.
+**Nature and purpose of processing:** Account management, authentication, billing, support, and operation of field management, compliance record-keeping, and sustainability reporting features, including collection of data from services Controller connects, and yield forecasting where Controller enables it.
 
 **Categories of data subjects:**
 
@@ -101,14 +103,15 @@ This DPA is governed by the laws of England and Wales. The parties submit to the
 
 **Categories of personal data:**
 
-- Account data: names, email addresses, login credentials, role and contact details
+- Account data: names, email addresses, login credentials, and contact details
 - Billing data: invoicing and payment contact details
 - Farm operational data: any personal data Controller includes in field, crop, or compliance records, encrypted with customer-managed keys and inaccessible to Processor
 
-**Special category data:** Personal data within farm operational data is encrypted on Controller's device with Controller-managed keys before it reaches Processor. Processor has no technical means to access, view, or categorize this data, including any special category data Controller may choose to include. Controller is responsible for ensuring its own use of the Services complies with the additional requirements that apply to special category data under UK GDPR.
+**Special category data:** Personal data within farm operational data is encrypted on Controller's device with Controller-managed keys before it reaches Processor. Outside the opt-in features described in Security Measures, Processor has no technical means to access, view, or categorize this data, including any special category data Controller may choose to include. Controller is responsible for ensuring its own use of the Services complies with the additional requirements that apply to special category data under UK GDPR.
 
 ## Revision History
 
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-06-15 | Jack Lowe, Head of Security | Initial Data Processing Agreement. Governs processing of personal data by Fenn on behalf of customer controllers. Incorporates client-side encryption architecture, sub-processor disclosure, and UK GDPR Article 28 compliance. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Set out the processing Controller authorizes for connected services and yield forecasting, added commitments on staff access, model training, and error reports, removed role from account data, and updated Annex 1 to match. |

@@ -14,7 +14,7 @@ Fenn was founded in 2019 by Zoe Cooper-Hartley (CEO) and Cian Kelly (CTO). Zoe b
 
 ## Product
 
-Fenn's platform integrates field operations tracking, compliance record-keeping, sustainability reporting, weather and soil sensor integration, and AI-driven yield forecasting. The product is delivered through web and mobile applications, with in-cab equipment display integration via direct API integrations to the major UK farm equipment manufacturer cloud platforms (John Deere Operations Center, Case IH AFS Connect, AGCO Fuse, CLAAS Telematics) and ISOBUS-compatible in-cab terminals.
+Fenn's platform integrates field operations tracking, compliance record-keeping, sustainability reporting, weather and soil sensor integration, accounting and drone survey integration, and AI-driven yield forecasting. The product is delivered through web and mobile applications, with in-cab equipment display integration via direct API integrations to the major UK farm equipment manufacturer cloud platforms (John Deere Operations Center, CNH FieldOps for Case IH and New Holland, AGCO FarmENGAGE, CLAAS connect) and ISOBUS-compatible in-cab terminals.
 
 ## Customers
 
@@ -22,7 +22,7 @@ Fenn serves approximately 1,000 UK crop farms. Fenn's software is designed to be
 
 ## Technology and Vendors
 
-Fenn's production infrastructure runs on Amazon Web Services in the London region. Customer data is protected through client-side encryption with customer-managed keys, ensuring farm data remains inaccessible to Fenn and its infrastructure providers without explicit customer authorization. Internal collaboration is standardized on Proton (email, file storage, calendar, password management) for end-to-end encrypted employee communications.
+Fenn's production infrastructure runs on Amazon Web Services in the London region. Farm data is protected through client-side encryption with customer-managed keys, ensuring farm data remains inaccessible to Fenn and its infrastructure providers without explicit customer authorization. Internal collaboration is standardized on Proton (email, file storage, calendar, password management) for end-to-end encrypted employee communications.
 
 ## Regulatory Posture
 

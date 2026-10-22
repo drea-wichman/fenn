@@ -1,9 +1,9 @@
 ---
 title: Scope and Context
 document_id: FENN-SCP-001
-version: "1.0"
+version: "1.1"
 effective_date: 2026-08-25
-last_reviewed: 2026-08-25
+last_reviewed: 2026-10-22
 next_review: 2027-08-25
 owner: Head of Security
 approver: CEO
@@ -47,7 +47,7 @@ Fenn has determined the internal and external issues relevant to its information
 | Issue | Relevance to information security | Type |
 |---|---|---|
 | UK data protection law (UK GDPR and Data Protection Act 2018, as amended by the Data (Use and Access) Act 2025), regulated by the ICO | Sets Fenn's obligations as controller and processor; ongoing reform means compliance requirements continue to evolve | Risk |
-| Privacy-first market position built on client-side encryption and customer-managed keys | Commits Fenn to holding no ability to read customer data, defining the ISMS boundary | Opportunity |
+| Privacy-first market position built on client-side encryption and customer-managed keys | Commits Fenn to holding no ability to read farm operational data, defining the ISMS boundary | Opportunity |
 | Regulatory drivers in agriculture (Agriculture Act 2020, Defra digital record-keeping) | Customers rely on Fenn for compliance records they must legally keep, raising availability and integrity stakes | Risk |
 | Dependence on AWS (single UK region) and third-party equipment-manufacturer APIs | Concentrates operational risk in few providers and constrains disaster recovery to the UK | Risk |
 | Climate change | Extreme weather threatens the physical resilience of infrastructure Fenn depends on, addressed through AWS infrastructure controls and the Business Continuity Plan | Risk |
@@ -56,7 +56,7 @@ Fenn has determined the internal and external issues relevant to its information
 
 | Issue | Relevance to information security | Type |
 |---|---|---|
-| Zero-access architecture (customer data encrypted with customer-managed keys before it reaches Fenn) | Removes Fenn's ability to access customer data in plaintext, setting the boundary of what Fenn can protect and recover | Opportunity |
+| Zero-access architecture by default (farm operational data encrypted with customer-managed keys) | Removes Fenn's ability to access farm operational data in plaintext, setting the boundary of what Fenn can protect and recover | Opportunity |
 | Series B stage (closed October 2025) and rapid organizational growth | Growth can outpace security process maturity, increasing the risk of informal or inconsistent controls | Risk |
 | Concentrated internal tooling (Proton) | Simplifies oversight but increases reliance on a single provider for email, calendar, file storage, and password management | Risk |
 | Prior sub-processor credential exposure (November 2024) | Shapes Fenn's emphasis on vendor risk management and access control | Risk |
@@ -89,7 +89,7 @@ The ISMS applies to the development, operation, and support of the Fenn platform
 
 **Out of scope**
 
-- Customer-side controls, including customer account management and customer key management. Farm operational data is encrypted with customer-managed keys before it reaches Fenn, and Fenn has no technical ability to access it in plaintext. Security of the customer's own environment and key management is the responsibility of the customer.
+- Customer-side controls, including customer account management and customer key management. Farm operational data is encrypted with customer-managed keys, and Fenn cannot access it in plaintext, except for data from connected services as it arrives and data sent to opt-in features such as yield forecasting. The Data Flow and Architecture document sets out each exception. Security of the customer's own environment and key management is the responsibility of the customer.
 - The internal operations of third-party providers and sub-processors. Fenn manages these as interfaces and dependencies through its Vendor Risk Management Policy, but the providers' own internal security controls fall outside Fenn's ISMS.
 
 **Boundaries and dependencies**
@@ -127,3 +127,4 @@ This document is reviewed annually, and after any significant change to Fenn's s
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-08-25 | Jack Lowe, Head of Security | Initial version. Establishes the context, interested parties, and scope of Fenn's ISMS in line with ISO 27001:2022 Clause 4. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Narrowed the encryption statements to farm operational data, described the architecture as zero-access by default, and named the exceptions set out in the Data Flow and Architecture document. |
