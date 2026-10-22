@@ -127,4 +127,4 @@ This document is reviewed annually, and after any significant change to Fenn's s
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-08-25 | Jack Lowe, Head of Security | Initial version. Establishes the context, interested parties, and scope of Fenn's ISMS in line with ISO 27001:2022 Clause 4. |
-| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Narrowed the encryption statements to farm operational data, described the architecture as zero-access by default, and named the exceptions set out in the Data Flow and Architecture document. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Clarified the scope of encryption. |

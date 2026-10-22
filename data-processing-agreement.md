@@ -114,4 +114,4 @@ This DPA is governed by the laws of England and Wales. The parties submit to the
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-06-15 | Jack Lowe, Head of Security | Initial Data Processing Agreement. Governs processing of personal data by Fenn on behalf of customer controllers. Incorporates client-side encryption architecture, sub-processor disclosure, and UK GDPR Article 28 compliance. |
-| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Set out the processing Controller authorizes for connected services and yield forecasting, added commitments on staff access, model training, and error reports, removed role from account data, and updated Annex 1 to match. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added terms for connected services, yield forecasting, and error reports. |
