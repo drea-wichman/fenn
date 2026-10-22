@@ -25,3 +25,10 @@ Customers may object in writing to a new sub-processor within 30 days of notific
 ## Contact
 
 privacy@fennagritech.io
+
+## Revision History
+
+| Version | Date | Author | Description |
+|---|---|---|---|
+| 1.0 | 2026-05-14 | Jack Lowe, Head of Security | Initial list. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added the Met Office and Wasabi. Includes earlier corrections to Plain's legal entity and location, and the contact address. |

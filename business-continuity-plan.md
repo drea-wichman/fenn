@@ -178,4 +178,4 @@ Fenn also reviews the plan after any activation, after a significant change to i
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-06-10 | Jack Lowe, Head of Security | Initial plan. Establishes critical business functions, recovery targets, and continuity procedures aligned with ISO 27001:2022. |
-| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Clarified backup encryption and key recovery. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Clarified backup encryption and key recovery. Includes the August 2026 document ID change from FENN-POL-006 and earlier corrections to references and wording. |

@@ -1,9 +1,9 @@
 ---
 title: Risk Assessment and Treatment Methodology
 document_id: FENN-RSK-001
-version: "1.0"
+version: "1.1"
 effective_date: 2026-07-01
-last_reviewed: 2026-07-01
+last_reviewed: 2026-10-22
 next_review: 2027-07-01
 owner: Head of Security
 approver: CEO
@@ -82,3 +82,10 @@ This methodology is reviewed annually. An out-of-cycle review is triggered by si
 - FENN-PLN-002: Business Continuity Plan
 - FENN-RSK-002: Risk Register
 - FENN-SCP-001: Scope and Context
+
+## 10. Revision History
+
+| Version | Date | Author | Description |
+|---|---|---|---|
+| 1.0 | 2026-07-01 | Jack Lowe, Head of Security | Initial methodology. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Records the August 2026 document ID change from FENN-POL-007 and earlier corrections to references and wording. |

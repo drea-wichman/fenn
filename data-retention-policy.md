@@ -126,4 +126,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-06-07 | Jack Lowe, Head of Security | Initial policy. Establishes data retention schedule and deletion procedures aligned with ISO 27001:2022. |
-| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added retention for edit history, forecast inputs, and connected-service data. Updated key terminology. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added retention for edit history, forecast inputs, and connected-service data. Updated key terminology. Includes the August 2026 document ID change from FENN-POL-005 and earlier corrections to references and wording. |

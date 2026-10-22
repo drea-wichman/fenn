@@ -131,4 +131,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-05-20 | Jack Lowe, Head of Security | Initial formal policy. Codifies existing practices aligned with ISO 27001:2022. |
-| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added the restriction on staff access to data processed for opt-in features. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added the restriction on staff access to data processed for opt-in features. Includes earlier corrections to references and wording. |

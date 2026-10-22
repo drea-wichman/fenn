@@ -91,4 +91,4 @@ This register is reviewed annually by the Head of Security. An out-of-cycle revi
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-07-01 | Jack Lowe, Head of Security | Initial register. |
-| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Re-rated RR-011, corrected residual impact scores, added risk acceptance, and added RR-015 to RR-017. Includes earlier corrections to the RR-011 classification and document ID. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Re-rated RR-011, corrected residual impact scores, added risk acceptance, and added RR-015 to RR-017. Includes earlier corrections to the RR-011 classification, document ID, references, and wording. |

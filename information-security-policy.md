@@ -124,4 +124,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-05-20 | Jack Lowe, Head of Security | Initial version. Establishes Fenn's top-level information security policy and ISMS commitment. |
-| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Clarified the scope of encryption. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Clarified the scope of encryption. Includes earlier corrections to references and wording. |

@@ -213,4 +213,4 @@ Exceptions to this plan may be granted in writing by the Head of Security. Each 
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-05-30 | Jack Lowe, Head of Security | Initial plan. Establishes incident response procedures aligned with ISO 27001:2022. |
-| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Updated key terminology. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Updated key terminology. Includes the August 2026 document ID change from FENN-POL-003 and earlier corrections to references and wording. |

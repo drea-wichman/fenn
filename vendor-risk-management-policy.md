@@ -1,9 +1,9 @@
 ---
 title: Vendor Risk Management Policy
 document_id: FENN-POL-003
-version: "1.0"
+version: "1.1"
 effective_date: 2026-05-30
-last_reviewed: 2026-05-30
+last_reviewed: 2026-10-22
 next_review: 2027-05-30
 owner: Head of Security
 approver: CTO
@@ -126,3 +126,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-05-30 | Jack Lowe, Head of Security | Initial policy. Establishes vendor risk management procedures aligned with ISO 27001:2022. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Records the August 2026 document ID change from FENN-POL-004 and earlier corrections to references and wording. |
