@@ -33,7 +33,7 @@ This policy sits at the top of Fenn's information security policy hierarchy; all
 
 This policy applies to all Fenn employees, contractors, and third parties with access to Fenn systems, information, and facilities. It covers all information Fenn holds or processes, the systems and applications used to deliver the Fenn platform, internal tools and corporate systems, and the people and processes that support them.
 
-Farm operational data is encrypted with customer-managed keys, and Fenn cannot access it in plaintext, with limited exceptions set out in the Data Flow and Architecture document. The security of customer-side controls, including customer account management and customer key management, is the responsibility of the customer and falls outside the boundary of Fenn's ISMS. This policy governs Fenn's own systems, people, and handling of information; it does not govern actions taken by customers within their own accounts.
+Farm operational data is encrypted with customer-held keys, and Fenn cannot access it in plaintext, with limited exceptions set out in the Data Flow and Architecture document. The security of customer-side controls, including customer account management and customer key management, is the responsibility of the customer and falls outside the boundary of Fenn's ISMS. This policy governs Fenn's own systems, people, and handling of information; it does not govern actions taken by customers within their own accounts.
 
 ## 3. Definitions
 
@@ -42,6 +42,8 @@ Farm operational data is encrypted with customer-managed keys, and Fenn cannot a
 **Information asset:** Any information or system that has value to Fenn and requires protection, including customer data, business data, source code, credentials, and the systems that store or process them.
 
 **Customer data:** Data uploaded to or generated within the Fenn platform by a customer.
+
+**Customer-held keys:** Encryption keys held only by the customer. Fenn has no access to them.
 
 ## 4. Policy Statements
 
@@ -63,7 +65,7 @@ Access to Fenn systems, applications, and data is granted on the principle of le
 
 ### 4.4 Cryptography
 
-Fenn protects information using strong, industry-standard cryptography. Farm operational data is encrypted with customer-managed keys, and Fenn does not hold the keys. Cryptographic controls are reviewed as standards and threats evolve.
+Fenn protects information using strong, industry-standard cryptography. Farm operational data is encrypted with customer-held keys, and Fenn does not hold the keys. Cryptographic controls are reviewed as standards and threats evolve.
 
 ### 4.5 Supplier and Third-Party Security
 

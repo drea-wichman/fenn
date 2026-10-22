@@ -20,7 +20,7 @@ framework_mapping:
 
 ## 1. Purpose
 
-This plan defines how Fenn keeps its critical business functions running, or recovers them, during a disruption. It sets a recovery target for each critical function, describes how Fenn meets those targets, and assigns responsibility for activating and directing the response. Fenn recovers customer data within the United Kingdom, with farm operational data restored as ciphertext under customer-managed keys, so continuity does not come at the cost of data residency or confidentiality.
+This plan defines how Fenn keeps its critical business functions running, or recovers them, during a disruption. It sets a recovery target for each critical function, describes how Fenn meets those targets, and assigns responsibility for activating and directing the response. Fenn recovers customer data within the United Kingdom, with farm operational data restored as ciphertext under customer-held keys, so continuity does not come at the cost of data residency or confidentiality.
 
 ## 2. Scope
 
@@ -58,7 +58,7 @@ The Business Impact Analysis identifies Fenn's critical business functions, sets
 | Function | Key dependencies |
 |---|---|
 | Platform availability | AWS London, JumpCloud, the customer data store |
-| Customer data store and backups | AWS storage, the backup system, customer-managed keys |
+| Customer data store and backups | AWS storage, the backup system, customer-held keys |
 | Data capture | Equipment manufacturer platforms, weather services, field sensors, AWS |
 | Authentication | JumpCloud |
 | Customer support and incident communication | Plain, the independently hosted status page, AWS SES |
@@ -66,7 +66,7 @@ The Business Impact Analysis identifies Fenn's critical business functions, sets
 
 Several critical functions depend on third parties, including AWS, JumpCloud, the equipment manufacturer platforms, Plain, and Stripe. Fenn's recovery time for those functions is therefore bound in part by the recovery of the provider, not by Fenn alone. Vendor obligations and service levels are governed by the Vendor Risk Management Policy (FENN-POL-003).
 
-One dependency lies outside Fenn's recovery entirely: the customer's encryption key. Because Fenn holds farm operational data only as ciphertext, a customer who loses their keys, and has no recovery key or co-owner, cannot have their farm data restored by Fenn. This is a direct consequence of the customer-managed-key architecture and sets a boundary on what Fenn can recover.
+One dependency lies outside Fenn's recovery entirely: the customer's encryption key. Because Fenn holds farm operational data only as ciphertext, a customer who loses their keys, and has no recovery key or co-owner, cannot have their farm data restored by Fenn. This is a direct consequence of the customer-held-key architecture and sets a boundary on what Fenn can recover.
 
 **Impact**
 
@@ -90,7 +90,7 @@ Fenn does not fail over outside the United Kingdom. AWS operates a single UK reg
 
 Fenn retains backups on a rolling 30-day cycle, consistent with the Data Retention Policy. Continuous backup with point-in-time recovery meets a one-hour recovery point objective for the primary store, so the maximum data loss in a normal restore is the most recent hour.
 
-Farm operational data in backups is ciphertext under customer-managed keys, so Fenn cannot read it and a compromise of a backup store does not expose it. Account data in backups is held in the same readable form as in production. Fenn holds backups in the AWS London region and in a second, independent UK location with a separate provider. The independent copy is written with object-lock immutability, so it cannot be altered or deleted from Fenn's production environment, which protects it against both a regional outage and a ransomware event. The independent copy is refreshed daily, so recovery from it carries a recovery point objective of 24 hours. Captured data backfills from source on recovery, which reduces the data actually lost in that scenario.
+Farm operational data in backups is ciphertext under customer-held keys, so Fenn cannot read it and a compromise of a backup store does not expose it. Account data in backups is held in the same readable form as in production. Fenn holds backups in the AWS London region and in a second, independent UK location with a separate provider. The independent copy is written with object-lock immutability, so it cannot be altered or deleted from Fenn's production environment, which protects it against both a regional outage and a ransomware event. The independent copy is refreshed daily, so recovery from it carries a recovery point objective of 24 hours. Captured data backfills from source on recovery, which reduces the data actually lost in that scenario.
 
 **Data capture**
 
@@ -106,7 +106,7 @@ Fenn hosts its status page independently of its production infrastructure, so it
 
 **Security during recovery**
 
-Security controls stay in force during recovery. Farm operational data in backups remains encrypted under customer-managed keys, and the break-glass administrative account is used only when JumpCloud is unavailable. Where the disruption is also a security incident, the Incident Response Plan governs, and systems return to production only after the Incident Commander confirms eradication is complete (FENN-PLN-001).
+Security controls stay in force during recovery. Farm operational data in backups remains encrypted under customer-held keys, and the break-glass administrative account is used only when JumpCloud is unavailable. Where the disruption is also a security incident, the Incident Response Plan governs, and systems return to production only after the Incident Commander confirms eradication is complete (FENN-PLN-001).
 
 ## 6. Activation and Roles
 

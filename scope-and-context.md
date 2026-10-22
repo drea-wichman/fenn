@@ -47,7 +47,7 @@ Fenn has determined the internal and external issues relevant to its information
 | Issue | Relevance to information security | Type |
 |---|---|---|
 | UK data protection law (UK GDPR and Data Protection Act 2018, as amended by the Data (Use and Access) Act 2025), regulated by the ICO | Sets Fenn's obligations as controller and processor; ongoing reform means compliance requirements continue to evolve | Risk |
-| Privacy-first market position built on client-side encryption and customer-managed keys | Commits Fenn to holding no ability to read farm operational data, defining the ISMS boundary | Opportunity |
+| Privacy-first market position built on encryption with customer-held keys | Commits Fenn to holding no ability to read farm operational data, defining the ISMS boundary | Opportunity |
 | Regulatory drivers in agriculture (Agriculture Act 2020, Defra digital record-keeping) | Customers rely on Fenn for compliance records they must legally keep, raising availability and integrity stakes | Risk |
 | Dependence on AWS (single UK region) and third-party equipment-manufacturer APIs | Concentrates operational risk in few providers and constrains disaster recovery to the UK | Risk |
 | Climate change | Extreme weather threatens the physical resilience of infrastructure Fenn depends on, addressed through AWS infrastructure controls and the Business Continuity Plan | Risk |
@@ -56,7 +56,7 @@ Fenn has determined the internal and external issues relevant to its information
 
 | Issue | Relevance to information security | Type |
 |---|---|---|
-| Zero-access architecture by default (farm operational data encrypted with customer-managed keys) | Removes Fenn's ability to access farm operational data in plaintext, setting the boundary of what Fenn can protect and recover | Opportunity |
+| Zero-access architecture by default (farm operational data encrypted with customer-held keys) | Removes Fenn's ability to access farm operational data in plaintext, setting the boundary of what Fenn can protect and recover | Opportunity |
 | Series B stage (closed October 2025) and rapid organizational growth | Growth can outpace security process maturity, increasing the risk of informal or inconsistent controls | Risk |
 | Concentrated internal tooling (Proton) | Simplifies oversight but increases reliance on a single provider for email, calendar, file storage, and password management | Risk |
 | Prior sub-processor credential exposure (November 2024) | Shapes Fenn's emphasis on vendor risk management and access control | Risk |
@@ -67,7 +67,7 @@ Fenn has identified the interested parties relevant to its information security 
 
 | Interested party | Requirements relevant to information security | Addressed through the ISMS |
 |---|---|---|
-| Customers (crop farms in England and Wales) | Confidentiality and integrity of farm operational data; data sovereignty through customer-managed keys; availability of the platform during key periods in the farming calendar; support for their own data protection obligations | Addressed through the Information Security Policy (Cryptography), the Access Control Policy, the Business Continuity Plan, and the Data Processing Agreement. |
+| Customers (crop farms in England and Wales) | Confidentiality and integrity of farm operational data; data sovereignty through customer-held keys; availability of the platform during key periods in the farming calendar; support for their own data protection obligations | Addressed through the Information Security Policy (Cryptography), the Access Control Policy, the Business Continuity Plan, and the Data Processing Agreement. |
 | Information Commission (ICO) | Compliance with UK GDPR and the Data Protection Act 2018, as amended by the Data (Use and Access) Act 2025; lawful processing; breach notification within statutory timeframes; a complaints procedure accessible to data subjects | Addressed through the Information Security Policy, the Incident Response Plan, the Data Retention Policy, and the Data Protection Complaints Procedure. |
 | Employees and contractors | Protection of their personal and employment data; clear security responsibilities; a safe and lawful working environment | Addressed through the Information Security Policy, the Access Control Policy, and the Data Retention Policy. |
 | Sub-processors and suppliers | Clear contractual security and data protection obligations; defined processing instructions; incident notification arrangements | Addressed through the Vendor Risk Management Policy, the Data Processing Agreement, and the Sub-processor List. |
@@ -89,7 +89,7 @@ The ISMS applies to the development, operation, and support of the Fenn platform
 
 **Out of scope**
 
-- Customer-side controls, including customer account management and customer key management. Farm operational data is encrypted with customer-managed keys, and Fenn cannot access it in plaintext, except for data from connected services as it arrives and data sent to opt-in features such as yield forecasting. The Data Flow and Architecture document sets out each exception. Security of the customer's own environment and key management is the responsibility of the customer.
+- Customer-side controls, including customer account management and customer key management. Farm operational data is encrypted with customer-held keys, and Fenn cannot access it in plaintext, except for data from connected services as it arrives and data sent to opt-in features such as yield forecasting. The Data Flow and Architecture document sets out each exception. Security of the customer's own environment and key management is the responsibility of the customer.
 - The internal operations of third-party providers and sub-processors. Fenn manages these as interfaces and dependencies through its Vendor Risk Management Policy, but the providers' own internal security controls fall outside Fenn's ISMS.
 
 **Boundaries and dependencies**

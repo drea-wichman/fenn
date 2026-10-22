@@ -1,9 +1,9 @@
 ---
 title: Incident Response Plan
 document_id: FENN-PLN-001
-version: "1.0"
+version: "1.1"
 effective_date: 2026-05-30
-last_reviewed: 2026-05-30
+last_reviewed: 2026-10-22
 next_review: 2027-05-30
 owner: Head of Security
 approver: CTO
@@ -175,7 +175,7 @@ ICO notifications must include, as required by Article 33(3):
 
 Where information is not yet available at the time of notification, it is provided in phases as the investigation develops.
 
-**Data subject notification.** Where Fenn is the controller and a breach is likely to result in a high risk to the rights and freedoms of affected individuals, Fenn notifies those individuals directly and without undue delay. The notification describes the nature of the breach, the likely consequences, the measures Fenn has taken in response, and a contact point for further information. Where customer data encrypted with customer-managed keys is involved, the Article 34(3)(a) exemption may apply if the encryption renders the data unintelligible to any unauthorized party. External legal counsel advises on this assessment.
+**Data subject notification.** Where Fenn is the controller and a breach is likely to result in a high risk to the rights and freedoms of affected individuals, Fenn notifies those individuals directly and without undue delay. The notification describes the nature of the breach, the likely consequences, the measures Fenn has taken in response, and a contact point for further information. Where farm operational data encrypted with customer-held keys is involved, the Article 34(3)(a) exemption may apply if the encryption renders the data unintelligible to any unauthorized party. External legal counsel advises on this assessment.
 
 **External communications.** External communications beyond regulatory and data subject notification are authorized by the CEO.
 
@@ -213,3 +213,4 @@ Exceptions to this plan may be granted in writing by the Head of Security. Each 
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-05-30 | Jack Lowe, Head of Security | Initial plan. Establishes incident response procedures aligned with ISO 27001:2022. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Updated key terminology. |

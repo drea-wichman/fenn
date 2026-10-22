@@ -1,9 +1,9 @@
 ---
 title: Data Retention Policy
 document_id: FENN-POL-004
-version: "1.0"
+version: "1.1"
 effective_date: 2026-06-07
-last_reviewed: 2026-06-07
+last_reviewed: 2026-10-22
 next_review: 2027-06-07
 owner: Head of Security
 approver: CTO
@@ -36,7 +36,7 @@ This policy applies to all data Fenn processes, in all systems and storage locat
 
 **Anonymization:** Irreversible removal of all information that identifies, or could identify, an individual, such that the remaining data is no longer personal data.
 
-**Client-side encrypted data:** Farm operational data encrypted on the customer's device with customer-managed keys before it reaches Fenn. Fenn stores only ciphertext and cannot read it. Deletion of this data means deletion of the ciphertext Fenn holds.
+**Encrypted farm operational data:** Farm operational data encrypted with customer-held keys, on the customer's device or, for data from connected services, on arrival at Fenn's servers. Fenn stores only ciphertext and cannot read it. Deletion of this data means deletion of the ciphertext Fenn holds.
 
 ## 4. Retention Schedule
 
@@ -47,7 +47,10 @@ Fenn retains each category of data for no longer than the period below. Periods 
 | Data category | Retention period | Trigger | Basis |
 |---|---|---|---|
 | Customer account & user profile (contacts, logins) | Contract term + 60 days | Contract end | Standard |
-| Farm operational data (field, crop, compliance, sustainability records, client-side encrypted) | Contract term + 60-day export window, then deleted | Cancellation | Standard |
+| Farm operational data (field, crop, compliance, sustainability records, encrypted with customer-held keys) | Contract term + 60-day export window, then deleted | Cancellation | Standard |
+| Edit history (previous versions of farm records, encrypted with customer-held keys) | Same as farm operational data | Cancellation | Standard |
+| Data from connected services before encryption | Until encrypted on arrival | Arrival | Standard |
+| Forecast inputs (readable on Fenn's servers while yield forecasting runs) | Until the forecast completes, then deleted | Forecast completion | Standard |
 | Billing & invoice records | 6 years | Invoice date | Legal: HMRC (tax/VAT records, 6 years) |
 | Support tickets (Plain) | 24 months | Ticket close | Standard |
 
@@ -123,3 +126,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-06-07 | Jack Lowe, Head of Security | Initial policy. Establishes data retention schedule and deletion procedures aligned with ISO 27001:2022. |
+| 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added retention for edit history, forecast inputs, and connected-service data. Updated key terminology. |

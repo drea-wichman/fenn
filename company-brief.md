@@ -22,7 +22,7 @@ Fenn serves approximately 1,000 UK crop farms. Fenn's software is designed to be
 
 ## Technology and Vendors
 
-Fenn's production infrastructure runs on Amazon Web Services in the London region. Farm data is protected through client-side encryption with customer-managed keys, ensuring farm data remains inaccessible to Fenn and its infrastructure providers without explicit customer authorization. Internal collaboration is standardized on Proton (email, file storage, calendar, password management) for end-to-end encrypted employee communications.
+Fenn's production infrastructure runs on Amazon Web Services in the London region. Farm data is protected through encryption with customer-held keys, ensuring farm data remains inaccessible to Fenn and its infrastructure providers without explicit customer authorization. Internal collaboration is standardized on Proton (email, file storage, calendar, password management) for end-to-end encrypted employee communications.
 
 ## Regulatory Posture
 

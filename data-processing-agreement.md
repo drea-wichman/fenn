@@ -20,6 +20,8 @@ This DPA forms part of the subscription agreement between the parties ("the Agre
 
 **Security incident:** A confirmed or reasonably suspected breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to personal data.
 
+**Customer-held keys:** Encryption keys held only by Controller. Processor has no access to them.
+
 **Services:** The Fenn platform and related services provided under the Agreement.
 
 ## Processing Instructions
@@ -32,7 +34,7 @@ The subject matter, duration, nature, and purpose of processing, the types of pe
 
 Processor implements appropriate technical and organizational measures to protect personal data against accidental or unlawful destruction, loss, alteration, unauthorized disclosure, or access, in accordance with UK GDPR Article 32.
 
-Farm operational data is encrypted on the customer's device with customer-managed keys before it reaches Processor's systems. Processor stores only ciphertext and has no technical means to decrypt or access this data without the customer's explicit authorization.
+Farm operational data is encrypted on the customer's device with customer-held keys before it reaches Processor's systems. Processor stores only ciphertext and has no technical means to decrypt or access this data without the customer's explicit authorization.
 
 Where Controller connects a third-party service, that service sends data to Processor's systems, which encrypt it with Controller's keys on arrival and retain only the encrypted copy. Where Controller enables yield forecasting, Processor's servers process the data the feature requires in readable form while it runs and delete it when the forecast completes. Processor's staff are not permitted to access that data. Processor does not use Controller's data to train models. Error reports sent to Processor's error-monitoring sub-processor exclude farm operational data.
 
@@ -58,7 +60,7 @@ Processor assists Controller in responding to data subject requests under UK GDP
 
 Where a data subject submits a request directly to Processor concerning data processed on Controller's behalf, Processor shall promptly notify Controller and shall not respond directly to the data subject unless instructed to do so by Controller or required by law.
 
-Account data is held in plaintext and Processor can directly support access, correction, and deletion requests concerning it. Farm operational data is encrypted with customer-managed keys and is not accessible to Processor; Controller remains responsible for fulfilling data subject requests concerning this data.
+Account data is held in plaintext and Processor can directly support access, correction, and deletion requests concerning it. Farm operational data is encrypted with customer-held keys and is not accessible to Processor; Controller remains responsible for fulfilling data subject requests concerning this data.
 
 ## Breach Notification
 
@@ -105,9 +107,9 @@ This DPA is governed by the laws of England and Wales. The parties submit to the
 
 - Account data: names, email addresses, login credentials, and contact details
 - Billing data: invoicing and payment contact details
-- Farm operational data: any personal data Controller includes in field, crop, or compliance records, encrypted with customer-managed keys and inaccessible to Processor
+- Farm operational data: any personal data Controller includes in field, crop, or compliance records, encrypted with customer-held keys and inaccessible to Processor
 
-**Special category data:** Personal data within farm operational data is encrypted on Controller's device with Controller-managed keys before it reaches Processor. Outside the opt-in features described in Security Measures, Processor has no technical means to access, view, or categorize this data, including any special category data Controller may choose to include. Controller is responsible for ensuring its own use of the Services complies with the additional requirements that apply to special category data under UK GDPR.
+**Special category data:** Personal data within farm operational data is encrypted on Controller's device with Controller-held keys before it reaches Processor. Outside the opt-in features described in Security Measures, Processor has no technical means to access, view, or categorize this data, including any special category data Controller may choose to include. Controller is responsible for ensuring its own use of the Services complies with the additional requirements that apply to special category data under UK GDPR.
 
 ## Revision History
 
