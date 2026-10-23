@@ -1,9 +1,9 @@
 ---
 title: Risk Assessment and Treatment Methodology
 document_id: FENN-RSK-001
-version: "1.1"
+version: "1.2"
 effective_date: 2026-07-01
-last_reviewed: 2026-10-22
+last_reviewed: 2026-10-23
 next_review: 2027-07-01
 owner: Head of Security
 approver: CEO
@@ -64,7 +64,7 @@ All treatment decisions are recorded in the Risk Register. Selected controls are
 
 **Head of Security** owns this methodology, conducts risk assessments, and maintains the Risk Register. The Head of Security approves acceptance of Medium-rated risks.
 
-**CEO** approves risk treatment decisions and accepts residual risk. CEO approval is required before any High-rated risk is accepted without treatment.
+**CEO** approves risk treatment decisions and accepts High residual risk. CEO approval is required before any High-rated risk is accepted without treatment.
 
 **Risk owners** are responsible for risks within their area of operations, approving treatment plans for those risks, and accepting residual risk within their area. High residual risk escalates to the CEO for final acceptance.
 
@@ -89,3 +89,4 @@ This methodology is reviewed annually. An out-of-cycle review is triggered by si
 |---|---|---|---|
 | 1.0 | 2026-07-01 | Jack Lowe, Head of Security | Initial methodology. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Records the August 2026 document ID change from FENN-POL-007 and earlier corrections to references and wording. |
+| 1.2 | 2026-10-23 | Jack Lowe, Head of Security | Clarified who accepts residual risk. |

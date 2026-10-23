@@ -1,9 +1,9 @@
 ---
 title: Data Retention Policy
 document_id: FENN-POL-004
-version: "1.1"
+version: "1.2"
 effective_date: 2026-06-07
-last_reviewed: 2026-10-22
+last_reviewed: 2026-10-23
 next_review: 2027-06-07
 owner: Head of Security
 approver: CTO
@@ -30,7 +30,7 @@ This policy applies to all data Fenn processes, in all systems and storage locat
 
 **Retention period:** The maximum length of time a category of data is kept before it is deleted or anonymized.
 
-**Retention trigger:** The event that starts the retention clock (for example, contract end, invoice date, or incident close).
+**Retention trigger:** The event that starts the retention clock (for example, contract end, end of financial year, or incident close).
 
 **Deletion:** Permanent removal of data from production systems such that it cannot be recovered through normal operations. Data deleted from production persists in backups only until those backups age out of the rolling cycle defined in Section 5.
 
@@ -48,10 +48,10 @@ Fenn retains each category of data for no longer than the period below. Periods 
 |---|---|---|---|
 | Customer account & user profile (contacts, logins) | Contract term + 60 days | Contract end | Standard |
 | Farm operational data (field, crop, compliance, sustainability records, encrypted with customer-held keys) | Contract term + 60-day export window, then deleted | Cancellation | Standard |
-| Edit history (previous versions of farm records, encrypted with customer-held keys) | Same as farm operational data | Cancellation | Standard |
+| Edit history (previous versions of records, encrypted with customer-held keys) | Same as farm operational data | Cancellation | Standard |
 | Data from connected services before encryption | Until encrypted on arrival | Arrival | Standard |
 | Forecast inputs (readable on Fenn's servers while yield forecasting runs) | Until the forecast completes, then deleted | Forecast completion | Standard |
-| Billing & invoice records | 6 years | Invoice date | Legal: HMRC (tax/VAT records, 6 years) |
+| Billing & invoice records | 6 years | End of financial year | Legal: HMRC (tax/VAT records, 6 years) |
 | Support tickets (Plain) | 24 months | Ticket close | Standard |
 
 ### 4.2 Operational & Security Data
@@ -82,11 +82,11 @@ When a customer cancels, Fenn deletes their data on the following timeline:
 3. **Backup expiry.** Backups run on a rolling 30-day cycle. Deleted data ages out of all backups within 30 days of production deletion. Fenn does not selectively restore deleted customer data from backup.
 4. **Confirmation of deletion.** When production deletion completes, Fenn automatically sends the customer a deletion confirmation. The confirmation records the account, the date of deletion, the categories of data removed, and notes that billing records are retained for their statutory period under Section 4.1. Confirmation is sent automatically; the customer does not need to request it.
 
-Net effect: customer data is removed from all Fenn systems within approximately 90 days of cancellation. Billing and invoice records are the sole exception and are retained for 6 years under Section 4.1 to meet UK tax requirements.
+Net effect: farm operational data and account data are removed from all Fenn systems within approximately 90 days of cancellation. Billing details on invoices are retained for 6 years from the end of the financial year they relate to, under Section 4.1. Fenn's own security logs, support records, and error and email records are kept for the periods in Section 4, then deleted.
 
 ## 6. Erasure Requests
 
-Data subjects may request erasure of their personal data under UK GDPR Article 17. Erasure requests are handled within one month of receipt. Where Fenn is legally required to retain a record (for example, billing records under Section 4.1), that data is retained for the remainder of its statutory period and erased at the end of it; Fenn explains this to the requester. When erasure completes, Fenn automatically sends a deletion confirmation as described in Section 5. Erasure requests are routed to privacy@fennagritech.io.
+Data subjects may request erasure of their personal data under UK GDPR Article 17. Erasure requests are handled within one month of receipt. For data Fenn processes on a customer's behalf, Fenn forwards the request to the customer under the Data Processing Agreement. Where Fenn is legally required to retain a record (for example, billing records under Section 4.1), that data is retained for the remainder of its statutory period and erased at the end of it; Fenn explains this to the requester. When erasure completes, Fenn automatically sends a deletion confirmation as described in Section 5. Erasure requests are routed to privacy@fennagritech.io.
 
 ## 7. Legal Holds
 
@@ -127,3 +127,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 |---|---|---|---|
 | 1.0 | 2026-06-07 | Jack Lowe, Head of Security | Initial policy. Establishes data retention schedule and deletion procedures aligned with ISO 27001:2022. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added retention for edit history, forecast inputs, and connected-service data. Updated key terminology. Includes the August 2026 document ID change from FENN-POL-005 and earlier corrections to references and wording. |
+| 1.2 | 2026-10-23 | Jack Lowe, Head of Security | Clarified what is deleted at cancellation, when billing retention starts, and how erasure requests are routed. |

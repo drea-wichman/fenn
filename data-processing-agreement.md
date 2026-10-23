@@ -26,19 +26,19 @@ This DPA forms part of the subscription agreement between the parties ("the Agre
 
 ## Processing Instructions
 
-Processor processes personal data only on Controller's documented instructions, unless required to do otherwise by UK law. If an instruction appears to breach UK GDPR or other applicable data protection law, Processor will tell Controller.
+Processor processes personal data only on Controller's documented instructions, including with regard to transfers of personal data outside the United Kingdom or to an international organization, unless required to do otherwise by UK law. In that case, Processor will inform Controller of the legal requirement before processing, unless the law prohibits this on important grounds of public interest. If an instruction appears to breach UK GDPR or other applicable data protection law, Processor will immediately tell Controller.
 
 The subject matter, duration, nature, and purpose of processing, the types of personal data, and the categories of data subjects are set out in Annex 1.
 
 ## Security Measures
 
-Processor implements appropriate technical and organizational measures to protect personal data against accidental or unlawful destruction, loss, alteration, unauthorized disclosure, or access, in accordance with UK GDPR Article 32.
+Processor implements appropriate technical and organizational measures to protect personal data against accidental or unlawful destruction, loss, alteration, unauthorized disclosure, or access, in accordance with UK GDPR Article 32. Processor ensures that everyone it authorizes to process personal data is bound by a duty of confidentiality, by contract or by law.
 
-Farm operational data is encrypted on the customer's device with customer-held keys before it reaches Processor's systems. Processor stores only ciphertext and has no technical means to decrypt or access this data without the customer's explicit authorization.
+Farm operational data is encrypted on Controller's device with customer-held keys before it reaches Processor's systems. Processor stores only ciphertext and has no technical means to decrypt or access this data outside the opt-in features described below.
 
 Where Controller connects a third-party service, that service sends data to Processor's systems, which encrypt it on arrival so that only Controller's keys can decrypt it, and retain only the encrypted copy. Where Controller enables yield forecasting, Processor's servers process the data the feature requires in readable form while it runs and delete it when the forecast completes. Processor's staff are not permitted to access that data. Processor does not use Controller's data to train models. Error reports sent to Processor's error-monitoring sub-processor exclude farm operational data.
 
-Account data, including names, login credentials, and contact details, is processed in plaintext as required to operate the Services, including authentication, account recovery, billing, and support.
+Account data, including names, email addresses, and contact details, is processed in readable form as required to operate the Services, including authentication, account recovery, and support.
 
 Processor's broader security measures are documented in its Information Security Policy and Access Control Policy, and include risk-based access control, multi-factor authentication, encryption, supplier security assessment, and incident management. These measures are reviewed and updated as standards and threats evolve.
 
@@ -54,13 +54,22 @@ If Controller raises a reasonable objection, Processor will take commercially re
 
 Processor remains liable to Controller for the performance of each sub-processor's obligations under this DPA.
 
+## International Transfers
+
+Processor does not transfer Controller's personal data outside the United Kingdom, or permit a sub-processor to do so, unless the transfer complies with Chapter V of the UK GDPR. Processor relies on one of the following:
+
+- Regulations under Article 45A of the UK GDPR, including those covering the European Economic Area and US organizations with an active certification under the UK Extension to the EU-US Data Privacy Framework.
+- Appropriate safeguards under Article 46, such as the International Data Transfer Agreement or the UK Addendum to the EU Standard Contractual Clauses, where Processor has assessed that the data protection test in Article 46(6) is met.
+
+Access to Controller's personal data by a sub-processor from outside the United Kingdom, including by its support staff, is treated as a transfer. Processor records the mechanism relied on for each sub-processor and provides it to Controller on request.
+
 ## Data Subject Rights Assistance
 
 Processor assists Controller in responding to data subject requests under UK GDPR, including access, rectification, erasure, restriction, portability, and objection.
 
 Where a data subject submits a request directly to Processor concerning data processed on Controller's behalf, Processor shall promptly notify Controller and shall not respond directly to the data subject unless instructed to do so by Controller or required by law.
 
-Account data is held in plaintext and Processor can directly support access, correction, and deletion requests concerning it. Farm operational data is encrypted with customer-held keys and is not accessible to Processor; Controller remains responsible for fulfilling data subject requests concerning this data.
+Account data is readable by Processor, so Processor can directly support access, correction, and deletion requests concerning it. Farm operational data is encrypted with customer-held keys and is not accessible to Processor outside the opt-in features described in Security Measures; Controller remains responsible for fulfilling data subject requests concerning this data.
 
 ## Breach Notification
 
@@ -70,6 +79,10 @@ Controller is solely responsible for assessing whether a security incident is no
 
 Processor shall cooperate with Controller and provide reasonable assistance as necessary for Controller to comply with its breach notification obligations.
 
+## Impact Assessments and Prior Consultation
+
+Processor provides reasonable assistance to Controller with data protection impact assessments and any prior consultation with the Information Commission, taking into account the nature of the processing and the information available to Processor.
+
 ## Return and Deletion of Data on Termination
 
 On termination or expiry of the Agreement, Controller's data remains available for export for 60 days. During this window, Processor uses the data only to support export and account recovery.
@@ -78,13 +91,13 @@ At the end of the 60-day window, Processor permanently deletes Controller's acco
 
 Processor automatically sends Controller a deletion confirmation when production deletion completes, recording the account, the date of deletion, and the categories of data removed.
 
-Billing and invoice records are retained for 6 years from the date of issue to meet HMRC requirements, notwithstanding termination of the Agreement.
+Processor keeps its own records relating to Controller's account as an independent controller, under its Data Retention Policy, and deletes them at the end of each period: billing records for 6 years from the end of the financial year they relate to, as HMRC requires; security logs for 13 months; support records for 24 months; and error reports and email records for 90 days.
 
 ## Audit Rights
 
-Controller may request information reasonably necessary to verify Processor's compliance with this DPA, including evidence of Processor's security measures and alignment with ISO 27001:2022. Processor will provide such information on reasonable request, no more than once per year unless required following a security incident or by a supervisory authority.
+Controller may request information reasonably necessary to verify Processor's compliance with this DPA, including evidence of Processor's security measures and alignment with ISO 27001:2022. Processor will provide such information on reasonable request.
 
-Where Controller requires an on-site audit, Controller will give Processor reasonable advance notice, and the audit will take place during business hours in a manner that does not unreasonably disrupt Processor's operations. Controller is responsible for its own costs in conducting an audit.
+Controller, or an independent auditor it appoints who is bound by confidentiality, may conduct an on-site audit no more than once per year, unless required following a security incident or by the Information Commission. Controller will give Processor reasonable advance notice, and the audit will take place during business hours in a manner that does not unreasonably disrupt Processor's operations. Controller is responsible for its own costs in conducting an audit.
 
 ## Governing Law and Jurisdiction
 
@@ -94,9 +107,9 @@ This DPA is governed by the laws of England and Wales. The parties submit to the
 
 **Subject matter:** Processing personal data to provide the Fenn platform.
 
-**Duration:** For the term of the customer's contract, plus the retention periods set out in the Return and Deletion of Data on Termination section above.
+**Duration:** For the term of the Agreement, plus the 60-day export window and 30-day backup cycle set out in the Return and Deletion of Data on Termination section above.
 
-**Nature and purpose of processing:** Account management, authentication, billing, support, and operation of field management, compliance record-keeping, and sustainability reporting features, including collection of data from services Controller connects, and yield forecasting where Controller enables it.
+**Nature and purpose of processing:** Account management, authentication, support, and operation of field management, compliance record-keeping, and sustainability reporting features, including collection of data from services Controller connects, and yield forecasting where Controller enables it.
 
 **Categories of data subjects:**
 
@@ -106,10 +119,9 @@ This DPA is governed by the laws of England and Wales. The parties submit to the
 **Categories of personal data:**
 
 - Account data: names, email addresses, login credentials, and contact details
-- Billing data: invoicing and payment contact details
 - Farm operational data: any personal data Controller includes in field, crop, or compliance records, encrypted with customer-held keys and inaccessible to Processor outside the opt-in features described in Security Measures
 
-**Special category data:** Personal data within farm operational data is encrypted on Controller's device with Controller-held keys before it reaches Processor. Outside the opt-in features described in Security Measures, Processor has no technical means to access, view, or categorize this data, including any special category data Controller may choose to include. Controller is responsible for ensuring its own use of the Services complies with the additional requirements that apply to special category data under UK GDPR.
+**Special category data:** Personal data within farm operational data is encrypted on Controller's device with customer-held keys before it reaches Processor. Outside the opt-in features described in Security Measures, Processor has no technical means to access, view, or categorize this data, including any special category data Controller may choose to include. Controller is responsible for ensuring its own use of the Services complies with the additional requirements that apply to special category data under UK GDPR.
 
 ## Revision History
 
@@ -117,3 +129,4 @@ This DPA is governed by the laws of England and Wales. The parties submit to the
 |---|---|---|---|
 | 1.0 | 2026-06-15 | Jack Lowe, Head of Security | Initial Data Processing Agreement. Governs processing of personal data by Fenn on behalf of customer controllers. Incorporates client-side encryption architecture, sub-processor disclosure, and UK GDPR Article 28 compliance. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added terms for connected services, yield forecasting, and error reports. Includes earlier corrections to references and wording. |
+| 1.2 | 2026-10-23 | Jack Lowe, Head of Security | Added terms for international transfers, staff confidentiality, and impact assessments. Updated processing instructions, retention, audit rights, and Annex 1. |
