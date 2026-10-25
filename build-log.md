@@ -6,7 +6,7 @@ Context: The DPA didn't cover sending data outside the UK, even though Sentry st
 
 Decision: Added all three.
 
-Consequences: The DPA now promises staff confidentiality, but no Fenn policy backs it up yet. The SoA should catch that.
+Consequences: Staff contracts already cover confidentiality, but contractors and other third parties don't sign anything. That's a gap for the SoA.
 
 ---
 
