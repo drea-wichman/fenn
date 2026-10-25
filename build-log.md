@@ -1,3 +1,45 @@
+## 2026-10-23: DPA 1.2, Fenn's Own Records, and How I Check Documents
+
+**Updated the DPA to 1.2.**
+
+Context: The DPA didn't cover sending data outside the UK, even though Sentry stores data in the EU. It was also missing staff confidentiality and helping customers with their own risk assessments, both required by Article 28 of the UK GDPR.
+
+Decision: Added all three.
+
+Consequences: The DPA now promises staff confidentiality, but no Fenn policy backs it up yet. The SoA should catch that.
+
+---
+
+**Made billing, logs, and support records Fenn's own.**
+
+Context: The DPA listed billing, sign-in records, and support records as customer data Fenn handles for the farm. But Fenn keeps them for its own reasons, like tax and security, which makes Fenn the controller.
+
+Decision: Took them out of the DPA's Annex 1 and listed how long Fenn keeps each one. Updated the retention policy and incident response plan to match.
+
+Consequences: Invoices now count 6 years from the end of the financial year, not the invoice date.
+
+---
+
+**Fixed who accepts residual risk.**
+
+Context: The methodology said the CEO accepts residual risk. The risk register I'd just published says owners accept Low and Medium, and only High goes to the CEO.
+
+Decision: Changed the methodology to say the CEO accepts High residual risk.
+
+Consequences: The two documents now agree on who signs off.
+
+---
+
+**Changed how I check documents.**
+
+Context: Updating the DPA turned up gaps one round at a time. I'd only been checking the part I changed.
+
+Decision: Every document now gets checked in full against the standard that governs it before I change anything. The DPA against Article 28, policies against the ISO controls they map to, the risk register against Clauses 6.1.2 and 6.1.3. I also keep a list of which claims appear in which documents, so a change in one gets made in all of them.
+
+Rationale: Fixing gaps one at a time meant more versions and more chances for documents to disagree. I also have the ISO 27001 text through my university now. Before that I was going off how other companies applied it.
+
+---
+
 ## 2026-10-22: Data Flow, Risk Register v1.1, and Catching Up
 
 **Wrote and published the Data Flow and Architecture document.**
