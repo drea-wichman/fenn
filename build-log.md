@@ -1,3 +1,45 @@
+## 2026-10-25: Statement of Applicability
+
+**Wrote and published the Statement of Applicability.**
+
+Context: ISO 27001 requires a Statement of Applicability covering every Annex A control, whether it applies, and why. Fenn didn't have one yet.
+
+Decision: Went through all 93. A control is "Implemented" only if a published Fenn document says how it's done. Partly covered or only in the risk register is Partial. No document is Planned.
+
+Rationale: Status had to be something a reviewer could check and not just a claim.
+
+Consequences: 71 Implemented, 20 Partial, 1 Planned, 1 excluded. The gaps it found led to updates in nine prev documents and a new office access risk. The rest went into a treatment plan with owners and dates, approved by the risk owners as Clause 6.1.3 requires.
+
+---
+
+**Moved the complaints procedure to Privacy.**
+
+Context: It sat under Security before but it's a data protection procedure for the people whose data Fenn holds. The privacy notice and subject access procedure will go there too. The All Documents menu also skipped the Privacy folder, so anything moved there would have disappeared from it.
+
+Decision: Moved it and added the Privacy folder to the menu. Same link, same version.
+
+---
+
+**Held off on criminal record checks.**
+
+Context: For screening, I added a basic DBS check for anyone with privileged access. Under the Data Protection Act 2018, Fenn needs an appropriate policy document before it can process criminal record data and it doesn't have one yet.
+
+Decision: Checks start once that document is in place. Only convictions relevant to the role count.
+
+Consequences: The appropriate policy document is in the treatment plan for Q1 2027.
+
+---
+
+**Required two-factor sign-in for customers, with no SMS.**
+
+Context: Staff sign in with hardware keys but nothing yet said how customers sign in.
+
+Decision: Customers need a password plus an authenticator app or passkey. SMS codes aren't offered.
+
+Rationale: SMS codes can be stolen through SIM swaps.
+
+---
+
 ## 2026-10-23: DPA 1.2, Fenn's Own Records, and How I Check Documents
 
 **Updated the DPA to 1.2.**
