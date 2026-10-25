@@ -1,9 +1,9 @@
 ---
 title: Scope and Context
 document_id: FENN-SCP-001
-version: "1.1"
+version: "1.2"
 effective_date: 2026-08-25
-last_reviewed: 2026-10-22
+last_reviewed: 2026-10-25
 next_review: 2027-08-25
 owner: Head of Security
 approver: CEO
@@ -83,7 +83,7 @@ The ISMS applies to the development, operation, and support of the Fenn platform
 
 - The Fenn platform and its supporting production infrastructure, hosted on Amazon Web Services in the London region
 - Internal corporate systems and tools used to operate the business, including the Proton suite used for internal collaboration
-- All Fenn employees and contractors, working from Fenn's Bristol office and remotely on Fenn-issued devices
+- All Fenn employees and contractors, working from Fenn's Bristol office and remotely on Fenn-issued laptops, with personal phones limited to email, calendar, and chat
 - All information Fenn holds or processes, including customer account data, employee data, corporate records, and the ciphertext of customer farm operational data
 - The management of Fenn's interfaces with third-party providers and sub-processors, including cloud infrastructure, payment processing, and equipment-manufacturer APIs
 
@@ -119,6 +119,7 @@ This document is reviewed annually, and after any significant change to Fenn's s
 - FENN-PRO-001: Data Protection Complaints Procedure
 - FENN-RSK-001: Risk Assessment and Treatment Methodology
 - FENN-RSK-002: Risk Register
+- FENN-SOA-001: Statement of Applicability
 - Data Processing Agreement
 - Sub-processor List
 - Data Flow and Architecture
@@ -129,3 +130,4 @@ This document is reviewed annually, and after any significant change to Fenn's s
 |---|---|---|---|
 | 1.0 | 2026-08-25 | Jack Lowe, Head of Security | Initial version. Establishes the context, interested parties, and scope of Fenn's ISMS in line with ISO 27001:2022 Clause 4. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Clarified the scope of encryption. Includes earlier corrections to references and wording. |
+| 1.2 | 2026-10-25 | Jack Lowe, Head of Security | Clarified the devices staff use. |

@@ -1,9 +1,9 @@
 ---
 title: Information Security Policy
 document_id: FENN-POL-002
-version: "1.1"
+version: "1.2"
 effective_date: 2026-05-20
-last_reviewed: 2026-10-22
+last_reviewed: 2026-10-25
 next_review: 2027-05-20
 owner: Head of Security
 approver: CEO
@@ -16,6 +16,19 @@ framework_mapping:
   - ISO 27001:2022 Clause 7.2
   - ISO 27001:2022 Clause 7.3
   - ISO 27001:2022 Clause 10
+  - ISO 27001:2022 A.5.1
+  - ISO 27001:2022 A.5.2
+  - ISO 27001:2022 A.5.4
+  - ISO 27001:2022 A.5.6
+  - ISO 27001:2022 A.5.7
+  - ISO 27001:2022 A.5.8
+  - ISO 27001:2022 A.5.12
+  - ISO 27001:2022 A.5.13
+  - ISO 27001:2022 A.5.14
+  - ISO 27001:2022 A.6.2
+  - ISO 27001:2022 A.6.3
+  - ISO 27001:2022 A.6.4
+  - ISO 27001:2022 A.8.24
   - UK GDPR Article 5(1)(f)
   - UK GDPR Article 24
   - UK GDPR Article 32
@@ -27,7 +40,7 @@ framework_mapping:
 
 This policy establishes Fenn Agritech's commitment to protecting the confidentiality, integrity, and availability of the information it holds, and defines the Information Security Management System (ISMS) through which that commitment is delivered. As a provider of crop and field management software to UK farms, Fenn processes operational and personal data on behalf of its customers. Protecting that data is fundamental to Fenn's obligations to its customers and under UK data protection law.
 
-This policy sits at the top of Fenn's information security policy hierarchy; all other security policies and procedures derive from it. It commits Fenn to meeting applicable legal, regulatory, and contractual requirements and to the continual improvement of its ISMS, which is aligned with ISO 27001:2022. Annex A controls are mapped in Fenn's subordinate policies. This policy is communicated to all Fenn employees and contractors and is made available to interested parties as appropriate.
+This policy sits at the top of Fenn's information security policy hierarchy; all other security policies and procedures derive from it. It commits Fenn to meeting applicable legal, regulatory, and contractual requirements and to the continual improvement of its ISMS, which is aligned with ISO 27001:2022. Fenn's decision on each Annex A control is recorded in the Statement of Applicability (FENN-SOA-001). This policy is communicated to all Fenn employees and contractors and is made available to interested parties as appropriate.
 
 ## 2. Scope
 
@@ -51,7 +64,7 @@ Farm operational data is encrypted with customer-held keys, and Fenn cannot acce
 
 Fenn's senior management is accountable for information security. Leadership establishes this policy, sets the direction of the ISMS, and provides the resources needed to operate and improve it. Information security objectives are set in line with Fenn's business goals and reviewed by management at planned intervals.
 
-The Head of Security is responsible for the day-to-day operation of the ISMS, including maintaining policies, coordinating risk management, and reporting on security to senior management.
+The Head of Security is responsible for the day-to-day operation of the ISMS, including maintaining policies, coordinating risk management, and reporting on security to senior management. The Head of Security reports to the CEO.
 
 ### 4.2 Risk Management
 
@@ -59,13 +72,15 @@ Fenn manages information security through a risk-based approach. Risks to the co
 
 Risks are reviewed regularly and after significant changes to Fenn's systems, operations, or threat environment.
 
+New features or projects that change how data flows get a security review from the Head of Security before building starts, and the Data Flow and Architecture document is updated.
+
 ### 4.3 Access Control
 
 Access to Fenn systems, applications, and data is granted on the principle of least privilege. Individuals receive only the access required for their role. Access is authenticated, authorized, logged, and reviewed, and is revoked promptly when no longer required.
 
 ### 4.4 Cryptography
 
-Fenn protects information using strong, industry-standard cryptography. Farm operational data is encrypted with customer-held keys, and Fenn does not hold the keys. Cryptographic controls are reviewed as standards and threats evolve.
+Fenn protects information using strong, industry-standard cryptography. Farm operational data is encrypted with customer-held keys, and Fenn does not hold the keys. Cryptographic controls are reviewed as standards and threats evolve. All data in transit is encrypted with TLS 1.3, or TLS 1.2 where a service does not support 1.3. Older versions are disabled.
 
 ### 4.5 Supplier and Third-Party Security
 
@@ -74,6 +89,8 @@ Fenn assesses the security of suppliers and third parties before granting them a
 ### 4.6 Incident Management
 
 Fenn maintains the capability to detect, report, and respond to information security incidents. Incidents are recorded, assessed for severity, and managed through to resolution. Where an incident involves personal data, Fenn meets its breach notification obligations under UK data protection law, including notification to the Information Commission where required. Where Fenn acts as a processor for customer data, Fenn notifies the relevant controller without undue delay.
+
+Fenn is signed up to the NCSC Early Warning service, follows NCSC advisories and its vendors' security bulletins, and belongs to at least one professional security community. The Head of Security reviews new threats monthly and updates the Risk Register.
 
 ### 4.7 Business Continuity
 
@@ -85,11 +102,22 @@ Fenn processes personal data in accordance with UK GDPR and the Data Protection 
 
 ### 4.9 Information Security Awareness
 
-All Fenn employees and contractors receive information security training appropriate to their role, both at onboarding and on an ongoing basis. Everyone with access to Fenn systems is responsible for understanding and following this policy and for reporting security concerns promptly.
+All Fenn employees and contractors receive information security training appropriate to their role, both at onboarding and on an ongoing basis. Everyone with access to Fenn systems is responsible for understanding and following this policy and for reporting security concerns promptly. Staff confirm they have read and will follow this policy when they join and after any significant change, and Fenn keeps a record of each confirmation. Employment and contractor contracts require staff to follow Fenn's security policies.
 
 ### 4.10 Compliance
 
-Fenn complies with applicable legal, regulatory, and contractual requirements relating to information security and data protection. Its primary regulator is the Information Commission. Compliance obligations are reviewed as the legal and regulatory environment changes. Breach of this policy may result in disciplinary action up to and including termination of employment, and termination of contract for contractors.
+Fenn complies with applicable legal, regulatory, and contractual requirements relating to information security and data protection. Its primary regulator is the Information Commission. Compliance obligations are reviewed as the legal and regulatory environment changes. Breach of this policy is handled under Fenn's disciplinary procedure, which follows the Acas Code of Practice, and may result in disciplinary action up to and including termination of employment, and termination of contract for contractors.
+
+### 4.11 Information Classification
+
+Fenn classifies information at four levels.
+
+| Level | What it covers | Handling |
+|---|---|---|
+| Restricted | Farm operational data, encrypted with customer-held keys | Encrypted by the app. Readable by Fenn only in the opt-in exceptions set out in Data Flow and Architecture |
+| Confidential | Account data, employee data, and Fenn's own records | Marked Confidential on internal documents |
+| Internal | Internal policies, plans, and procedures | Marked Internal |
+| Public | Trust Center documents and the Fenn website | Marked Public |
 
 ## 5. Roles and Responsibilities
 
@@ -115,6 +143,7 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 - FENN-PRO-001: Data Protection Complaints Procedure
 - FENN-RSK-002: Risk Register
 - FENN-SCP-001: Scope and Context
+- FENN-SOA-001: Statement of Applicability
 - Sub-processor List
 - Data Processing Agreement
 - Data Flow and Architecture
@@ -125,3 +154,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 |---|---|---|---|
 | 1.0 | 2026-05-20 | Jack Lowe, Head of Security | Initial version. Establishes Fenn's top-level information security policy and ISMS commitment. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Clarified the scope of encryption. Includes earlier corrections to references and wording. |
+| 1.2 | 2026-10-25 | Jack Lowe, Head of Security | Added information classification, threat intelligence, project security review, and policy acknowledgment. Stated the Head of Security's reporting line, encryption in transit, and the disciplinary procedure. |

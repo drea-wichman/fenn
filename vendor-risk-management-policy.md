@@ -1,9 +1,9 @@
 ---
 title: Vendor Risk Management Policy
 document_id: FENN-POL-003
-version: "1.1"
+version: "1.2"
 effective_date: 2026-05-30
-last_reviewed: 2026-10-22
+last_reviewed: 2026-10-25
 next_review: 2027-05-30
 owner: Head of Security
 approver: CTO
@@ -14,6 +14,10 @@ framework_mapping:
   - ISO 27001:2022 A.5.21
   - ISO 27001:2022 A.5.22
   - ISO 27001:2022 A.5.23
+  - ISO 27001:2022 A.5.32
+  - ISO 27001:2022 A.8.8
+  - ISO 27001:2022 A.8.29
+  - ISO 27001:2022 A.8.34
   - UK GDPR Article 28
 ---
 
@@ -52,6 +56,8 @@ All vendors are assessed before onboarding. The depth of assessment is determine
 **Low vendors** are approved by the Head of Security without a formal assessment where no Fenn or customer data is involved.
 
 Critical vendors require approval from the Head of Security and the CTO. Standard vendors require approval from the Head of Security.
+
+Penetration tests are carried out by an independent CREST-accredited firm at least yearly and after major changes. Tests are scoped and scheduled in advance with the CTO and Head of Security, run against staging where possible, and need written approval before touching production.
 
 ### 4.2 Contractual Requirements
 
@@ -94,7 +100,7 @@ Cloud configuration is managed by the CTO and reviewed as part of the ongoing mo
 
 ### 4.6 Software Supply Chain
 
-Fenn's platform depends on open-source libraries and third-party software components. Supply chain risk from these dependencies is managed through automated vulnerability monitoring of dependencies, prompt application of security patches for known vulnerabilities, and review of new dependencies before adoption.
+Fenn's platform depends on open-source libraries and third-party software components. Supply chain risk from these dependencies is managed through automated vulnerability monitoring of dependencies, prompt application of security patches for known vulnerabilities, and review of new dependencies before adoption. Critical and high-risk security updates are applied within 14 days of release. An update counts as critical or high-risk if the vendor rates it so, if it scores 7 or higher on CVSS, or if no severity is given. New dependencies are checked for license terms before adoption, and staff use only licensed software.
 
 These controls sit alongside vendor management and are maintained by the CTO.
 
@@ -127,3 +133,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 |---|---|---|---|
 | 1.0 | 2026-05-30 | Jack Lowe, Head of Security | Initial policy. Establishes vendor risk management procedures aligned with ISO 27001:2022. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Records the August 2026 document ID change from FENN-POL-004 and earlier corrections to references and wording. |
+| 1.2 | 2026-10-25 | Jack Lowe, Head of Security | Added penetration testing, patching timelines, and license checks. |

@@ -1,14 +1,15 @@
 ---
 title: Incident Response Plan
 document_id: FENN-PLN-001
-version: "1.2"
+version: "1.3"
 effective_date: 2026-05-30
-last_reviewed: 2026-10-23
+last_reviewed: 2026-10-25
 next_review: 2027-05-30
 owner: Head of Security
 approver: CTO
 scope: All Fenn employees, contractors, and third-party integrations
 framework_mapping:
+  - ISO 27001:2022 A.5.5
   - ISO 27001:2022 A.5.24
   - ISO 27001:2022 A.5.25
   - ISO 27001:2022 A.5.26
@@ -50,7 +51,7 @@ This plan applies to all Fenn systems, employees, contractors, and third-party i
 
 The following must be maintained at all times:
 
-- Incident response contacts are documented and current, including the Head of Security, the CTO, and external legal counsel
+- Incident response contacts are documented and current, including the Head of Security, the CTO, external legal counsel, the ICO, the NCSC, and Report Fraud, the national fraud and cyber crime reporting service
 - Contact details for external legal counsel and an external forensic provider are documented alongside internal contacts and verified at each annual review
 - All staff know how to report a suspected incident and who to contact
 - Backups are tested quarterly and confirmed restorable
@@ -215,3 +216,4 @@ Exceptions to this plan may be granted in writing by the Head of Security. Each 
 | 1.0 | 2026-05-30 | Jack Lowe, Head of Security | Initial plan. Establishes incident response procedures aligned with ISO 27001:2022. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Updated key terminology. Includes the August 2026 document ID change from FENN-POL-003 and earlier corrections to references and wording. |
 | 1.2 | 2026-10-23 | Jack Lowe, Head of Security | Clarified which data Fenn holds as controller and when the 72-hour notification clock applies. |
+| 1.3 | 2026-10-25 | Jack Lowe, Head of Security | Added the ICO, the NCSC, and Report Fraud to the incident contacts. |

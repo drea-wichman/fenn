@@ -1,9 +1,9 @@
 ---
 title: Business Continuity Plan
 document_id: FENN-PLN-002
-version: "1.1"
+version: "1.2"
 effective_date: 2026-06-10
-last_reviewed: 2026-10-22
+last_reviewed: 2026-10-25
 next_review: 2027-06-10
 owner: Head of Security
 approver: CEO
@@ -11,6 +11,9 @@ scope: Fenn's critical business functions and the systems, data, sub-processors,
 framework_mapping:
   - ISO 27001:2022 A.5.29
   - ISO 27001:2022 A.5.30
+  - ISO 27001:2022 A.7.5
+  - ISO 27001:2022 A.7.11
+  - ISO 27001:2022 A.8.6
   - ISO 27001:2022 A.8.13
   - ISO 27001:2022 A.8.14
   - UK GDPR Article 32
@@ -84,7 +87,13 @@ This section describes how Fenn meets the recovery targets set in the Business I
 
 Fenn's production systems run across multiple availability zones within the AWS London region. The loss of a single zone fails over to the remaining zones automatically, with no customer action required. This covers the realistic range of infrastructure failures and meets the recovery targets for platform availability.
 
+AWS alerts Fenn when usage nears capacity limits, and capacity is reviewed before autumn drilling, spring crop protection, and summer harvest.
+
 Fenn does not fail over outside the United Kingdom. AWS operates a single UK region, so cross-region failover would place customer data in another country and conflict with Fenn's data residency commitment. The complete loss of the AWS London region is therefore treated as a low-likelihood, high-impact event, recovered from the independent UK backup rather than by automatic failover. Recovery in that case has a target of 72 hours, longer than the standard targets, a tradeoff Fenn accepts to keep customer data in the UK.
+
+**Office**
+
+Fenn's production systems do not depend on the Bristol office. If the office is unusable, staff work remotely on Fenn-issued laptops.
 
 **Backup and restoration**
 
@@ -150,7 +159,7 @@ Fenn tests this plan at planned intervals and at least once per year.
 
 **Backup restoration testing**
 
-Fenn tests that backups restore successfully at planned intervals and at least once per year, including from the independent UK copy as well as the primary store. Testing confirms the recovery point objectives can be met in practice.
+Fenn tests that backups restore successfully every quarter, including from the independent UK copy as well as the primary store. Testing confirms the recovery point objectives can be met in practice.
 
 **Plan exercises**
 
@@ -179,3 +188,4 @@ Fenn also reviews the plan after any activation, after a significant change to i
 |---|---|---|---|
 | 1.0 | 2026-06-10 | Jack Lowe, Head of Security | Initial plan. Establishes critical business functions, recovery targets, and continuity procedures aligned with ISO 27001:2022. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Clarified backup encryption and key recovery. Includes the August 2026 document ID change from FENN-POL-006 and earlier corrections to references and wording. |
+| 1.2 | 2026-10-25 | Jack Lowe, Head of Security | Added recovery from loss of the office and capacity reviews. Set backup restore testing to quarterly. |

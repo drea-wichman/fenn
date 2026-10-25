@@ -24,6 +24,7 @@ All deliverables are original work. Fenn Agritech is not based on any real organ
 - [`scope-and-context.md`](scope-and-context.md) - The boundary, context, and interested parties of Fenn's ISMS
 - [`data-protection-complaints-procedure.md`](data-protection-complaints-procedure.md) - How Fenn receives and responds to data protection complaints
 - [`data-flow-and-architecture.md`](data-flow-and-architecture.md) - Where customer data goes and who can read it at each step
+- [`statement-of-applicability.md`](statement-of-applicability.md) - Fenn's decision on each ISO 27001:2022 Annex A control, and its risk treatment plan
 
 New documents are published here as they are completed. The live site lists all documents, including those in development.
 

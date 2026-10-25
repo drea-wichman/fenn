@@ -1,9 +1,9 @@
 ---
 title: Data Retention Policy
 document_id: FENN-POL-004
-version: "1.2"
+version: "1.3"
 effective_date: 2026-06-07
-last_reviewed: 2026-10-23
+last_reviewed: 2026-10-25
 next_review: 2027-06-07
 owner: Head of Security
 approver: CTO
@@ -71,6 +71,7 @@ Fenn retains each category of data for no longer than the period below. Periods 
 | Employee records | Employment + 6 years | Employment end | Standard: aligned to Limitation Act 1980 six-year claim window |
 | Payroll & tax records | 6 years | End of relevant tax year | Legal: HMRC (National Minimum Wage), pensions auto-enrolment, and Employment Rights Act 2025 (holiday records), all 6 years |
 | Right-to-work checks | Employment + 2 years | Employment end | Legal: Home Office |
+| Criminal record check results (Privileged Access Working Group) | Until the access decision is made | Access decision | Standard: needed only for the decision |
 | Unsuccessful applicant data | 12 months | Application decision | Standard: conservative buffer beyond the 6-month discrimination claim limit (in force from 1 October 2026) |
 
 ## 5. Deletion on Cancellation
@@ -129,3 +130,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 | 1.0 | 2026-06-07 | Jack Lowe, Head of Security | Initial policy. Establishes data retention schedule and deletion procedures aligned with ISO 27001:2022. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added retention for edit history, forecast inputs, and connected-service data. Updated key terminology. Includes the August 2026 document ID change from FENN-POL-005 and earlier corrections to references and wording. |
 | 1.2 | 2026-10-23 | Jack Lowe, Head of Security | Clarified what is deleted at cancellation, when billing retention starts, and how erasure requests are routed. |
+| 1.3 | 2026-10-25 | Jack Lowe, Head of Security | Added retention for criminal record check results. |
