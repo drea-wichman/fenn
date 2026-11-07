@@ -28,6 +28,10 @@ Fenn's production infrastructure runs on Amazon Web Services in the London regio
 
 Fenn's primary regulator is the Information Commission (ICO) for UK GDPR and Data Protection Act 2018 compliance. The Health and Safety Executive (HSE) governs workplace safety. Fenn's product features intersect with Defra agricultural schemes and National Cyber Security Centre (NCSC) cyber security guidance, though Fenn itself is not directly regulated by either body.
 
+## Incident History
+
+In November 2024, an attacker stole an access key from one of Fenn's sub-processors and used it to copy account data (names and email addresses) and encrypted farm operational data, which stayed unreadable. The [Post-Incident Review](https://fenn.wichman.io/trust-center/post-incident-review-november-2024) (FENN-RPT-001) sets out what happened and what Fenn changed.
+
 ## Current State
 
-Fenn's GRC documentation is built to demonstrate readiness for Cyber Essentials Plus and ISO 27001:2022 certification. The Series B closed in October 2025, with the security and compliance team scaling following the round. Jack Lowe joined as Head of Security in January 2026 to lead ISO 27001 readiness work. Fenn experienced a sub-processor credential leak in November 2024.
+Fenn's GRC documentation is built to demonstrate readiness for Cyber Essentials Plus and ISO 27001:2022 certification. The Series B closed in October 2025, with the security and compliance team scaling following the round. Jack Lowe joined as Head of Security in January 2026 to lead ISO 27001 readiness work.

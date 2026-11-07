@@ -73,7 +73,7 @@ Account data is readable by Processor, so Processor can directly support access,
 
 ## Breach Notification
 
-Processor shall notify Controller without undue delay after becoming aware of a security incident affecting personal data processed under this DPA. Processor's notification shall include, to the extent known at the time, the nature of the incident, the categories and approximate number of data subjects and records affected, the likely consequences, and the measures taken or proposed to address it. Processor shall provide further information as it becomes available.
+Processor shall notify Controller without undue delay, and in any event within 48 hours, after becoming aware of a security incident affecting personal data processed under this DPA. Processor's notification shall include, to the extent known at the time, the nature of the incident, the categories and approximate number of data subjects and records affected, the likely consequences, and the measures taken or proposed to address it. Processor shall provide further information as it becomes available.
 
 Controller is solely responsible for assessing whether a security incident is notifiable to the Information Commission or to affected data subjects, and for making any such notification within the timescales required under UK GDPR.
 
@@ -130,3 +130,4 @@ This DPA is governed by the laws of England and Wales. The parties submit to the
 | 1.0 | 2026-06-15 | Jack Lowe, Head of Security | Initial Data Processing Agreement. Governs processing of personal data by Fenn on behalf of customer controllers. Incorporates client-side encryption architecture, sub-processor disclosure, and UK GDPR Article 28 compliance. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added terms for connected services, yield forecasting, and error reports. Includes earlier corrections to references and wording. |
 | 1.2 | 2026-10-23 | Jack Lowe, Head of Security | Added terms for international transfers, staff confidentiality, and impact assessments. Updated processing instructions, retention, audit rights, and Annex 1. |
+| 1.3 | 2026-11-07 | Jack Lowe, Head of Security | Set a 48-hour limit for notifying Controller of a security incident. |

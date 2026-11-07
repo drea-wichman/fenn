@@ -1,9 +1,9 @@
 ---
 title: Vendor Risk Management Policy
 document_id: FENN-POL-003
-version: "1.2"
+version: "1.3"
 effective_date: 2026-05-30
-last_reviewed: 2026-10-25
+last_reviewed: 2026-11-07
 next_review: 2027-05-30
 owner: Head of Security
 approver: CTO
@@ -63,6 +63,8 @@ Penetration tests are carried out by an independent CREST-accredited firm at lea
 
 All Critical and Standard vendors must have a written agreement in place that includes appropriate security obligations.
 
+Contracts with Critical vendors require the vendor to notify Fenn of a security breach within 48 hours of becoming aware of it. Where a vendor will not agree to this term, the Head of Security records an exception under Section 6, including the vendor's own notification commitment, in the vendor register. Each exception is reviewed at the vendor's annual review.
+
 Where a vendor processes personal data on behalf of Fenn or Fenn's customers, a Data Processing Agreement is required in accordance with UK GDPR Article 28. The DPA must include the following terms as required by Article 28(3):
 
 - Processing only on Fenn's documented instructions
@@ -81,6 +83,8 @@ Where a vendor is located outside the United Kingdom, the assessment must confir
 ### 4.3 Ongoing Monitoring
 
 Vendor risk is reviewed annually. Critical vendors are reviewed against their original assessment criteria. Standard and Low vendors are reviewed for any material changes in their service or data handling.
+
+When a vendor reports a security breach, Fenn replaces every access key and credential that vendor holds on the same day.
 
 The Head of Security tracks vendor security incidents, certification lapses, or material changes disclosed by vendors between scheduled reviews. Any such event triggers an ad-hoc reassessment.
 
@@ -134,3 +138,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 | 1.0 | 2026-05-30 | Jack Lowe, Head of Security | Initial policy. Establishes vendor risk management procedures aligned with ISO 27001:2022. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Records the August 2026 document ID change from FENN-POL-004 and earlier corrections to references and wording. |
 | 1.2 | 2026-10-25 | Jack Lowe, Head of Security | Added penetration testing, patching timelines, and license checks. |
+| 1.3 | 2026-11-07 | Jack Lowe, Head of Security | Added a breach notification deadline for Critical vendors and same-day key replacement when a vendor reports a breach. |

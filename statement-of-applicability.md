@@ -1,9 +1,9 @@
 ---
 title: Statement of Applicability
 document_id: FENN-SOA-001
-version: "1.0"
+version: "1.1"
 effective_date: 2026-10-25
-last_reviewed: 2026-10-25
+last_reviewed: 2026-11-07
 next_review: 2027-10-25
 owner: Head of Security
 approver: CEO
@@ -54,23 +54,23 @@ Every Partial and Planned control appears in Section 5 with an owner and a targe
 | A.5.12 Classification of information | Yes | RR-003, RR-009 | Implemented | Four levels: Restricted (farm operational data, encrypted with customer-held keys), Confidential (account data, employee data, Fenn's own records), Internal, Public | Information Security Policy 4.11 |
 | A.5.13 Labelling of information | Yes | RR-009 | Implemented | Restricted data encrypted by the app with customer-held keys, readable by Fenn only in the opt-in exceptions set out in Data Flow and Architecture; Confidential and Internal documents marked; Trust Center documents marked Public | Information Security Policy 4.11 |
 | A.5.14 Information transfer | Yes | RR-005, RR-015 | Implemented | Data in transit encrypted with TLS 1.3, or TLS 1.2 where 1.3 is not supported, older versions disabled; international transfer rules; connected-service data encrypted on arrival | Information Security Policy 4.4, Vendor Risk Management Policy 4.2, Scope and Context 4.3, Data Processing Agreement, Data Flow and Architecture |
-| A.5.15 Access control | Yes | RR-002, RR-003, RR-004 | Implemented | Least privilege, role groups, just-in-time admin access, quarterly reviews | Access Control Policy |
+| A.5.15 Access control | Yes | RR-002, RR-003, RR-004, RR-009 | Implemented | Least privilege, role groups, just-in-time admin access, quarterly reviews | Access Control Policy |
 | A.5.16 Identity management | Yes | RR-002, RR-003 | Implemented | One unique JumpCloud identity per person, no shared accounts, joiner, mover, leaver process | Access Control Policy 4.1, 4.5 |
-| A.5.17 Authentication information | Yes | RR-002 | Implemented | Hardware keys issued and replaced through a controlled process; credential handling in onboarding training; standalone credentials tracked | Access Control Policy 4.2, 5 |
+| A.5.17 Authentication information | Yes | RR-002, RR-015, RR-019 | Implemented | Hardware keys issued and replaced through a controlled process; credential handling in onboarding training; standalone credentials tracked; systems and vendors use temporary credentials where supported, and long-lived access keys are rotated at least every 90 days | Access Control Policy 4.1, 4.2, 5 |
 | A.5.18 Access rights | Yes | RR-003 | Implemented | Access granted by role, approved by system owners, reviewed quarterly, removed at leaving | Access Control Policy 4.3 to 4.6, 5 |
 | A.5.19 Information security in supplier relationships | Yes | RR-005 | Implemented | Vendors tiered by risk and assessed before use | Vendor Risk Management Policy 3, 4.1 |
-| A.5.20 Addressing information security within supplier agreements | Yes | RR-005, UK GDPR Article 28 | Implemented | Written agreements with security terms; every Article 28 term required where vendors handle personal data | Vendor Risk Management Policy 4.2 |
+| A.5.20 Addressing information security within supplier agreements | Yes | RR-005, RR-019, UK GDPR Article 28 | Implemented | Written agreements with security terms; every Article 28 term required where vendors handle personal data; Critical vendors must report a security breach within 48 hours, and any exception is recorded and reviewed yearly | Vendor Risk Management Policy 4.2 |
 | A.5.21 Managing information security in the information and communication technology (ICT) supply chain | Yes | RR-006 | Implemented | Dependencies monitored for vulnerabilities, patched promptly, reviewed before adoption | Vendor Risk Management Policy 4.6 |
-| A.5.22 Monitoring, review and change management of supplier services | Yes | RR-005 | Implemented | Annual vendor reviews; incidents or certification lapses trigger reassessment | Vendor Risk Management Policy 4.3 |
+| A.5.22 Monitoring, review and change management of supplier services | Yes | RR-005, RR-019 | Implemented | Annual vendor reviews; when a vendor reports a security breach, every access key and credential it holds is replaced the same day; incidents or certification lapses trigger reassessment | Vendor Risk Management Policy 4.3 |
 | A.5.23 Information security for use of cloud services | Yes | RR-004, RR-012 | Implemented | Cloud assessment covers shared responsibility, data residency, and exit; Fenn can extract customer data independently of AWS | Vendor Risk Management Policy 4.5 |
 | A.5.24 Information security incident management planning and preparation | Yes | RR-001, RR-007, UK GDPR Article 33 | Implemented | Incident Commander, contacts, severity levels, annual tabletop | Incident Response Plan 3, 4.1, 6 |
 | A.5.25 Assessment and decision on information security events | Yes | RR-001, RR-007 | Implemented | Head of Security assesses every report and assigns a severity | Incident Response Plan 4.3 |
-| A.5.26 Response to information security incidents | Yes | RR-001, RR-007 | Implemented | Containment, eradication, and recovery steps | Incident Response Plan 4.4, 4.5 |
-| A.5.27 Learning from information security incidents | Yes | RR-001 | Implemented | Post-incident review within 14 days; findings feed the risk register and policies | Incident Response Plan 4.6 |
+| A.5.26 Response to information security incidents | Yes | RR-001, RR-007, RR-014 | Implemented | Containment, eradication, and recovery steps | Incident Response Plan 4.4, 4.5 |
+| A.5.27 Learning from information security incidents | Yes | RR-001 | Implemented | Post-incident review within 14 days; findings feed the risk register and policies | Incident Response Plan 4.6; Post-Incident Review: November 2024 Sub-processor Credential Exposure |
 | A.5.28 Collection of evidence | Yes | RR-001, RR-003 | Implemented | Evidence preserved before remediation; collection logged | Incident Response Plan 4.4 |
 | A.5.29 Information security during disruption | Yes | RR-012 | Implemented | Security controls stay in force during recovery; farm operational data in backups stays encrypted under customer-held keys | Business Continuity Plan 5 |
 | A.5.30 ICT readiness for business continuity | Yes | RR-012, RR-014 | Implemented | Recovery targets per function, multi-zone failover, yearly testing | Business Continuity Plan 4, 5, 8 |
-| A.5.31 Legal, statutory, regulatory and contractual requirements | Yes | RR-010 | Implemented | Laws and interested-party requirements identified, with how each is addressed; reviewed yearly | Scope and Context 4.1, 4.2 |
+| A.5.31 Legal, statutory, regulatory and contractual requirements | Yes | RR-005, RR-010 | Implemented | Laws and interested-party requirements identified, with how each is addressed; reviewed yearly | Scope and Context 4.1, 4.2 |
 | A.5.32 Intellectual property rights | Yes | Software license terms | Implemented | New dependencies checked for license terms before adoption; staff use only licensed software | Vendor Risk Management Policy 4.6 |
 | A.5.33 Protection of records | Yes | RR-010 | Implemented | Retention schedule; deletion logs and legal hold records not edited; immutable backup copy | Data Retention Policy 4, 7, 8; Business Continuity Plan 5 |
 | A.5.34 Privacy and protection of personal identifiable information (PII) | Yes | RR-010, UK GDPR | Partial | Data Processing Agreement, retention schedule, complaints procedure, and data flow document in place; no privacy notice, record of processing activities, or subject access procedure | Data Processing Agreement, Data Retention Policy, Data Protection Complaints Procedure, Data Flow and Architecture |
@@ -115,10 +115,10 @@ Every Partial and Planned control appears in Section 5 with an owner and a targe
 | Control | Applies | Basis | Status | How Fenn does it | Documents |
 |---|---|---|---|---|---|
 | A.8.1 User end point devices | Yes | RR-013 | Implemented | Laptops encrypted, screen-locked, kept updated; personal phones must meet the same baseline, checked through a work profile before they can reach Fenn email, calendar, or chat | Access Control Policy 4.7 |
-| A.8.2 Privileged access rights | Yes | RR-002, RR-003, RR-004 | Implemented | Small standing admin group plus just-in-time access, all sessions logged, reviewed quarterly | Access Control Policy 4.4, 4.6 |
-| A.8.3 Information access restriction | Yes | RR-003, RR-007, RR-009 | Implemented | Least privilege through role groups; farm operational data encrypted with customer-held keys; staff not permitted to access forecast data | Access Control Policy 4.3, 4.4; Data Flow and Architecture |
+| A.8.2 Privileged access rights | Yes | RR-002, RR-003, RR-004, RR-009, RR-016, RR-017 | Implemented | Small standing admin group plus just-in-time access, all sessions logged, reviewed quarterly | Access Control Policy 4.4, 4.6 |
+| A.8.3 Information access restriction | Yes | RR-003, RR-007, RR-009, RR-015, RR-016 | Implemented | Least privilege through role groups; farm operational data encrypted with customer-held keys; staff not permitted to access forecast data | Access Control Policy 4.3, 4.4; Data Flow and Architecture |
 | A.8.4 Access to source code | Yes | RR-006, RR-008 | Implemented | Write access to code repositories limited to engineering, behind SSO; repository access included in quarterly access reviews | Access Control Policy 4.1, 4.3, 4.6 |
-| A.8.5 Secure authentication | Yes | RR-002 | Implemented | Staff: SSO with hardware keys, no SMS or app codes. Customers: password plus required two-factor by authenticator app or passkey, no SMS | Access Control Policy 4.1, 4.2, 4.9 |
+| A.8.5 Secure authentication | Yes | RR-002, RR-003, RR-007, RR-017 | Implemented | Staff: SSO with hardware keys, no SMS or app codes. Customers: password plus required two-factor by authenticator app or passkey, no SMS | Access Control Policy 4.1, 4.2, 4.9 |
 | A.8.6 Capacity management | Yes | RR-014 | Implemented | Auto-scaling; AWS alerts when usage nears limits; capacity reviewed before autumn drilling, spring crop protection, and summer harvest | Business Continuity Plan 4, 5; Risk Register |
 | A.8.7 Protection against malware | Yes | RR-001 | Implemented | Every Fenn laptop runs endpoint detection and response, managed by IT, with alerts to the Head of Security; security training | Access Control Policy 4.7, Information Security Policy 4.9 |
 | A.8.8 Management of technical vulnerabilities | Yes | RR-001, RR-006, RR-007 | Implemented | Dependency monitoring; critical and high-risk updates applied within 14 days of release, matching Cyber Essentials; independent penetration testing | Vendor Risk Management Policy 4.1, 4.6 |
@@ -128,8 +128,8 @@ Every Partial and Planned control appears in Section 5 with an owner and a targe
 | A.8.12 Data leakage prevention | Yes | RR-003, RR-009 | Partial | Fenn holds farm operational data only as ciphertext, readable only for the opt-in features set out in Data Flow and Architecture; account data protected by least privilege and logging; staff may not keep data beyond its retention period in local or ad hoc storage; USB storage blocked; no data leakage prevention tool by design; personal email rule not yet written | Data Flow and Architecture, Access Control Policy 4.3, 4.7, Data Retention Policy 9 |
 | A.8.13 Information backup | Yes | RR-001, RR-012 | Implemented | 30-day rolling backups, one-hour recovery point, second UK copy with object lock, restore tested quarterly | Business Continuity Plan 5, Incident Response Plan 4.1 |
 | A.8.14 Redundancy of information processing facilities | Yes | RR-012 | Implemented | Multiple availability zones in London with automatic failover | Business Continuity Plan 5 |
-| A.8.15 Logging | Yes | RR-003, RR-007, RR-015, RR-016 | Implemented | Privileged sessions and access logged, kept 13 months; logs sent to a separate AWS account with write-once storage that admins of production systems cannot change or delete; Head of Security reviews privileged-session logs monthly | Access Control Policy 4.4, Data Retention Policy 4.2 |
-| A.8.16 Monitoring activities | Yes | RR-001, RR-007, RR-014 | Implemented | Alerts from AWS, Sentry, and JumpCloud feed incident detection | Incident Response Plan 4.2 |
+| A.8.15 Logging | Yes | RR-003, RR-007, RR-009, RR-015, RR-016 | Implemented | Privileged sessions and access logged, kept 13 months; logs sent to a separate AWS account with write-once storage that admins of production systems cannot change or delete; Head of Security reviews privileged-session logs monthly | Access Control Policy 4.4, Data Retention Policy 4.2 |
+| A.8.16 Monitoring activities | Yes | RR-001, RR-007, RR-014, RR-019 | Implemented | Alerts from AWS, Sentry, and JumpCloud feed incident detection | Incident Response Plan 4.2 |
 | A.8.17 Clock synchronization | Yes | RR-003, RR-007 | Implemented | Production systems sync to the Amazon Time Sync Service; staff devices use their operating system's network time; logs record time in UTC | Access Control Policy 4.4 |
 | A.8.18 Use of privileged utility programs | Yes | RR-003, RR-004 | Implemented | Admin tools that can bypass normal controls limited to the admin group or just-in-time access, and their use is logged | Access Control Policy 4.4 |
 | A.8.19 Installation of software on operational systems | Yes | RR-006, RR-008 | Partial | Production changes pass code review and staging; no written procedure for installing software on production systems | Risk Register |
@@ -179,6 +179,7 @@ This document is reviewed annually, and whenever a new or updated Fenn document 
 - FENN-PLN-001: Incident Response Plan
 - FENN-PLN-002: Business Continuity Plan
 - FENN-PRO-001: Data Protection Complaints Procedure
+- FENN-RPT-001: Post-Incident Review: November 2024 Sub-processor Credential Exposure
 - FENN-RSK-001: Risk Assessment and Treatment Methodology
 - FENN-RSK-002: Risk Register
 - FENN-SCP-001: Scope and Context
@@ -190,3 +191,4 @@ This document is reviewed annually, and whenever a new or updated Fenn document 
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-10-25 | Jack Lowe, Head of Security | Initial Statement of Applicability. Records Fenn's decision on all 93 Annex A controls and its risk treatment plan. |
+| 1.1 | 2026-11-07 | Jack Lowe, Head of Security | Added RR-019 as a basis for A.5.17, A.5.20, A.5.22, and A.8.16, and added new access key and vendor breach requirements to A.5.17, A.5.20, and A.5.22. Corrected the Basis column for eight controls to match the Risk Register. Added the post-incident review as evidence for A.5.27. |

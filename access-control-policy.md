@@ -1,9 +1,9 @@
 ---
 title: Access Control Policy
 document_id: FENN-POL-001
-version: "1.2"
+version: "1.3"
 effective_date: 2026-05-20
-last_reviewed: 2026-10-25
+last_reviewed: 2026-11-07
 next_review: 2027-05-20
 owner: Head of Security
 approver: CTO
@@ -77,6 +77,8 @@ Customer authentication to the Fenn platform is covered in Section 4.9. This pol
 Fenn uses JumpCloud as the central identity provider for all employee, contractor, and third-party accounts. Every individual is issued a unique account. Shared or generic accounts are not permitted.
 
 All access to Fenn systems is granted through this central identity. Applications and services are integrated with JumpCloud via Single Sign-On (SSO) where supported. Standalone credentials are only used where SSO integration is not technically possible, and are tracked separately.
+
+Systems and vendors access Fenn's environment with temporary credentials wherever the service supports them. Where a long-lived access key is unavoidable, it is recorded in the standalone credentials inventory, limited to the access the service requires, and rotated at least every 90 days.
 
 ### 4.2 Authentication
 
@@ -179,3 +181,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 | 1.0 | 2026-05-20 | Jack Lowe, Head of Security | Initial formal policy. Codifies existing practices aligned with ISO 27001:2022. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added the restriction on staff access to data processed for opt-in features. Includes earlier corrections to references and wording. |
 | 1.2 | 2026-10-25 | Jack Lowe, Head of Security | Added office access, customer authentication, and screening. Updated segregation of duties, logging, device, and joiner and leaver requirements. |
+| 1.3 | 2026-11-07 | Jack Lowe, Head of Security | Added temporary credential and rotation requirements for access by systems and vendors. |

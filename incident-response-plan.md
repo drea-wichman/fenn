@@ -1,9 +1,9 @@
 ---
 title: Incident Response Plan
 document_id: FENN-PLN-001
-version: "1.3"
+version: "1.4"
 effective_date: 2026-05-30
-last_reviewed: 2026-10-25
+last_reviewed: 2026-11-07
 next_review: 2027-05-30
 owner: Head of Security
 approver: CTO
@@ -90,7 +90,7 @@ Assessment should establish, as far as immediately possible:
 - Which systems and data are involved
 - The likely cause and current status
 
-**If personal data Fenn holds as controller is involved, the 72-hour ICO notification clock starts immediately.** It does not wait for the investigation to be complete. Where Fenn is the processor, Fenn notifies the affected customer without undue delay (Section 5).
+**If personal data Fenn holds as controller is involved, the 72-hour ICO notification clock starts immediately.** It does not wait for the investigation to be complete. Where Fenn is the processor, Fenn notifies the affected customer without undue delay, and within 48 hours at most (Section 5).
 
 Severity may be revised as the investigation develops. A P2 incident escalates to P1 if personal data exposure is confirmed or an active threat is identified.
 
@@ -161,7 +161,7 @@ Fenn's notification obligations depend on its role in relation to the data affec
 
 Fenn is not required to appoint a Data Protection Officer under UK GDPR Article 37. Fenn is not a public authority, its core activities do not involve large-scale regular and systematic monitoring of individuals, and it does not process special category or criminal offense data at scale. The Head of Security serves as Fenn's designated data protection contact point for regulatory correspondence and data subject inquiries.
 
-**Where Fenn is a processor** (customer data processed on behalf of Fenn's customers): Fenn notifies the affected customer without undue delay. The customer, as controller, determines whether to notify the ICO and affected data subjects. Fenn supports the customer's notification obligations by providing all relevant details of the breach. Where farm operational data encrypted with customer-held keys is involved, Fenn tells the customer, who may rely on the Article 34(3)(a) exemption if the encryption renders the data unintelligible.
+**Where Fenn is a processor** (customer data processed on behalf of Fenn's customers): Fenn notifies the affected customer without undue delay, and in any event within 48 hours of becoming aware, as committed in the Data Processing Agreement. The customer, as controller, determines whether to notify the ICO and affected data subjects. Fenn supports the customer's notification obligations by providing all relevant details of the breach. Where farm operational data encrypted with customer-held keys is involved, Fenn tells the customer, who may rely on the Article 34(3)(a) exemption if the encryption renders the data unintelligible.
 
 **Where Fenn is a controller** (employee data, recruitment data, business contacts, and Fenn's own records about customer accounts): The Head of Security consults external legal counsel and determines whether notification to the ICO is required. Where required, notification is submitted as soon as practicable and no later than 72 hours after Fenn becomes aware of the breach, even if the investigation is still in progress. Supplementary information is provided as it becomes available.
 
@@ -217,3 +217,4 @@ Exceptions to this plan may be granted in writing by the Head of Security. Each 
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Updated key terminology. Includes the August 2026 document ID change from FENN-POL-003 and earlier corrections to references and wording. |
 | 1.2 | 2026-10-23 | Jack Lowe, Head of Security | Clarified which data Fenn holds as controller and when the 72-hour notification clock applies. |
 | 1.3 | 2026-10-25 | Jack Lowe, Head of Security | Added the ICO, the NCSC, and Report Fraud to the incident contacts. |
+| 1.4 | 2026-11-07 | Jack Lowe, Head of Security | Set a 48-hour limit for notifying customers when Fenn is the processor, matching the Data Processing Agreement. |
