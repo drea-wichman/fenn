@@ -35,6 +35,7 @@ Fenn does not send reports to Defra, HMRC, or anyone else.
 | Account access log (sign-ins, devices, IP addresses) | Fenn records it | Readable by Fenn's staff | Fenn's staff, and you |
 | Account emails (invitations, password resets) | Fenn sends them | Readable by Fenn's staff | Fenn's staff and Amazon's email service (SES) |
 | Error reports | Fenn's apps and servers, when something goes wrong | Readable by Fenn's staff | Fenn's staff and Sentry (EU). Never includes farm data |
+| Backups | Copies of Fenn's servers, kept 30 days in AWS London, with a locked daily copy at Wasabi (UK) | Same as the original data | The same people as the original. Wasabi stores the copy but cannot read your farm data |
 
 ## 4. Team accounts and keys
 
@@ -60,3 +61,4 @@ Fenn gives you a recovery key when you open your account. You can also name a co
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 1.0 | 2026-10-22 | Jack Lowe, Head of Security | Initial document. Shows where customer data goes, who can read it at each step, and where Fenn's default encryption has exceptions. |
+| 1.1 | 2026-11-07 | Jack Lowe, Head of Security | Added backups and Wasabi. Redrew the diagram. |
