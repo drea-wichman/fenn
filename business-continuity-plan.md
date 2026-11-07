@@ -1,9 +1,9 @@
 ---
 title: Business Continuity Plan
 document_id: FENN-PLN-002
-version: "1.2"
+version: "1.3"
 effective_date: 2026-06-10
-last_reviewed: 2026-10-25
+last_reviewed: 2026-11-07
 next_review: 2027-06-10
 owner: Head of Security
 approver: CEO
@@ -77,7 +77,7 @@ When a Tier 1 function is unavailable, the primary impact is operational: custom
 
 **Seasonality**
 
-Impact severity varies with the agricultural calendar. An outage costs most during autumn drilling (roughly mid-September to mid-October), the spring and early-summer crop protection windows, and the summer harvest, when field activity is intense and time-critical. UK professional pesticide users must record each application by product, timing, dose, area, and crop, and retain those records for at least three years. An outage during a spray window blocks the farmer's real-time logging at the point the law requires a record. The same outage in winter matters far less, so Fenn escalates incidents faster during high-activity windows.
+Impact severity varies with the agricultural calendar. An outage costs most during autumn drilling (roughly mid-September to mid-October), the spring and early-summer crop protection windows, and the summer harvest, when field activity is intense and time-critical. UK professional pesticide users must record each application by product, timing, dose, area, and crop, and retain those records for at least three years. An outage during a spray window blocks the farmer's real-time logging at the point the law requires a record. Fenn reviews capacity ahead of each of these windows (Section 5).
 
 ## 5. Recovery Strategy
 
@@ -189,3 +189,4 @@ Fenn also reviews the plan after any activation, after a significant change to i
 | 1.0 | 2026-06-10 | Jack Lowe, Head of Security | Initial plan. Establishes critical business functions, recovery targets, and continuity procedures aligned with ISO 27001:2022. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Clarified backup encryption and key recovery. Includes the August 2026 document ID change from FENN-POL-006 and earlier corrections to references and wording. |
 | 1.2 | 2026-10-25 | Jack Lowe, Head of Security | Added recovery from loss of the office and capacity reviews. Set backup restore testing to quarterly. |
+| 1.3 | 2026-11-07 | Jack Lowe, Head of Security | Seasonality section updated to reference pre-season capacity reviews. |
