@@ -1,6 +1,6 @@
 # Building Fenn
 
-Fenn is my first GRC portfolio project, a fictional UK agritech SaaS built from scratch. The brief, the website, and the documents exist as if the company were real. New to tech as a whole but drawn to GRC in theory, I chose to go beyond writing isolated case studies because there's a limit on what's publicly available about how real companies do this work, and a limit on my understanding of it as a result. I "hired" myself to do the work without the pressure of real risk, deadlines, or consequences.
+Fenn is my first GRC portfolio project, a fictional UK agritech SaaS built from scratch. The [company brief](https://fenn.wichman.io/company-brief), the website, and the documents exist as if the company were real. New to tech as a whole but drawn to GRC in theory, I chose to go beyond writing isolated case studies because there's a limit on what's publicly available about how real companies do this work, and a limit on my understanding of it as a result. I "hired" myself to do the work without the pressure of real risk, deadlines, or consequences.
 
 Building Fenn as a privacy-focused company was my first instinct and priority. Next I had to choose the features that would actually create that privacy: customer-held keys, no surveillance default, Proton internally, the sub-processor list. The third step was communicating that privacy to Fenn's customers. "Your land. Your data. Your decision." captured Fenn's commitment in a straightforward but marketable phrase.
 
