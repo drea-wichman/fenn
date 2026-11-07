@@ -1,5 +1,5 @@
 ---
-title: "Post-Incident Review: November 2024 Sub-processor Credential Exposure"
+title: "Post-Incident Review: November 2024"
 document_id: FENN-RPT-001
 version: "1.0"
 effective_date: 2026-11-07
@@ -14,7 +14,7 @@ framework_mapping:
   - UK GDPR Article 33
 ---
 
-# Post-Incident Review: November 2024 Sub-processor Credential Exposure
+# Post-Incident Review: November 2024
 
 ## 1. Summary
 

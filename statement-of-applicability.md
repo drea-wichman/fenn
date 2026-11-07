@@ -66,7 +66,7 @@ Every Partial and Planned control appears in Section 5 with an owner and a targe
 | A.5.24 Information security incident management planning and preparation | Yes | RR-001, RR-007, UK GDPR Article 33 | Implemented | Incident Commander, contacts, severity levels, annual tabletop | Incident Response Plan 3, 4.1, 6 |
 | A.5.25 Assessment and decision on information security events | Yes | RR-001, RR-007 | Implemented | Head of Security assesses every report and assigns a severity | Incident Response Plan 4.3 |
 | A.5.26 Response to information security incidents | Yes | RR-001, RR-007, RR-014 | Implemented | Containment, eradication, and recovery steps | Incident Response Plan 4.4, 4.5 |
-| A.5.27 Learning from information security incidents | Yes | RR-001 | Implemented | Post-incident review within 14 days; findings feed the risk register and policies | Incident Response Plan 4.6; Post-Incident Review: November 2024 Sub-processor Credential Exposure |
+| A.5.27 Learning from information security incidents | Yes | RR-001 | Implemented | Post-incident review within 14 days; findings feed the risk register and policies | Incident Response Plan 4.6; Post-Incident Review: November 2024 |
 | A.5.28 Collection of evidence | Yes | RR-001, RR-003 | Implemented | Evidence preserved before remediation; collection logged | Incident Response Plan 4.4 |
 | A.5.29 Information security during disruption | Yes | RR-012 | Implemented | Security controls stay in force during recovery; farm operational data in backups stays encrypted under customer-held keys | Business Continuity Plan 5 |
 | A.5.30 ICT readiness for business continuity | Yes | RR-012, RR-014 | Implemented | Recovery targets per function, multi-zone failover, yearly testing | Business Continuity Plan 4, 5, 8 |
@@ -179,7 +179,7 @@ This document is reviewed annually, and whenever a new or updated Fenn document 
 - FENN-PLN-001: Incident Response Plan
 - FENN-PLN-002: Business Continuity Plan
 - FENN-PRO-001: Data Protection Complaints Procedure
-- FENN-RPT-001: Post-Incident Review: November 2024 Sub-processor Credential Exposure
+- FENN-RPT-001: Post-Incident Review: November 2024
 - FENN-RSK-001: Risk Assessment and Treatment Methodology
 - FENN-RSK-002: Risk Register
 - FENN-SCP-001: Scope and Context
