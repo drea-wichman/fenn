@@ -1,3 +1,77 @@
+## 2026-11-07: Post-Incident Review and What Changed Because of It
+
+**Wrote and published a post-incident review for the November 2024 breach.**
+
+Context: The 2024 sub-processor breach was one line in the company brief. It never had a formal review, and the incident response plan says serious incidents get one.
+
+Decision: Wrote it as a 2026 review of a 2024 incident. Checked the format and timeline against Cloudflare, CircleCI, and Google's SRE example. 2024 Fenn is careful but informal on process, so the mistakes are believable ones. Kept the title short.
+
+Consequences: Six documents changed, a new risk (RR-019), and an Incident History section in the company brief. Ran three independent reviews before publishing. The last one found no errors.
+
+---
+
+**Brought back the 48-hour vendor notice.**
+
+Context: I dropped this on 27 October because AWS and the other big vendors won't sign it. Then the review showed the provider took nine days to tell Fenn.
+
+Decision: Critical vendors have to report a breach within 48 hours. If one won't agree, it's recorded as an exception and reviewed every year.
+
+Rationale: NCSC's supply chain guidance says to put reporting deadlines in contracts where they're proportionate and record where they're not. I still don't love that the giants get a pass.
+
+Consequences: Fenn now promises customers 48 hours too, in the DPA and the IRP.
+
+---
+
+**Required temporary credentials and 90-day key rotation.**
+
+Context: The 2024 key never expired. It was valid for two years and eight months.
+
+Decision: Systems and vendors use temporary credentials wherever they're supported. Any long-lived key gets rotated at least every 90 days.
+
+Rationale: AWS recommends temporary credentials over long-term keys. The CIS AWS benchmark sets 90 days.
+
+---
+
+**Added RR-019 and took document IDs out of the register.**
+
+Context: The 2024 incident was a stolen key, and nothing in the register covered that.
+
+Decision: Added RR-019 for stolen vendor and system keys. Took the document IDs out of the Controls column because I couldn't find them in any real examples.
+
+---
+
+**Fixed 13 gaps between the risk register and the SoA.**
+
+Context: The review found 13 places where the register and the SoA didn't line up.
+
+Decision: Fixed all 13. It also flagged 68 matches missing in the other direction, but Clause 6.1.3 only requires the one direction, so I left those.
+
+---
+
+**Took Cyber Essentials certification out of the 2024 story.**
+
+Context: The review said 2024 Fenn held Cyber Essentials. I thought I'd removed every certification claim in May, but this one was never removed.
+
+Decision: Took it out. I shouldn't claim a real certification for a fictional company.
+
+---
+
+**Gave the company brief its own page.**
+
+Context: The brief only lived on GitHub, and most people only see the site.
+
+Decision: It's under Company in the footer now, on a cream page like the other documents. Dropped the disclaimer and the "Type" line from the site version, since the banner already says Fenn is fictional. The 2024 breach moved out of Current State into its own Incident History section, because it's not where Fenn is now.
+
+---
+
+**Redrew the data flow diagram and added Wasabi.**
+
+Context: Wasabi was added as a sub-processor the same day I wrote the data flow document, but it never made it into the diagram or the table. The diagram also had lines crossing everything and five different arrow styles.
+
+Decision: Added backups and Wasabi to the diagram and the table. Same width for every box, solid lines for every arrow, one color per label.
+
+---
+
 ## 2026-10-25: Statement of Applicability
 
 **Wrote and published the Statement of Applicability.**
