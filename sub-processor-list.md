@@ -4,17 +4,19 @@ Fenn engages the following sub-processors to process customer personal data. Bef
 
 This list is incorporated by reference into the Fenn Data Processing Agreement.
 
-**Last updated:** 22 October 2026
+**Last updated:** 8 November 2026
 
 | Sub-processor | Purpose | Location |
 |---|---|---|
 | Amazon Web Services EMEA SARL | Cloud infrastructure (hosting, storage, compute, backup) | United Kingdom (London) |
 | Amazon Web Services EMEA SARL (SES) | Transactional email | United Kingdom (London) |
-| Stripe Payments UK Ltd | Payment processing | United Kingdom |
+| Stripe Payments Europe, Limited | Payment processing; billing and card details only\* | Ireland, United States |
 | Functional Software, Inc. (Sentry) | Application error monitoring | European Union (Frankfurt) |
 | Not Just Tickets Ltd (Plain) | Customer support | United Kingdom |
 | Met Office | Weather data for yield forecasting | United Kingdom |
 | Wasabi Technologies, Inc. | Independent immutable backup copy | United Kingdom (London) |
+
+\*Stripe handles Fenn's own billing records, not data Fenn processes for customers. It is listed for transparency.
 
 ## Notification of changes
 
@@ -32,3 +34,4 @@ privacy@fennagritech.io
 |---|---|---|---|
 | 1.0 | 2026-05-14 | Jack Lowe, Head of Security | Initial list. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added the Met Office and Wasabi. Includes earlier corrections to Plain's legal entity and location, and the contact address. |
+| 1.2 | 2026-11-08 | Jack Lowe, Head of Security | Updated Stripe's legal entity and location, and noted that Stripe handles Fenn's own billing records. |
