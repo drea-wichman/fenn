@@ -1,7 +1,7 @@
 ---
 title: Data Retention Policy
 document_id: FENN-POL-004
-version: "1.4"
+version: "1.5"
 effective_date: 2026-06-07
 last_reviewed: 2026-11-10
 next_review: 2027-06-07
@@ -51,18 +51,19 @@ Fenn retains each category of data for no longer than the period below. Periods 
 | Edit history (previous versions of records, encrypted with customer-held keys) | Same as farm operational data | Cancellation | Standard |
 | Data from connected services before encryption | Until encrypted on arrival | Arrival | Standard |
 | Forecast inputs (readable on Fenn's servers while yield forecasting runs) | Until the forecast completes, then deleted | Forecast completion | Standard |
-| Billing & invoice records | 6 years | End of financial year | Legal: HMRC (tax/VAT records, 6 years) |
-| Support tickets (Plain) | 24 months | Ticket close | Standard |
+| Error monitoring data (Sentry) | 90 days | Capture | Standard: vendor maximum on Fenn's plan |
 
-### 4.2 Operational & Security Data
+### 4.2 Fenn's Own Records
 
 | Data category | Retention period | Trigger | Basis |
 |---|---|---|---|
+| Billing & invoice records | 6 years | End of financial year | Legal: HMRC (tax/VAT records, 6 years) |
+| Support tickets (Plain) | 24 months | Ticket close | Standard |
 | Application & security audit logs | 13 months | Log creation | Standard: 12-month coverage plus overlap margin |
-| Error monitoring data (Sentry) | 90 days | Capture | Standard: vendor default |
 | Transactional email metadata (AWS SES) | 90 days | Send | Standard |
 | Security incident records | 6 years | Incident close | Standard: aligned to Limitation Act 1980 six-year claim window |
 | Data protection complaint records | 6 years | Complaint closure | Standard: aligned to Limitation Act 1980 six-year claim window |
+| Contact details for service and security notices | Until account deletion | Account deletion | Standard |
 | Inquiries from prospective customers | 24 months | Last contact | Standard |
 
 ### 4.3 Employee Data
@@ -82,13 +83,13 @@ When a customer cancels, Fenn deletes their data on the following timeline:
 1. **60-day grace and export window.** For 60 days after cancellation, the customer's data remains recoverable. During this window the customer may export their farm operational data. Fenn does not process the data for any purpose other than enabling export and account recovery.
 2. **Permanent deletion from production.** At the end of the grace window, the customer's account data and farm operational data (ciphertext) are permanently deleted from production systems.
 3. **Backup expiry.** Backups run on a rolling 30-day cycle. Deleted data ages out of all backups within 30 days of production deletion. Fenn does not selectively restore deleted customer data from backup.
-4. **Confirmation of deletion.** When production deletion completes, Fenn automatically sends the customer a deletion confirmation. The confirmation records the account, the date of deletion, the categories of data removed, and notes that billing records are retained for their statutory period under Section 4.1. Confirmation is sent automatically; the customer does not need to request it.
+4. **Confirmation of deletion.** When production deletion completes, Fenn automatically sends the customer a deletion confirmation. The confirmation records the account, the date of deletion, the categories of data removed, and notes that billing records are retained for their statutory period under Section 4.2. Confirmation is sent automatically; the customer does not need to request it.
 
-Net effect: farm operational data and account data are removed from all Fenn systems within approximately 90 days of cancellation. Billing details on invoices are retained for 6 years from the end of the financial year they relate to, under Section 4.1. Fenn's own security logs, support records, and error and email records are kept for the periods in Section 4, then deleted.
+Net effect: farm operational data and account data are removed from all Fenn systems within approximately 90 days of cancellation. Error reports age out of error monitoring within 90 days of being created. Billing details on invoices are retained for 6 years from the end of the financial year they relate to, under Section 4.2. Fenn's own security logs, support records, and email records are kept for the periods in Section 4.2, then deleted.
 
 ## 6. Erasure Requests
 
-Data subjects may request erasure of their personal data under UK GDPR Article 17. Erasure requests are handled within one month of receipt. For data Fenn processes on a customer's behalf, Fenn forwards the request to the customer under the Data Processing Agreement. Where Fenn is legally required to retain a record (for example, billing records under Section 4.1), that data is retained for the remainder of its statutory period and erased at the end of it; Fenn explains this to the requester. When erasure completes, Fenn automatically sends a deletion confirmation as described in Section 5. Erasure requests are routed to privacy@fennagritech.io.
+Data subjects may request erasure of their personal data under UK GDPR Article 17. Erasure requests are handled within one month of receipt. For data Fenn processes on a customer's behalf, Fenn forwards the request to the customer under the Data Processing Agreement. Where Fenn is legally required to retain a record (for example, billing records under Section 4.2), that data is retained for the remainder of its statutory period and erased at the end of it; Fenn explains this to the requester. When erasure completes, Fenn automatically sends a deletion confirmation as described in Section 5. Erasure requests are routed to privacy@fennagritech.io.
 
 ## 7. Legal Holds
 
@@ -134,3 +135,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 | 1.2 | 2026-10-23 | Jack Lowe, Head of Security | Clarified what is deleted at cancellation, when billing retention starts, and how erasure requests are routed. |
 | 1.3 | 2026-10-25 | Jack Lowe, Head of Security | Added retention for criminal record check results. |
 | 1.4 | 2026-11-10 | Jack Lowe, Head of Security | Added retention for inquiries from prospective customers. |
+| 1.5 | 2026-11-10 | Jack Lowe, Head of Security | Moved error monitoring data to Customer Data and Fenn's own records to their own section, added contact details for service and security notices, and stated when error reports are deleted. |

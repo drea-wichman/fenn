@@ -1,9 +1,9 @@
 ---
 title: Data Protection Complaints Procedure
 document_id: FENN-PRO-001
-version: "1.1"
+version: "1.2"
 effective_date: 2026-08-25
-last_reviewed: 2026-10-22
+last_reviewed: 2026-11-10
 next_review: 2027-08-25
 owner: Head of Security
 approver: CTO
@@ -80,6 +80,7 @@ This procedure is reviewed annually, and after any significant change to data pr
 - FENN-PLN-001: Incident Response Plan
 - FENN-SCP-001: Scope and Context
 - Data Processing Agreement
+- Privacy Notice
 
 ## 9. Revision History
 
@@ -87,3 +88,4 @@ This procedure is reviewed annually, and after any significant change to data pr
 |---|---|---|---|
 | 1.0 | 2026-08-25 | Jack Lowe, Head of Security | Initial version. Implements the statutory data protection complaints duty under Section 164A of the Data Protection Act 2018. |
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Corrected references and wording. |
+| 1.2 | 2026-11-10 | Jack Lowe, Head of Security | Added the Privacy Notice to Related Documents. |

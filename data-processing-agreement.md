@@ -36,7 +36,7 @@ Processor implements appropriate technical and organizational measures to protec
 
 Farm operational data is encrypted on Controller's device with customer-held keys before it reaches Processor's systems. Processor stores only ciphertext and has no technical means to decrypt or access this data outside the opt-in features described below.
 
-Where Controller connects a third-party service, that service sends data to Processor's systems, which encrypt it on arrival so that only Controller's keys can decrypt it, and retain only the encrypted copy. Where Controller enables yield forecasting, Processor's servers process the data the feature requires in readable form while it runs and delete it when the forecast completes. Processor's staff are not permitted to access that data. Processor does not use Controller's data to train models. Error reports sent to Processor's error-monitoring sub-processor exclude farm operational data.
+Where Controller connects a third-party service, that service sends data to Processor's systems, which encrypt it on arrival so that only Controller's keys can decrypt it, and retain only the encrypted copy. Where Controller enables yield forecasting, Processor's servers process the data the feature requires in readable form while it runs and delete it when the forecast completes. Processor's staff are not permitted to access that data. Processor does not use Controller's data to train models. Error reports sent to Processor's error-monitoring sub-processor exclude farm operational data and IP addresses.
 
 Account data, including names, email addresses, and contact details, is processed in readable form as required to operate the Services, including authentication, account recovery, and support.
 
@@ -87,11 +87,11 @@ Processor provides reasonable assistance to Controller with data protection impa
 
 On termination or expiry of the Agreement, Controller's data remains available for export for 60 days. During this window, Processor uses the data only to support export and account recovery.
 
-At the end of the 60-day window, Processor permanently deletes Controller's account data and farm operational data from production systems. Deleted data ages out of all backups within 30 days, in line with Processor's rolling backup cycle. Processor does not selectively restore deleted data from backup once this process is complete.
+At the end of the 60-day window, Processor permanently deletes Controller's account data and farm operational data from production systems. Deleted data ages out of all backups within 30 days, in line with Processor's rolling backup cycle. Processor does not selectively restore deleted data from backup once this process is complete. Error reports age out of Processor's error-monitoring sub-processor within 90 days of being created.
 
 Processor automatically sends Controller a deletion confirmation when production deletion completes, recording the account, the date of deletion, and the categories of data removed.
 
-Processor keeps its own records relating to Controller's account as an independent controller, under its Data Retention Policy, and deletes them at the end of each period: billing records for 6 years from the end of the financial year they relate to, as HMRC requires; security logs for 13 months; support records for 24 months; error reports and email records for 90 days; and contact details used for service and security notices, until the account is deleted.
+Processor keeps its own records relating to Controller's account as an independent controller, under its Data Retention Policy, and deletes them at the end of each period: billing records for 6 years from the end of the financial year they relate to, as HMRC requires; security logs for 13 months; support records for 24 months; email records for 90 days; and contact details used for service and security notices, until the account is deleted.
 
 ## Audit Rights
 
@@ -107,9 +107,9 @@ This DPA is governed by the laws of England and Wales. The parties submit to the
 
 **Subject matter:** Processing personal data to provide the Fenn platform.
 
-**Duration:** For the term of the Agreement, plus the 60-day export window and 30-day backup cycle set out in the Return and Deletion of Data on Termination section above.
+**Duration:** For the term of the Agreement, plus the 60-day export window, the 30-day backup cycle, and the 90-day error report cycle set out in the Return and Deletion of Data on Termination section above.
 
-**Nature and purpose of processing:** Account management, authentication, support, and operation of field management, compliance record-keeping, and sustainability reporting features, including collection of data from services Controller connects, and yield forecasting where Controller enables it.
+**Nature and purpose of processing:** Account management, authentication, support, error monitoring, and operation of field management, compliance record-keeping, and sustainability reporting features, including collection of data from services Controller connects, and yield forecasting where Controller enables it.
 
 **Categories of data subjects:**
 
@@ -119,6 +119,7 @@ This DPA is governed by the laws of England and Wales. The parties submit to the
 **Categories of personal data:**
 
 - Account data: names, email addresses, login credentials, and contact details
+- Error report data: account identifiers and device and browser details, without IP addresses or farm operational data
 - Farm operational data: any personal data Controller includes in field, crop, or compliance records, encrypted with customer-held keys and inaccessible to Processor outside the opt-in features described in Security Measures
 
 **Special category data:** Personal data within farm operational data is encrypted on Controller's device with customer-held keys before it reaches Processor. Outside the opt-in features described in Security Measures, Processor has no technical means to access, view, or categorize this data, including any special category data Controller may choose to include. Controller is responsible for ensuring its own use of the Services complies with the additional requirements that apply to special category data under UK GDPR.
@@ -132,3 +133,4 @@ This DPA is governed by the laws of England and Wales. The parties submit to the
 | 1.2 | 2026-10-23 | Jack Lowe, Head of Security | Added terms for international transfers, staff confidentiality, and impact assessments. Updated processing instructions, retention, audit rights, and Annex 1. |
 | 1.3 | 2026-11-07 | Jack Lowe, Head of Security | Set a 48-hour limit for notifying Controller of a security incident. |
 | 1.4 | 2026-11-10 | Jack Lowe, Head of Security | Added contact details used for service and security notices to the records Fenn keeps as an independent controller. |
+| 1.5 | 2026-11-10 | Jack Lowe, Head of Security | Treated error reports as data processed on Controller's behalf: added error monitoring to Annex 1, removed error reports from Processor's own records, set when they are deleted, and excluded IP addresses from them. |

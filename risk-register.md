@@ -1,9 +1,9 @@
 ---
 title: Risk Register
 document_id: FENN-RSK-002
-version: "1.3"
+version: "1.4"
 effective_date: 2026-07-01
-last_reviewed: 2026-11-07
+last_reviewed: 2026-11-10
 next_review: 2027-07-01
 owner: Head of Security
 approver: CEO
@@ -39,8 +39,8 @@ Risks are scored using the methodology defined in FENN-RSK-001. Likelihood and i
 | RR-007 | API authentication bypass allows unauthorized access to the Fenn platform | Platform infrastructure, customer data, employee data | C, I, A | 3 | 5 | 15 | High | API authentication enforced on all endpoints; penetration testing; access logging via AWS CloudTrail; threat detection via Amazon GuardDuty; application error alerting via Sentry; incident response plan | A.8.5, A.8.3, A.8.16, A.5.26, A.8.8, A.8.15 | Mitigate | 2 | 5 | 10 | CTO |
 | RR-008 | Insecure code deployed to production introduces exploitable vulnerability | Platform infrastructure, customer data | C, I, A | 3 | 4 | 12 | Medium | Mandatory code review; staging environment required before production deployment; automated security testing in CI/CD pipeline; secure development training | A.8.25, A.8.28, A.8.29, A.8.31, A.6.3 | Mitigate | 2 | 4 | 8 | CTO |
 | RR-009 | Accidental data exposure during development or support activity | Customer data, employee data | C | 2 | 4 | 8 | Medium | Production data not used in development or testing environments; support access granted JIT and logged; access revoked on ticket close; farm operational data removed from error reports before they are sent to Sentry | A.8.3, A.5.15, A.8.33, A.8.2, A.8.15, A.8.11 | Mitigate | 1 | 4 | 4 | Head of Security |
-| RR-010 | UK GDPR non-compliance leads to ICO investigation or enforcement action | Customer data, employee data | C | 2 | 4 | 8 | Medium | Data retention policy; DPA in place for all processor relationships; ICO registration maintained | A.5.31, A.5.34, A.5.33, A.8.10 | Mitigate | 1 | 4 | 4 | Head of Security |
-| RR-011 | Customer loses their encryption key, rendering their farm data permanently unrecoverable | Customer data | A | 5 | 5 | 25 | High | Recovery key created for every account; optional co-owner holding every key; signup acknowledgment and in-app reminder that a lost key without a recovery key or co-owner means lost data; Fenn holds no copy of customer keys by design | A.8.24 | Mitigate | 3 | 5 | 15 | Head of Security |
+| RR-010 | UK GDPR non-compliance leads to ICO investigation or enforcement action | Customer data, employee data | C | 2 | 4 | 8 | Medium | Data retention policy; DPA in place for all processor relationships; privacy notice published; ICO registration maintained | A.5.31, A.5.34, A.5.33, A.8.10 | Mitigate | 1 | 4 | 4 | Head of Security |
+| RR-011 | Customer loses their encryption key, rendering their farm operational data permanently unrecoverable | Customer data | A | 5 | 5 | 25 | High | Recovery key created for every account; optional co-owner holding every key; signup acknowledgment and in-app reminder that a lost key without a recovery key or co-owner means lost data; Fenn holds no copy of customer keys by design | A.8.24 | Mitigate | 3 | 5 | 15 | Head of Security |
 | RR-012 | Total AWS London region failure causes platform unavailability | Platform infrastructure | A | 1 | 4 | 4 | Low | BCP defines recovery procedures for region-loss scenario; UK-only backup held with separate provider; RTO up to 72 hours formally accepted; single-region architecture is a deliberate privacy commitment | A.8.14, A.5.29, A.5.30, A.8.13 | Accept | 1 | 4 | 4 | CTO |
 | RR-013 | Lost or stolen laptop or mobile device exposes cached data or credentials | Employee data, Fenn systems | C | 3 | 2 | 6 | Medium | Fenn-issued laptops for system access; personal phones limited to email, calendar, and chat and checked through a work profile; full-disk encryption required; screen lock enforced; hardware keys required for authentication; lost or stolen devices reported to IT for immediate session revocation | A.6.7, A.7.9, A.8.1, A.8.24 | Mitigate | 2 | 2 | 4 | Head of Security |
 | RR-014 | Distributed denial-of-service attack renders the Fenn platform unavailable | Platform infrastructure | A | 3 | 3 | 9 | Medium | AWS Shield Standard (always-on, automatic); auto-scaling; monitoring and alerting via AWS; incident response plan | A.8.6, A.8.16, A.8.20, A.5.26 | Mitigate | 2 | 3 | 6 | CTO |
@@ -99,3 +99,4 @@ This register is reviewed annually by the Head of Security. An out-of-cycle revi
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Re-rated RR-011, corrected residual impact scores, added risk acceptance, and added RR-015 to RR-017. Includes earlier corrections to the RR-011 classification, document ID, references, and wording. |
 | 1.2 | 2026-10-25 | Jack Lowe, Head of Security | Added RR-018 for physical access to the office. Updated controls for RR-003, RR-004, and RR-013. |
 | 1.3 | 2026-11-07 | Jack Lowe, Head of Security | Added RR-019 for access keys held by vendors and systems. Re-rated RR-005. |
+| 1.4 | 2026-11-10 | Jack Lowe, Head of Security | Added the privacy notice to the controls for RR-010. Corrected terminology in RR-011. |
