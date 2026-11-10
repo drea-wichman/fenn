@@ -1,9 +1,9 @@
 ---
 title: Statement of Applicability
 document_id: FENN-SOA-001
-version: "1.1"
+version: "1.2"
 effective_date: 2026-10-25
-last_reviewed: 2026-11-07
+last_reviewed: 2026-11-10
 next_review: 2027-10-25
 owner: Head of Security
 approver: CEO
@@ -73,7 +73,7 @@ Every Partial and Planned control appears in Section 5 with an owner and a targe
 | A.5.31 Legal, statutory, regulatory and contractual requirements | Yes | RR-005, RR-010 | Implemented | Laws and interested-party requirements identified, with how each is addressed; reviewed yearly | Scope and Context 4.1, 4.2 |
 | A.5.32 Intellectual property rights | Yes | Software license terms | Implemented | New dependencies checked for license terms before adoption; staff use only licensed software | Vendor Risk Management Policy 4.6 |
 | A.5.33 Protection of records | Yes | RR-010 | Implemented | Retention schedule; deletion logs and legal hold records not edited; immutable backup copy | Data Retention Policy 4, 7, 8; Business Continuity Plan 5 |
-| A.5.34 Privacy and protection of personal identifiable information (PII) | Yes | RR-010, UK GDPR | Partial | Data Processing Agreement, retention schedule, complaints procedure, and data flow document in place; no privacy notice, record of processing activities, or subject access procedure | Data Processing Agreement, Data Retention Policy, Data Protection Complaints Procedure, Data Flow and Architecture |
+| A.5.34 Privacy and protection of personal identifiable information (PII) | Yes | RR-010, UK GDPR | Partial | Data Processing Agreement, retention schedule, complaints procedure, data flow document, and privacy notice in place; no record of processing activities or subject access procedure | Data Processing Agreement, Data Retention Policy, Data Protection Complaints Procedure, Data Flow and Architecture, Privacy Notice |
 | A.5.35 Independent review of information security | Yes | Clause 9.2 | Planned | Not yet implemented | To be developed |
 | A.5.36 Compliance with policies, rules and standards for information security | Yes | Clause 9.2, RR-003 | Partial | Quarterly access reviews and yearly policy reviews; no compliance checking process | Access Control Policy 4.6 |
 | A.5.37 Documented operating procedures | Yes | RR-003, RR-012 | Implemented | Incident, continuity, and complaints procedures published; operating procedures such as the offboarding checklist and break-glass procedure kept in Fenn's internal knowledge base for the staff who need them | Incident Response Plan, Business Continuity Plan, Data Protection Complaints Procedure, Access Control Policy 5 |
@@ -162,7 +162,7 @@ This section is Fenn's risk treatment plan under Clause 6.1.3 e). Each document 
 | Secure Development Policy | A.8.19, A.8.25, A.8.26, A.8.27, A.8.28, A.8.29, A.8.31, A.8.33 | CTO | Q2 2027 |
 | Acceptable Use Policy | A.5.10, A.8.12 | Head of Security | Q2 2027 |
 | Internal Audit Procedure | A.5.35, A.5.36 | Head of Security | Q2 2027 |
-| Privacy Notice, Record of Processing Activities, and Subject Access Procedure | A.5.34 | Head of Security | Q2 2027 |
+| Record of Processing Activities and Subject Access Procedure | A.5.34 | Head of Security | Q2 2027 |
 
 Approved by the risk owners (Head of Security and CTO) and the CEO on 2026-10-25.
 
@@ -185,6 +185,7 @@ This document is reviewed annually, and whenever a new or updated Fenn document 
 - FENN-SCP-001: Scope and Context
 - Data Processing Agreement
 - Data Flow and Architecture
+- Privacy Notice
 
 ## 8. Revision History
 
@@ -192,3 +193,4 @@ This document is reviewed annually, and whenever a new or updated Fenn document 
 |---|---|---|---|
 | 1.0 | 2026-10-25 | Jack Lowe, Head of Security | Initial Statement of Applicability. Records Fenn's decision on all 93 Annex A controls and its risk treatment plan. |
 | 1.1 | 2026-11-07 | Jack Lowe, Head of Security | Added RR-019 as a basis for A.5.17, A.5.20, A.5.22, and A.8.16, and added new access key and vendor breach requirements to A.5.17, A.5.20, and A.5.22. Corrected the Basis column for eight controls to match the Risk Register. Added the post-incident review as evidence for A.5.27. |
+| 1.2 | 2026-11-10 | Jack Lowe, Head of Security | Added the Privacy Notice as evidence for A.5.34 and removed it from the risk treatment plan. |

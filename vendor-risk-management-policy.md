@@ -1,9 +1,9 @@
 ---
 title: Vendor Risk Management Policy
 document_id: FENN-POL-003
-version: "1.3"
+version: "1.4"
 effective_date: 2026-05-30
-last_reviewed: 2026-11-07
+last_reviewed: 2026-11-10
 next_review: 2027-05-30
 owner: Head of Security
 approver: CTO
@@ -37,11 +37,11 @@ This policy applies to all third-party vendors that access, process, or store Fe
 
 **Vendor risk tiers:**
 
-- **Critical:** Vendors that process or store customer personal data, or have access to production systems. Examples: AWS, Stripe, Sentry, JumpCloud, Plain.
-- **Standard:** Vendors that process internal Fenn data or access internal systems, but do not handle customer data. Examples: Proton.
+- **Critical:** Vendors that process or store customer personal data, or have access to production systems. Examples: AWS, Stripe, Sentry, JumpCloud, Plain, Proton.
+- **Standard:** Vendors that process internal Fenn data or access internal systems, but do not handle customer data.
 - **Low:** Vendors with no access to Fenn or customer data. Examples: office suppliers, general SaaS tools with no data integration.
 
-Vendor risk tiers reflect operational risk to Fenn and are distinct from sub-processor status. A vendor may be Critical without being a sub-processor (e.g., JumpCloud manages employee identity but does not process customer personal data). The Sub-processor List identifies only those vendors that process customer personal data.
+Vendor risk tiers reflect operational risk to Fenn and are distinct from sub-processor status. A vendor may be Critical without being a sub-processor (e.g., JumpCloud manages employee identity but does not process customer personal data). The Sub-processor List identifies the vendors that process personal data on customers' behalf.
 
 ## 4. Policy Statements
 
@@ -139,3 +139,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Records the August 2026 document ID change from FENN-POL-004 and earlier corrections to references and wording. |
 | 1.2 | 2026-10-25 | Jack Lowe, Head of Security | Added penetration testing, patching timelines, and license checks. |
 | 1.3 | 2026-11-07 | Jack Lowe, Head of Security | Added a breach notification deadline for Critical vendors and same-day key replacement when a vendor reports a breach. |
+| 1.4 | 2026-11-10 | Jack Lowe, Head of Security | Moved Proton to Critical, because it stores data protection complaints and inquiries sent by email. |

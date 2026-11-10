@@ -1,9 +1,9 @@
 ---
 title: Data Retention Policy
 document_id: FENN-POL-004
-version: "1.3"
+version: "1.4"
 effective_date: 2026-06-07
-last_reviewed: 2026-10-25
+last_reviewed: 2026-11-10
 next_review: 2027-06-07
 owner: Head of Security
 approver: CTO
@@ -63,6 +63,7 @@ Fenn retains each category of data for no longer than the period below. Periods 
 | Transactional email metadata (AWS SES) | 90 days | Send | Standard |
 | Security incident records | 6 years | Incident close | Standard: aligned to Limitation Act 1980 six-year claim window |
 | Data protection complaint records | 6 years | Complaint closure | Standard: aligned to Limitation Act 1980 six-year claim window |
+| Inquiries from prospective customers | 24 months | Last contact | Standard |
 
 ### 4.3 Employee Data
 
@@ -122,6 +123,7 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 - FENN-PRO-001: Data Protection Complaints Procedure
 - Sub-processor List
 - Data Processing Agreement
+- Privacy Notice
 
 ## 13. Revision History
 
@@ -131,3 +133,4 @@ Exceptions to this policy may be granted in writing by the Head of Security. Eac
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added retention for edit history, forecast inputs, and connected-service data. Updated key terminology. Includes the August 2026 document ID change from FENN-POL-005 and earlier corrections to references and wording. |
 | 1.2 | 2026-10-23 | Jack Lowe, Head of Security | Clarified what is deleted at cancellation, when billing retention starts, and how erasure requests are routed. |
 | 1.3 | 2026-10-25 | Jack Lowe, Head of Security | Added retention for criminal record check results. |
+| 1.4 | 2026-11-10 | Jack Lowe, Head of Security | Added retention for inquiries from prospective customers. |

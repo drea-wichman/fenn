@@ -91,7 +91,7 @@ At the end of the 60-day window, Processor permanently deletes Controller's acco
 
 Processor automatically sends Controller a deletion confirmation when production deletion completes, recording the account, the date of deletion, and the categories of data removed.
 
-Processor keeps its own records relating to Controller's account as an independent controller, under its Data Retention Policy, and deletes them at the end of each period: billing records for 6 years from the end of the financial year they relate to, as HMRC requires; security logs for 13 months; support records for 24 months; and error reports and email records for 90 days.
+Processor keeps its own records relating to Controller's account as an independent controller, under its Data Retention Policy, and deletes them at the end of each period: billing records for 6 years from the end of the financial year they relate to, as HMRC requires; security logs for 13 months; support records for 24 months; error reports and email records for 90 days; and contact details used for service and security notices, until the account is deleted.
 
 ## Audit Rights
 
@@ -131,3 +131,4 @@ This DPA is governed by the laws of England and Wales. The parties submit to the
 | 1.1 | 2026-10-22 | Jack Lowe, Head of Security | Added terms for connected services, yield forecasting, and error reports. Includes earlier corrections to references and wording. |
 | 1.2 | 2026-10-23 | Jack Lowe, Head of Security | Added terms for international transfers, staff confidentiality, and impact assessments. Updated processing instructions, retention, audit rights, and Annex 1. |
 | 1.3 | 2026-11-07 | Jack Lowe, Head of Security | Set a 48-hour limit for notifying Controller of a security incident. |
+| 1.4 | 2026-11-10 | Jack Lowe, Head of Security | Added contact details used for service and security notices to the records Fenn keeps as an independent controller. |

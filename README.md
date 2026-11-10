@@ -26,6 +26,7 @@ All deliverables are original work. Fenn Agritech is not based on any real organ
 - [`data-flow-and-architecture.md`](data-flow-and-architecture.md) - Where customer data goes and who can read it at each step
 - [`statement-of-applicability.md`](statement-of-applicability.md) - Fenn's decision on each ISO 27001:2022 Annex A control, and its risk treatment plan
 - [`post-incident-review-november-2024.md`](post-incident-review-november-2024.md) - Retrospective review of the November 2024 sub-processor credential exposure and the changes Fenn made
+- [`privacy-notice.md`](privacy-notice.md) - How Fenn handles the personal data it controls
 
 New documents are published here as they are completed. The live site lists all documents, including those in development.
 
