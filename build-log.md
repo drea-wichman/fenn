@@ -1,3 +1,31 @@
+## 2026-11-10: Privacy Notice
+
+**Wrote and published Fenn's privacy notice.**
+
+Context: My notes said Fenn had no privacy notice, and I thought it did. The one on the site is mine, for the real site. Fenn's customers had nothing.
+
+Decision: Wrote a separate notice, only what Article 13 requires, as short as the site policy. Gave it its own footer page, not the Trust Center as I'd planned in August, because that's where real companies put theirs.
+
+Consequences: The footer now reads Privacy Notice, Site Privacy Policy, Site Terms. The site policy got a right-to-object line it was missing. RR-010 has the privacy notice back in its controls.
+
+---
+
+**Moved error reports to the farm's data.**
+
+Context: The DPA called Sentry a sub-processor but listed error reports as Fenn's own records.
+
+Decision: Error reports are processed for the farm. Sentry's own DPA treats them that way. They now age out within 90 days and leave out IP addresses.
+
+Consequences: DPA and retention policy updated. Proton moved to Critical too, since complaints and inquiries land in its inbox.
+
+---
+
+**Didn't invent a company number or address.**
+
+Decision: Left them out. A made-up number could belong to a real company. Same reason I took out "Ltd" in May. Also felt like fake official identifiers could be frowned upon.
+
+---
+
 ## 2026-11-07: Post-Incident Review and What Changed Because of It
 
 **Wrote and published a post-incident review for the November 2024 breach.**
